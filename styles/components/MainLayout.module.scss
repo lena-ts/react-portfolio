@@ -1,0 +1,27 @@
+.menu_icon {
+  display: grid;
+  grid-template-columns: auto;
+  //grid-gap: 2px;
+  width: 18px;
+  height: 16px;
+  //background-image: url('../../assets/images/menu-icon.svg');
+  //background-size: 100%;
+  cursor: pointer;
+}
+
+.mail_icon {
+  display: block;
+  width: 18px;
+  height: 14px;
+  background-image: url('../../assets/images/mail-icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.menu_line{
+  background: #2b2b2b;
+  height: 3px;
+  width: 100%;
+  border-radius: 100px;
+}

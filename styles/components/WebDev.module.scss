@@ -1,0 +1,35 @@
+.web_dev_grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 2rem;
+  padding-bottom: 5rem;
+}
+
+.web_dev_grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.item {
+  margin-bottom: 2rem;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+
+  &_text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+
+  span {
+    font-size: 15px;
+  }
+}
+
+@media(max-width: 768px) {
+  .web_dev_grid {
+    grid-template-columns: 100%;
+  }
+}

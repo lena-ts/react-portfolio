@@ -1,0 +1,83 @@
+const ProjectsIntroData = [
+    {
+        id: 1,
+        url: 'tobuy-app',
+        title: <div>ToBuy:<br></br>Shopping List</div>,
+        subtitle: <span><strong>Objective:</strong> Create app to help going shopping</span>,
+        icon_path: 'intro/app-icons/tobuy-icon.png',
+        intro_screen_1_path: 'intro/intro-images/tobuy1.png',
+        intro_screen_2_path: 'intro/intro-images/tobuy2.png',
+        appstore_link: 'https://apps.apple.com/app/tobuy-shopping-list/id1489580128',
+        prototype_link: 'https://lena-ts.github.io/tobuy-test/start.html',
+        prototype_link_type: 'html',
+        background_color: '#F0F4F7',
+        description: <div><strong>Description:</strong> App that helps to track expenses<br></br>and display visual statistic by categories</div>,
+        model: <div><strong>Model:</strong> Freemium, free with Ads and In-App<br></br>purchases </div>,
+        competitors: true
+    },
+    {
+        id: 2,
+        url: 'things-happen-app',
+        title: <div>ThingsHappen:<br></br>Life Tracker</div>,
+        subtitle: <span><strong>Objective:</strong> Create app to contorle every/some day things</span>,
+        icon_path: 'intro/app-icons/thingshappen-icon.png',
+        intro_screen_1_path: 'intro/intro-images/thingshappen1.png',
+        intro_screen_2_path: 'intro/intro-images/thingshappen2.png',
+        appstore_link: 'https://apps.apple.com/app/things-happen-life-tracker/id1512430864',
+        prototype_link: 'https://lena-ts.github.io/react-things-happen/',
+        prototype_link_type: 'spa',
+        background_color: '#EBEBEB',
+        description: <div><strong>Description:</strong> App that helps to track expenses<br></br>and display visual statistic by categories</div>,
+        model: <div><strong>Model:</strong> Freemium, free with Ads and In-App<br></br>purchases </div>,
+        competitors: true,
+        data_name: 'ThingsHappenData'
+    },
+    {
+        id: 3,
+        url: 'splity-app',
+        title: <div>Splity:<br></br>Group Expenses</div>,
+        subtitle: <span><strong>Objective:</strong> Create app to keep track shared expenses</span>,
+        icon_path: 'intro/app-icons/splity-icon.png',
+        intro_screen_1_path: 'intro/intro-images/splity1.png',
+        intro_screen_2_path: 'intro/intro-images/splity2.png',
+        appstore_link: 'https://apps.apple.com/us/app/splity-group-expenses/id1512670632',
+        prototype_link: 'https://lena-ts.github.io/splitty_prototype/start.html',
+        prototype_link_type: 'html',
+        background_color: '#E8EBF2',
+        description: <div><strong>Description:</strong> App that helps to track expenses<br></br>and display visual statistic by categories</div>,
+        model: <div><strong>Model:</strong> Freemium, free with Ads and In-App<br></br>purchases </div>,
+        competitors: true
+    },
+    {
+        id: 4,
+        url: 'spender-app',
+        title: <div>Spender:<br></br>Finance Control</div>,
+        subtitle: <span><strong>Objective:</strong> Create app to control cash expenses</span>,
+        icon_path: 'intro/app-icons/spender-icon.png',
+        intro_screen_1_path: 'intro/intro-images/spender1.png',
+        intro_screen_2_path: 'intro/intro-images/spender2.png',
+        appstore_link: null,
+        prototype_link: null,
+        prototype_link_type: 'spa',
+        background_color: '#F1F2F4',
+        description: <div><strong>Description:</strong> App that helps to track expenses<br></br>and display visual statistic by categories</div>,
+        model: <div><strong>Model:</strong> Freemium, free with Ads and In-App<br></br>purchases </div>,
+        competitors: true
+    },
+    {
+        id: 5,
+        url: 'yandex-internship-case',
+        title: <div>Yandex.Sport:<br></br>Internship Case</div>,
+        subtitle: <span><div><strong>Task:</strong> <ul><li>1. Create athlet profile UI for touch devices</li><li> 2. Prove your solution</li></ul></div><div><strong>Done:</strong> &nbsp;Research work, UI Design</div></span>,
+        icon_path: '',
+        intro_screen_1_path: 'intro/intro-images/yandex1.png',
+        intro_screen_2_path: 'intro/intro-images/yandex2.png',
+        appstore_link: null,
+        prototype_link: null,
+        prototype_link_type: null,
+        background_color: '#F2F5FC',
+        competitors: true
+    }
+]
+
+export default ProjectsIntroData

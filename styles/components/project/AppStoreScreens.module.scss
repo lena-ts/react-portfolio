@@ -1,0 +1,57 @@
+.appstore_section {
+  height: auto;
+  padding-bottom: 0;
+}
+.screens {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 0.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ebebeb;
+
+  img {
+    width: 100%;
+    //max-width: 19.3%;
+    //margin-right: 0.5rem;
+  }
+}
+
+.icon_wrapper {
+  display: grid;
+  grid-template-columns: 10% auto;
+  margin: 3rem 0;
+
+  img {
+    max-width: 90px;
+    height: auto;
+    border-radius: 20px;
+  }
+}
+
+.titles {
+  padding: 1rem 1.3rem;
+}
+
+.subtitle {
+    color: #807979;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 22px;
+  padding-bottom: 0.3rem;
+}
+
+@media(max-width: 768px) {
+  .icon_wrapper {
+    margin: 2rem 0;
+    img {
+      width: 100%;
+      border-radius: 6px;
+    }
+  }
+
+  .titles {
+    padding: 0 1.3rem;
+  }
+}

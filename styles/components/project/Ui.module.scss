@@ -1,0 +1,40 @@
+.ui_section {
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .title_area {
+    padding: 5rem 0 3rem;
+  }
+
+  .image_area {
+      display: grid;
+  }
+}
+
+.screens_wrapper {
+   overflow: hidden;
+  padding-top: 3rem;
+}
+.screens {
+  display: grid;
+  //width: 110%;
+  //margin-left: -5%;
+  grid-template-columns: repeat(6, 16%);
+  grid-column-gap: 0.8rem;
+  grid-row-gap: 0.8rem;
+   //transform: rotate(9deg);
+}
+
+.screens_wrapper img:nth-child(2n) {
+  margin-top: -3rem;
+}
+
+@media(max-width: 768px){
+  .ui_section {
+    .title_area {
+      padding: 0 0 3rem;
+    }
+  }
+}

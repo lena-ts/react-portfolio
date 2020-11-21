@@ -1,0 +1,109 @@
+$left-part-width: 45%;
+
+.visual_section {
+  background: white;
+
+  .title_area {
+    padding: 5rem 0 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+    h3 {
+      width: $left-part-width;
+    }
+  }
+
+  .info_area {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3rem 0 5rem;
+    min-height: auto;
+
+    .letters {
+      font-size: 1000%;
+      font-weight: 600;
+      width: $left-part-width;
+      line-height: 1;
+      margin-top: -1rem;
+    }
+
+    .description {
+
+      .font_description{
+        .font_name {
+          font-size: 200%;
+          font-weight: 500;
+          line-height: 300%;
+        }
+
+        .alphabet {
+          font-size: 140%;
+          line-height: 150%;
+          letter-spacing: 2px;
+          font-weight: 500;
+          max-width: 450px;
+        }
+
+        .weights {
+          font-size: 100%;
+          line-height: 350%;
+        }
+      }
+
+      .colors_description {
+          padding-top: 2rem;
+
+        .colors {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-items: baseline;
+          //padding-top: 2rem;
+          //max-width: 400px;
+
+          .color {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 1rem;
+            margin-bottom: 2rem;
+
+            .primary {
+              display: block;
+              width: 75px;
+              height: 75px;
+              border-radius: 100%;
+            }
+            .secondary {
+              display: block;
+              width: 35px;
+              height: 35px;
+              border-radius: 100%;
+            }
+            .color_title {
+                padding-top: 1rem;
+              font-size: 80%;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  .visual_section {
+    .title_area {
+      flex-direction: column;
+      padding: 3rem 0 0;
+    }
+
+    .info_area {
+      flex-direction: column;
+      padding: 1rem 0 3rem;
+    }
+  }
+}

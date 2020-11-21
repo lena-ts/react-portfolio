@@ -1,0 +1,62 @@
+.button {
+  border-radius: 12px;
+  padding: 0 40px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 60px;
+  display: inline-block;
+
+  &_dark {
+    background: $primary-color;
+    color: white;
+  }
+
+  &_light {
+    background: white;
+    color: $text-color;
+    margin-right: 0.9rem;
+  }
+
+  &_spa,
+  &_appstore,
+  &_html{
+    font-size: $font-size-base;
+    font-weight: 500;
+    padding: 0 30px;
+    line-height: 63px;
+
+    &:before {
+      content: " ";
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  }
+
+  &_spa {
+    &:before {
+      width: 26px;
+      height: 23px;
+      background-image: url('../assets/images/react-logo.png');
+      background-size: 100%;
+    }
+  }
+
+  &_html {
+    &:before {
+      width: 24px;
+      height: 24px;
+      background-image: url('../assets/images/html-logo.png');
+      background-size: 100%;
+    }
+  }
+
+  &_appstore {
+    &:before {
+      width: 20px;
+      height: 24px;
+      background-image: url('../assets/images/apple-logo.png');
+      background-size: 100%;
+    }
+  }
+}

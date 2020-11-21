@@ -1,0 +1,27 @@
+.illustration_section {
+  //background: #F1F2F4;
+}
+.illustration_item {
+  margin-top: 2rem;
+  div {
+    margin-bottom: 1rem;
+  }
+
+  img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.illustrations_list {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 2rem;
+}
+
+@media(max-width: 768px){
+  .illustrations_list {
+    grid-template-columns: auto;
+  }
+}

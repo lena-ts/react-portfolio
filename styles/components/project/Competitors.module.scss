@@ -1,0 +1,126 @@
+.competitors {
+  background: white;
+  height: auto;
+}
+
+.subtitle {
+  padding: 0.7rem 0;
+  margin-bottom: 2rem;
+}
+
+.case {
+  margin-bottom: 6rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 3rem;
+  //display: flex;
+  //flex-direction: row;
+  //flex-wrap: wrap;
+
+  &_wrapper {
+
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .images {
+    margin-right: 4rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1rem;
+    img {
+      //max-width: 237px;
+      width: 100%;
+      box-shadow: 0px 0px 100px rgba(0,0,0, 0.05);
+      border-radius: 15px;
+      &:first-child {
+        margin-right: 1rem;
+        box-shadow: 0px 0px 100px rgba(0,0,0, 0.1);
+      }
+    }
+  }
+
+  .data {
+    .title {
+      font-weight: 500;
+      font-size: 18px;
+    }
+
+    .subtitle {
+      font-weight: 500;
+      font-size: 18px;
+    }
+
+    .item {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 40px;
+      &:before {
+        content: "";
+        display: inline-block;
+        width:23px;
+        height: 23px;
+        background: #2b2b2b;
+        border-radius: 100%;
+        color: white;
+        vertical-align: middle;
+        margin-right: 0.5rem;
+        text-align: center;
+        line-height: 21px;
+        //font-weight: 300;
+      }
+    }
+
+    .pros {
+      margin-top: 1.5rem;
+
+      .item {
+        &:before {
+          content: "+";
+        }
+      }
+    }
+
+    .cons {
+      margin-top: 1.5rem;
+
+      .item {
+        &:before {
+          content: "-";
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  .case{
+    grid-template-columns: 100%;
+    margin-bottom: 1rem;
+
+    .data{
+      .item {
+        position: relative;
+        margin-bottom: 1rem;
+        padding-left: 34px;
+        line-height: 26px;
+        &:before {
+          position: absolute;
+          left: 0;
+          top: 1px;
+        }
+      }
+    }
+  }
+
+  .images {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    order: 2;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 2rem;
+  }
+
+}
