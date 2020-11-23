@@ -2,9 +2,16 @@ import {MainLayout} from "../components/MainLayout";
 import projects from "../data/ProjectsIntroData";
 import IntroProject from "../components/IntroProject";
 import SectionTitle from "../components/common/SectionTitle";
+import styles from '../styles/components/IntroProject.module.scss'
+import {motion} from "framer-motion";
 
 const AppsList = () => {
     const intro_projects = projects.map(item =>
+        <motion.div
+            initial={{ opacity: 0}}
+            animate={{ opacity: 1}}
+            transition={{ duration: 0.7 }}
+        >
         <IntroProject
             key={item.id}
             url={item.url}
@@ -17,7 +24,7 @@ const AppsList = () => {
             prototype={item.prototype_link}
             prototype_type={item.prototype_link_type}
             background={item.background_color}
-        />)
+        /></motion.div>)
     return(
         <MainLayout>
             <section className="auto-height" id="apps-intro">
@@ -25,7 +32,7 @@ const AppsList = () => {
                 <SectionTitle title="iOS Apps" subtitle="Research, UI/UX design, product work"/>
             </div>
             </section>
-            <div>
+            <div className={styles.apps_grid}>
             {intro_projects}
             </div>
             <style jsx>{`
@@ -33,16 +40,8 @@ const AppsList = () => {
                     padding-bottom: 0;
                     background: #F0F4F7;
                 }
-                .apps-grid {
-                    display: grid;
-                    grid-template-columns: auto auto;
-                }
                 
-                @media(max-width: 1024px) {
-                    .apps-grid {
-                        grid-template-columns: auto;
-                    }
-                }
+
             `}</style>
         </MainLayout>
     )

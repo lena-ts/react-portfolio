@@ -265,6 +265,20 @@ ul {
   margin-top: 3rem;
 }
 
+//Web Dev Links
+.link-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .link-mobile {
+    display: block;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+}
 
 @media(max-width: 768px) {
   nav {
@@ -311,5 +325,9 @@ ul {
 
   #things-happen-app-icon-section{
     padding: 3rem 0;
+  }
+
+  #tobuy-app-ui, #spender-app-ui {
+    padding-top: 3rem;
   }
 }

@@ -15,7 +15,7 @@
   }
 
   &_data {
-    position: relative;
+    //position: relative;
     align-self: center;
       img {
         margin-bottom: 1.5rem;
@@ -111,6 +111,25 @@
   }
 }
 
+//Apps page
+.apps_grid {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  .intro_project {
+    &_data {
+      position: unset !important;
+    }
+
+    &_links {
+      position: absolute;
+    }
+    &_case_button {
+      margin: 2rem 0 3rem;
+    }
+  }
+}
+
 @media(max-width: 1280px){
   .intro_project{
     &_images {
@@ -178,6 +197,27 @@
   .inner_intro {
     .inner_intro_wrapper {
       grid-template-columns: auto;
+    }
+
+    .description_text{
+      br {
+        display: none;
+      }
+    }
+  }
+
+  .apps_grid {
+    grid-template-columns: auto;
+
+    .intro_project {
+
+      &_links {
+        position: relative;
+      }
+
+      &_case_button {
+        margin: 2rem 0 1rem;
+      }
     }
   }
 }

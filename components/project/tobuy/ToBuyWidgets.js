@@ -128,7 +128,17 @@ const ToBuyWidgets = ({projectItem}) => {
                      }
                 }
                 
-                @media(max-width: 375px) {
+                @media (max-width: 768px) {
+                   .widgets_wrapper {
+                        grid-template-columns: auto;
+                   }
+                   
+                   .widgets_wrapper img {
+                        width: 100%;
+                   }
+                }
+                
+                @media(max-width: 480px) {
                      .small .widgets_wrapper{
                         grid-template-columns: auto auto;
                      }

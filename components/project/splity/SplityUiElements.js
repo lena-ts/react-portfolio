@@ -196,6 +196,12 @@ const SplityUiElements = ({projectItem}) => {
                  .icons .title{
                     margin-bottom: 0;
                  }
+                 
+                  .group img, 
+                   .col-item img,
+                   .icons-grid{
+                    max-width: 100%;                  
+                  }
                 }
             `}</style>
         </section>

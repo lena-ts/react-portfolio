@@ -16,7 +16,7 @@ const Ui = ({projectItem}) => {
             <img src={`../${projectItem.ui.image}`}  />
         </div> : null
     return(
-        <div className="ui-wrapper">
+        <div className="ui-wrapper" id={`${projectItem.url}-ui`}>
             <div className={styles.ui_section}>
                 <div className="container">
                     <div className={styles.title_area}>

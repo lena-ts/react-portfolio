@@ -8,9 +8,9 @@ export function MainLayout({children, title="UI/UX designer, front-end developer
     const [menuOpened, setMenuOpened] = useState(false)
 
     const [twist, cycle] = useCycle({ scale: 1, rotate: 0, y: 0 },
-        { scale: 1, rotate: 45, y:4.5})
+        { scale: 1, rotate: 45, y:6.5})
     const [twist1, cycle1] = useCycle({ scale: 1, rotate: 0, y:0, x: 0 },
-        { scale: 1, rotate: -45, y:-5.5, x: 1.5 })
+        { scale: 1, rotate: -45, y:-5.5, x: 0.9 })
 
     const [dissapear, displayNone] = useCycle({scale: 1}, {scale: 0})
 
@@ -125,7 +125,6 @@ export function MainLayout({children, title="UI/UX designer, front-end developer
                     background:white;
                     transition: 0.4s ease-out;
                     padding: 4rem 4rem 4rem 13rem;
-                    display: flex;
                     flex-direction: column;
                     align-content: center;
                     width: 100%;
@@ -141,7 +140,7 @@ export function MainLayout({children, title="UI/UX designer, front-end developer
                     left:0;
                     // width: 40%;
                     width: 100%;
-                    display: block;
+                    display: grid;
                 }
                 
                 section.show .m-text {
@@ -163,6 +162,11 @@ export function MainLayout({children, title="UI/UX designer, front-end developer
                         width: 100%;
                         height: 100%;
                         padding: 3rem;
+                        display: flex;
+                     }
+                     
+                     .title {
+                        margin-bottom: 2rem;
                      }
                 }
                 

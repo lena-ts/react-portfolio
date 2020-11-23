@@ -95,6 +95,12 @@ const SpenderUserPersona = ({projectItem}) => {
                 section {
                     height:auto;
                 }
+                
+                @media (max-width: 768px) {
+                    section {
+                        padding-top: 0;
+                    }
+                }
             `}</style>
         </section>
     )

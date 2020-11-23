@@ -3,6 +3,7 @@ import SectionTitle from "../components/common/SectionTitle";
 import ProjectFooter from "../components/common/ProjectFooter";
 import styles from '../styles/components/WebDev.module.scss'
 import dev_items from '../data/WebDevData'
+import {motion} from "framer-motion";
 
 const WebDev = () => {
     const items = dev_items.map(item =>
@@ -11,11 +12,19 @@ const WebDev = () => {
                 <div className={styles.title_text}>{item.title}</div>
                 <span className="gray-text">{item.stack}</span>
             </div>
-            <div className="image">
-                <a href={item.url} target="_blank">
+            <motion.div
+                initial={{ opacity: 0}}
+                animate={{ opacity: 1}}
+                transition={{ duration: 0.7 }}
+                className="image">
+                <a href={item.url} target="_blank" className={item.url_mobile ? `link hide-on-mobile` : `link`}>
                  <img src={item.path}/>
                 </a>
-            </div>
+                {item.url_mobile ?
+                <a href={item.url_mobile} target="_blank" className="link-mobile">
+                    <img src={item.path}/>
+                </a> : null}
+            </motion.div>
         </div>
     )
     return(

@@ -15,6 +15,7 @@ import Schema from "../../components/common/Schema";
 import ToBuyInterview from "../../components/project/tobuy/ToBuyInterview";
 import ToBuyUiElements from "../../components/project/tobuy/ToBuyUiElements";
 import ToBuyIcon from "../../components/project/tobuy/ToBuyIcon";
+import {motion} from "framer-motion";
 
 const ToBuyApp = () => {
     return(

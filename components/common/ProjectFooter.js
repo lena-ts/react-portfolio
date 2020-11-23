@@ -31,6 +31,9 @@ const ProjectFooter = () => {
                     .inner{
                          grid-template-columns: 100%;
                     }
+                    .m-text-1 {
+                        margin-bottom: 1rem;
+                    }
                 }
 
             `}</style>
