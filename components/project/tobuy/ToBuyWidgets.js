@@ -11,7 +11,7 @@ const ToBuyWidgets = ({projectItem}) => {
                         <div className="upper-base-text subtitle">Large</div>
                         <div className="widgets_wrapper">
                             {projectItem.tobuy_widgets.large.map(item =>
-                                <div className="widget">
+                                <div className="widget" key={item.title}>
                                     <div>{item.title}</div>
                                     <img src={`../${item.img}`} />
                                 </div>
@@ -22,7 +22,7 @@ const ToBuyWidgets = ({projectItem}) => {
                         <div className="upper-base-text subtitle">Medium</div>
                         <div className="widgets_wrapper">
                             {projectItem.tobuy_widgets.medium.map(item =>
-                                <div className="widget">
+                                <div className="widget" key={item.title}>
                                     <div>{item.title}</div>
                                     <img src={`../${item.img}`} />
                                 </div>
@@ -33,7 +33,7 @@ const ToBuyWidgets = ({projectItem}) => {
                         <div className="upper-base-text subtitle">Small</div>
                         <div className="widgets_wrapper">
                             {projectItem.tobuy_widgets.small.map(item =>
-                                <div className="widget">
+                                <div className="widget" key={item.title}>
                                     <div>{item.title}</div>
                                     <img src={`../${item.img}`} />
                                 </div>
@@ -45,7 +45,7 @@ const ToBuyWidgets = ({projectItem}) => {
                     <div className="upper-base-text subtitle">Screens</div>
                     <div className="screens_wrapper">
                     {projectItem.tobuy_widgets.screens.map(img =>
-                        <img src={`../${img}`} />
+                        <img src={`../${img}`} key={img}/>
                     )}
                     </div>
                 </div>

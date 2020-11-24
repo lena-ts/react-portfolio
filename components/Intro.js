@@ -1,4 +1,5 @@
 import { motion} from "framer-motion"
+import {mobile_view} from "../constants/config";
 
 const Intro = () => {
     return(
@@ -7,15 +8,15 @@ const Intro = () => {
             {/*<strong>LENA TSYBULENKO</strong>*/}
             <div className="intro-description">
                 <motion.div
-                    initial={{ x: -50 }}
-                    animate={{ x: 0}}
+                    initial={ mobile_view ? {y: 50, opacity: 0} : { x: -50, opacity: 0 }}
+                    animate={mobile_view ? {y: 0, opacity: 1} : { x: 0, opacity: 1}}
                     transition={{ duration: 0.7 }}
                 >
                 <img src="avatar1.jpg" />
                 </motion.div>
                 <motion.div
-                    initial={{ x: 100}}
-                    animate={{ x: 0}}
+                    initial={mobile_view ? {y: 100, opacity: 0} : { x: 100, opacity: 0}}
+                    animate={mobile_view ? {y: 0, opacity: 1} : { x: 0, opacity: 1}}
                     transition={{ duration: 0.7 }}
                 >
                 <div>

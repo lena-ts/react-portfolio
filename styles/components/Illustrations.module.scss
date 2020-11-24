@@ -1,5 +1,6 @@
 .illustration_section {
   //background: #F1F2F4;
+  padding-bottom: 0;
 }
 .illustration_item {
   margin-top: 2rem;
@@ -18,6 +19,7 @@
   display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 2rem;
+  border-bottom: 1px solid #ebebeb;
 }
 
 @media(max-width: 768px){

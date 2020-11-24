@@ -3,6 +3,11 @@ import Link from "next/link";
 import styles from '../styles/components/MainLayout.module.scss'
 import {useState} from 'react'
 import {motion, useCycle} from "framer-motion"
+import {mobile_view} from "../constants/config";
+import MenuItem from "./ui/MenuItem";
+import {menu_items} from "../constants/config";
+import Nav from "./ui/Nav";
+import {useRouter} from "next/router";
 
 export function MainLayout({children, title="UI/UX designer, front-end developer"}){
     const [menuOpened, setMenuOpened] = useState(false)
@@ -16,14 +21,12 @@ export function MainLayout({children, title="UI/UX designer, front-end developer
 
     const [opacity, opaque] = useCycle({opacity: 0}, {opacity: 1})
 
-    const [scale, useScale]= useCycle({opacity:0}, {opacity: 1})
 
     const handleMenuClick = () => {
         cycle()
         displayNone()
         cycle1()
         opaque()
-        // useScale()
         if (menuOpened) {
             setMenuOpened(false)
         }
@@ -33,6 +36,10 @@ export function MainLayout({children, title="UI/UX designer, front-end developer
     }
 
     const menuClassName = menuOpened ?  "show" : ""
+
+    const router = useRouter()
+    const rote = router.route.slice(1, router.route.length)
+
     return(
         <>
             <Head>
@@ -42,72 +49,27 @@ export function MainLayout({children, title="UI/UX designer, front-end developer
                 <meta charSet="utf-8" />
                 <link rel="icon" href="/favicon.png" />
             </Head>
-            <motion.div
-                initial={{ opacity: 0}}
-                animate={{ opacity: 1}}
-                transition={{ duration: 0.7 }}
-            >
-            <nav>
-                <Link href={"/"}><a>LT</a></Link>
-                <div className={styles.menu_icon} onClick={handleMenuClick}>
-                    <motion.div
-                        animate={twist}
-                    >
-                        <div className={styles.menu_line}></div>
-                    </motion.div>
-                    <motion.div
-                        animate={dissapear}>
-                        <div className={styles.menu_line}></div>
-                    </motion.div>
-                    <motion.div
-                        animate={twist1}>
-                        <div className={styles.menu_line}></div>
-                    </motion.div>
-                </div>
-                <Link href={"/contacts"}><a className={styles.mail_icon}>&nbsp;</a></Link>
-            </nav>
-            </motion.div>
-            <motion.div
-                // initial={{scale:0}}
-                // animate={scale}
-            >
+            <Nav
+                twist={twist}
+                dissapear={dissapear}
+                twist1={twist1}
+                click={handleMenuClick}
+            />
             <section className={menuClassName}>
                 <div className="title">Projects</div>
-                {/*<div className="m-text menu-item">*/}
-                {/*    <div className="menu-item-title"> <Link href={"/"}><a>Home</a></Link></div>*/}
-                {/*</div>*/}
-                <div className="m-text menu-item">
-                    <motion.div
-                        animate={opacity}
-                        transition={{ duration: 0.7 }}
-                    >
-                    <div className="menu-item-title"> <Link href={"/web-development"}><a>Web development</a></Link></div>
-                    <span>Magento, Prestashop website design & development</span>
-                    </motion.div>
-                </div>
-                <div className="m-text menu-item">
-                    <motion.div
-                        animate={opacity}
-                        transition={{ duration: 0.7, delay: 0.2 }}
-                        exit={{ opacity: 0 }}
-                    >
-                    <div className="menu-item-title"> <Link href={"/apps"}><a>iOS Apps</a></Link></div>
-                    <span>UI/UX design, research work</span>
-                    </motion.div>
-                </div>
-                <div className="m-text menu-item">
-                    <motion.div
-                        animate={opacity}
-                        transition={{ duration: 0.7, delay: 0.4 }}
-                    >
-                    <div className="menu-item-title">
-                        <Link href={"/illustrations"}><a>Illustrations</a></Link>
-                    </div>
-                    <span>Illustration works</span>
-                    </motion.div>
-                </div>
+                {menu_items.map(item =>
+                    <MenuItem
+                        key={item.id}
+                        title={item.title}
+                        subtitle={item.subtitle}
+                        link={item.link}
+                        delay={item.delay}
+                        opacity={opacity}
+                        code={item.code}
+                        rote={rote}
+                    />
+                )}
             </section>
-            </motion.div>
             <main>
                 {children}
             </main>

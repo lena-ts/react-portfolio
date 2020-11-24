@@ -36,10 +36,10 @@ const AppsList = () => {
             {intro_projects}
             </div>
             <style jsx>{`
-                #apps-intro{
-                    padding-bottom: 0;
-                    background: #F0F4F7;
-                }
+                // #apps-intro{
+                //     padding-bottom: 0;
+                //     background: #F0F4F7;
+                // }
                 
 
             `}</style>

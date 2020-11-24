@@ -9,7 +9,7 @@ const ToBuyWatches = ({projectItem}) => {
                 <div className="watches_wrapper">
                     <div className="regular watches_item">
                     {projectItem.watches.regular.map( item =>
-                        <div className="item">
+                        <div className="item" key={item.title}>
                             <div className="title">{item.title}</div>
                             <img src={`../${item.img}`}/>
                         </div>
@@ -17,7 +17,7 @@ const ToBuyWatches = ({projectItem}) => {
                     </div>
                     <div className="empty watches_item">
                         {projectItem.watches.empty.map( item =>
-                            <div className="item">
+                            <div className="item" key={item.title}>
                                 <div className="title">{item.title}</div>
                                 <img src={`../${item.img}`}/>
                             </div>
@@ -25,7 +25,7 @@ const ToBuyWatches = ({projectItem}) => {
                     </div>
                     <div className="icon watches_item">
                         {projectItem.watches.icon.map( item =>
-                            <div className="item">
+                            <div className="item" key={item.title}>
                                 <div className="title">{item.title}</div>
                                 <img src={`../${item.img}`}/>
                             </div>
@@ -33,7 +33,7 @@ const ToBuyWatches = ({projectItem}) => {
                     </div>
                     <div className="icon_muted watches_item">
                         {projectItem.watches.icon_muted.map( item =>
-                            <div className="item">
+                            <div className="item" key={item.title}>
                                 <div className="title">{item.title}</div>
                                 <img src={`../${item.img}`}/>
                             </div>

@@ -2,13 +2,18 @@ import {MainLayout} from "../components/MainLayout";
 import illustrations from '../data/IllutrationsData'
 import styles from '../styles/components/Illustrations.module.scss'
 import ProjectFooter from "../components/common/ProjectFooter";
+import {motion} from "framer-motion";
 
 const Illustrations = () => {
     const illustrations_list = illustrations.map(item => (
-        <div key={item.id} className={styles.illustration_item}>
+        <motion.div
+            initial={{ opacity: 0}}
+            animate={{ opacity: 1}}
+            transition={{ duration: 0.7 }}
+            key={item.id} className={styles.illustration_item}>
             <div>{item.title}</div>
             <img src={item.path}/>
-        </div>
+        </motion.div>
     ))
     return(
         <MainLayout>

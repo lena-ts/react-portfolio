@@ -59,6 +59,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  z-index: 1000;
 }
 
 .menu-item-title:after {
@@ -71,8 +72,11 @@ nav {
   background-repeat: no-repeat;
   transform: rotateY(180deg);
   margin-left: 0.8rem;
+  //margin-left: -3.5rem;
+  //margin-right: 0.8rem;
   vertical-align: middle;
-  transition: 0.2s;
+  transition: 0.5s;
+  opacity: 0;
 }
 
 .menu-item {
@@ -91,6 +95,29 @@ nav {
   &:hover {
     .menu-item-title:after {
       margin-left: 1.8rem;
+      //margin-left: 0;
+      opacity: 1;
+    }
+  }
+
+  &.active {
+    //color: lightgray;
+    cursor: none;
+    
+    a {
+      cursor: auto;
+    }
+
+    .menu-item-title{
+      text-decoration: line-through;
+      &:after {
+        display: none;
+      }
+
+      //&:before {
+      //  opacity: 1;
+      //  margin-left: 0;
+      //}
     }
   }
 }

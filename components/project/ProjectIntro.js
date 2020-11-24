@@ -10,7 +10,7 @@ const ProjectIntro = (projectItem) => {
 
     const icon_image = project.icon_path ? <motion.img
         initial={{ y: 20}}
-        animate={{ y: 0}}
+        animate={{ y: -10}}
         transition={{ duration: 0.7 }}
         src={`../${project.icon_path}`}  alt={project.url} className="medium-app-icon"/> : null
     const prototype_button_className = project.prototype_link_type === 'spa' ? 'button_spa' : 'button_html'
@@ -41,16 +41,16 @@ const ProjectIntro = (projectItem) => {
                             {icon_image}
                             <motion.div
                                 initial={{ y: 40}}
-                                animate={{ y: 0}}
+                                animate={{ y: -10}}
                                 transition={{ duration: 0.7 }}
                                 className="super-l-text">{project.title}</motion.div>
                             <motion.div
-                                initial={{ y: 40}}
+                                initial={{ y: 50}}
                                 animate={{ y: 20}}
                                 transition={{ duration: 0.8 }}
                                 className="base-text intro_project_subtitle">{project.subtitle}</motion.div>
                             <motion.div
-                                initial={{ y: 40}}
+                                initial={{ y: 70}}
                                 animate={{ y: 20}}
                                 transition={{ duration: 0.9 }}
                                 className={styles.buttons_wrapper}>
@@ -58,7 +58,7 @@ const ProjectIntro = (projectItem) => {
                                 {appstore_link}
                             </motion.div>
                             <motion.div
-                                initial={{ y: 40, opacity: 0}}
+                                initial={{ y: 90, opacity: 0}}
                                 animate={{ y: 20, opacity: 1}}
                                 transition={{ duration: 1 }}
                                 className={`upper-base-text ${styles.description_text}`}>
