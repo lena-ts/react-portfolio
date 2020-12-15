@@ -19,7 +19,7 @@ const Competitors = ({projectItem}) => {
                     <div className={styles.pros}>
                         {item.pros.map(item => <div className={styles.item} key={item}>{item}</div>)}
                     </div>
-                    <div className={styles.cons}>
+                    <div className={styles.cons + ` base-text`}>
                         {item.cons.map(item => <div className={styles.item} key={item}>{item}</div>)}
                     </div>
                 </div>

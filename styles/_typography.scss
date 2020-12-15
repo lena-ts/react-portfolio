@@ -24,6 +24,7 @@
 
 .base-text {
   font-size: $font-size-base; //16px
+  line-height: 24px;
 }
 
 .upper-base-text {
@@ -65,5 +66,17 @@
 
   .m-text-1, h3 {
     line-height: 40px;
+  }
+}
+
+@media(min-width: 1600px) {
+  .m-text {
+    font-size: 70px;
+    line-height: 78px;
+  }
+  .upper-base-text,
+  .base-text{
+    font-size: 24px;
+    line-height: 38px;
   }
 }
