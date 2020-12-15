@@ -36,7 +36,7 @@ const IntroProject = ({
                 <div className={styles.intro_project_content_wrapper}>
                 <div className={styles.intro_project_data}>
                     {icon_image}
-                    <span className="m-text">{title}</span>
+                    <span className={styles.title + ` m-text`}>{title}</span>
                     <span className={`base-text ${styles.intro_project_subtitle}`}>{subtitle}</span>
                     <div className={styles.intro_project_case_button}>
                     <Link href={`/apps/${url}`}  ><a className="button button_dark">View Case</a></Link>
