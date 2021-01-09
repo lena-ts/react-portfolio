@@ -3,7 +3,7 @@ const ProjectsIntroData = [
         id: 1,
         url: 'tobuy-app',
         title: <div>ToBuy:<br></br>Shopping List</div>,
-        subtitle: <span><strong>Objective:</strong> Create app to help going shopping</span>,
+        subtitle: <span><strong>Objective:</strong> Create app to help recollect items to buy</span>,
         icon_path: 'intro/app-icons/tobuy-icon.png',
         intro_screen_1_path: 'intro/intro-images/tobuy1.png',
         intro_screen_2_path: 'intro/intro-images/tobuy2.png',
