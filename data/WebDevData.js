@@ -9,8 +9,8 @@ const WebDevData = [
     },
     {
         id: 1,
-        title: "ThingsHappen SPA Prototype",
-        stack: "Build on React.js",
+        title: "ThingsHappen",
+        stack: "Build on React.js Mobile App Prototype",
         path: "webdev/things_happen.png",
         url: "https://lena-ts.github.io/react-things-happen/",
         url_mobile: "https://lena-ts.github.io/react-things-happen-app/",
