@@ -3,7 +3,7 @@ export const mobile_view = typeof window !== "undefined" ? window.innerWidth < 7
 export const menu_items = [
     {
         id: 1,
-        title: 'Web development',
+        title: 'Web, Apps development',
         subtitle: 'Magento, Prestashop website design & development',
         link: "/web-development",
         delay: 0,
@@ -11,7 +11,7 @@ export const menu_items = [
     },
     {
         id: 2,
-        title: 'iOS Apps',
+        title: 'Apps Design',
         subtitle: 'UI/UX design, research work',
         link: "/apps",
         delay: 0.2,

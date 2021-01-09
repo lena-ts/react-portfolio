@@ -18,7 +18,7 @@ const WebDev = () => {
                 transition={{ duration: 0.7 }}
                 className="image">
                 <a href={item.url} target="_blank" className={item.url_mobile ? `link hide-on-mobile` : `link`}>
-                 <img src={item.path}/>
+                 <img src={item.path} style={{border: item.border? '1px solid #ebebeb' : null}}/>
                 </a>
                 {item.url_mobile ?
                 <a href={item.url_mobile} target="_blank" className="link-mobile">
@@ -31,7 +31,7 @@ const WebDev = () => {
         <MainLayout>
             <div className="container">
                 <section className="auto-height">
-                    <SectionTitle title="Web development" subtitle="My works, design and front-end development"/>
+                    <SectionTitle title="Web, Apps development" subtitle="My works, design and front-end development"/>
                 </section>
                 <div className={styles.web_dev_grid}>
                     {items}
