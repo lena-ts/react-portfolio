@@ -65,6 +65,22 @@ const ProjectsIntroData = [
         competitors: true
     },
     {
+        id: 6,
+        url: 'caps-app',
+        title: <div>CAPS:<br></br>Digital Wardrobe</div>,
+        subtitle: <span><strong>Objective:</strong> Create app that store and organizes clothing<br></br> and generates the looks</span>,
+        icon_path: 'intro/app-icons/caps-icon.png',
+        intro_screen_1_path: 'intro/intro-images/caps1.png',
+        intro_screen_2_path: 'intro/intro-images/caps2.png',
+        appstore_link: null,
+        prototype_link: null,
+        prototype_link_type: null,
+        background_color: '#E8EBF2',
+        description: <div><strong>Description:</strong>  App generates several looks base on<br></br>your wardrobe items and organizes all the stuff</div>,
+        model: <div><strong>Model:</strong> Freemium, free with In-App purchases </div>,
+        competitors: true
+    },
+    {
         id: 5,
         url: 'yandex-internship-case',
         title: <div>Yandex.Sport:<br></br>Internship Case</div>,

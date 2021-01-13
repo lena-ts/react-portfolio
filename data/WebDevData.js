@@ -2,9 +2,17 @@ const WebDevData = [
     {
         id: 17,
         title: "Doonya",
-        stack: "Build on React Native for Android and iOS",
+        stack: "Mobile App build on React Native for Android and iOS",
         path: "webdev/doonya.png",
         url: "https://lena-ts.github.io/doonyaapp/",
+        border: true
+    },
+    {
+        id: 18,
+        title: "ToBuy",
+        stack: "Mobile App build on React Native for Android",
+        path: "webdev/tobuy.png",
+        url: "https://play.google.com/store/apps/details?id=com.tobuyapp.android",
         border: true
     },
     {
@@ -16,14 +24,14 @@ const WebDevData = [
         url_mobile: "https://lena-ts.github.io/react-things-happen-app/",
         border: false
     },
-    // {
-    //     id: 2,
-    //     title: "Personal Portfolio SPA",
-    //     stack: "Build on ReactJs + NextJS + FramerMotion",
-    //     path: "webdev/personal_portfolio1-min.png",
-    //     url: null,
-    //     border: false
-    // },
+    {
+        id: 2,
+        title: "Personal Portfolio SPA",
+        stack: "Build on ReactJs + NextJS + FramerMotion",
+        path: "webdev/personal_portfolio1-min.png",
+        url: null,
+        border: false
+    },
     {
         id: 3,
         title: "Shopster",

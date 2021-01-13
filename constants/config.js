@@ -4,7 +4,7 @@ export const menu_items = [
     {
         id: 1,
         title: 'Web, Apps development',
-        subtitle: 'Magento, Prestashop website design & development',
+        subtitle: 'React Native, ReactJs, Magento, Prestashop design, development',
         link: "/web-development",
         delay: 0,
         code: 'web-development'

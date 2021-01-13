@@ -31,7 +31,7 @@ const WebDev = () => {
         <MainLayout>
             <div className="container">
                 <section className="auto-height">
-                    <SectionTitle title="Web, Apps development" subtitle="My works, design and front-end development"/>
+                    <SectionTitle title="Web, Apps development" subtitle="My works, design and development"/>
                 </section>
                 <div className={styles.web_dev_grid}>
                     {items}

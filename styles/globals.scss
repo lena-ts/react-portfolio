@@ -26,6 +26,10 @@ h1, h2, h3, h4 {
   margin: 0;
 }
 
+ul {
+  padding: 0;
+}
+
 //nav {
 //  width: $nav-width;
 //  height: 100%;
@@ -88,7 +92,7 @@ nav {
   span {
     font-weight: 400;
     font-size: 15px;
-    line-height: 25px;
+    line-height: 30px;
     display: block;
     //color: gray;
   }
@@ -263,6 +267,22 @@ ul {
   }
 }
 
+.caps-reviews {
+  ul {
+    li {
+      line-height: 28px;
+    }
+  }
+}
+
+#app-screens-caps-app {
+    .icon-wrapper {
+      img{
+        border: 1px solid #ebebeb;
+      }
+    }
+}
+
 //ToBuy custom screens
 #tobuy-app-visual-identification,
 #splity-app-visual-identification{
@@ -271,10 +291,10 @@ ul {
   }
 }
 
-#tobuy-app-schema, #splity-app-schema, #things-happen-app-schema {
+#tobuy-app-schema, #splity-app-schema, #things-happen-app-schema, #caps-app-schema {
   padding-bottom: 0;
 }
-#things-happen-app-schema{
+#things-happen-app-schema, #caps-app-schema{
   padding-top: 0;
 }
 

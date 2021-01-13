@@ -80,8 +80,9 @@ const VisualIdentification = ({projectItem}) => {
                 </div>
             </div>
             <style jsx>{`
+                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
                 .font_family {
-                    font-family: ${projectItem.visual_identification.font_name}
+                    font-family: ${projectItem.visual_identification.font_name} , sans-serif;
                 }
                 
                 .subtitle {

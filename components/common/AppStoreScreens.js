@@ -8,11 +8,11 @@ const AppStoreScreens = ({projectItem}) => {
 
     return(
         <>
-            <section className={`${styles.appstore_section} auto-height`}>
+            <section className={`${styles.appstore_section} auto-height`} id={`app-screens-${projectItem.url}`}>
                 <div className="container">
                     <h3>AppStore</h3>
                     <div className={`upper-base-text subtitle`}>AppStore Screens</div>
-                    <div className={styles.icon_wrapper}>
+                    <div className={`${styles.icon_wrapper} icon-wrapper`}>
                         <img src={`../${projectItem.icon_path}`} />
                         <div className={styles.titles}>
                             <div className={styles.title}>
