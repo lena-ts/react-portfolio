@@ -32,6 +32,10 @@ const YandexWeatherWidget = () => {
                             </div>
                         ))}
                     </div>
+                    <div className="interview-result">
+                        
+                        Резюмируюя опрос можно выделить параметры погоды, которые наиболее интересуют людей — <span>изменения температуры в ближайшем будущем (пару часов, дней) и наличие осадков.</span>
+                    </div>
                 </div>
             </section>
             <section id="competitors" className="project-section">
@@ -51,7 +55,7 @@ const YandexWeatherWidget = () => {
                         )}
                     </div>
                         <div className="research-result">
-                            <span>Вывод </span><br></br><br></br>
+
                             Исходя из анализа конкурентов можно выделить интересную функцию — <span>визуализацию тенденции изменения температуры</span>.
                         </div>
                 </div>
@@ -254,7 +258,12 @@ const YandexWeatherWidget = () => {
                      line-height: 24px;
                 }
                 
-                .research-result span{
+                .interview-result {
+                    padding-top: 2rem;
+                    line-height: 24px;
+                }
+                
+                .research-result span, .interview-result span{
                     font-weight: 600;
                 }
 
