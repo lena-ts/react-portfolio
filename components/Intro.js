@@ -23,7 +23,6 @@ const Intro = () => {
                     <div className="l-text">
                         {/*Привет. Я Лена,<br></br>дизайнер и фронтенд<br></br>разработчик из Минска, Беларусь.*/}
                         Hi! I'm Lena,<br></br>UI/UX designer & front-end<br></br>developer.<br></br>
-                        Minsk, Belarus.
                     </div>
                     <p className="upper-base-text">Projects I've been involved with are Apps Design, ReactJS, React Native development, Magento, Prestashop design and front-end development
                         {/*<br></br><strong>React.js</strong>, <strong>Next.js</strong> apps development*/}

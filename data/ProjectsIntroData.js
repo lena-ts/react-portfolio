@@ -16,6 +16,22 @@ const ProjectsIntroData = [
         competitors: true
     },
     {
+        id: 7,
+        url: 'yandex-weather-widget',
+        title: <div>Яндекс Погода:<br></br>Виджет</div>,
+        subtitle: <span><strong>Задача:</strong>  Создать новый виджет для андроид и объяснить почему он должен выглядеть так</span>,
+        icon_path: 'intro/app-icons/ya-weather-icon.png',
+        intro_screen_1_path: 'intro/intro-images/scr1.png',
+        intro_screen_2_path: 'intro/intro-images/scr2.png',
+        appstore_link: null,
+        prototype_link: null,
+        prototype_link_type: 'html',
+        background_color: '#F2F5FC',
+        description: <div><strong>Описание:</strong> Тестовое задание на стажировку</div>,
+        model: null,
+        competitors: true
+    },
+    {
         id: 2,
         url: 'things-happen-app',
         title: <div>ThingsHappen:<br></br>Life Tracker</div>,
@@ -65,6 +81,20 @@ const ProjectsIntroData = [
         competitors: true
     },
     {
+        id: 5,
+        url: 'yandex-internship-case',
+        title: <div>Yandex.Sport:<br></br>Internship Case</div>,
+        subtitle: <span><div><strong>Task:</strong> <ul><li>1. Create athlet profile UI for touch devices</li><li> 2. Prove your solution</li></ul></div><div><strong>Done:</strong> &nbsp;Research work, UI Design</div></span>,
+        icon_path: '',
+        intro_screen_1_path: 'intro/intro-images/yandex1.png',
+        intro_screen_2_path: 'intro/intro-images/yandex2.png',
+        appstore_link: null,
+        prototype_link: null,
+        prototype_link_type: null,
+        background_color: '#F2F5FC',
+        competitors: true
+    },
+    {
         id: 6,
         url: 'caps-app',
         title: <div>CAPS:<br></br>Digital Wardrobe</div>,
@@ -80,20 +110,6 @@ const ProjectsIntroData = [
         model: <div><strong>Model:</strong> Freemium, free with In-App purchases </div>,
         competitors: true
     },
-    {
-        id: 5,
-        url: 'yandex-internship-case',
-        title: <div>Yandex.Sport:<br></br>Internship Case</div>,
-        subtitle: <span><div><strong>Task:</strong> <ul><li>1. Create athlet profile UI for touch devices</li><li> 2. Prove your solution</li></ul></div><div><strong>Done:</strong> &nbsp;Research work, UI Design</div></span>,
-        icon_path: '',
-        intro_screen_1_path: 'intro/intro-images/yandex1.png',
-        intro_screen_2_path: 'intro/intro-images/yandex2.png',
-        appstore_link: null,
-        prototype_link: null,
-        prototype_link_type: null,
-        background_color: '#F2F5FC',
-        competitors: true
-    }
 ]
 
 export default ProjectsIntroData

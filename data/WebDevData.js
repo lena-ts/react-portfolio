@@ -13,7 +13,7 @@ const WebDevData = [
         stack: "Mobile App build on React Native for Android",
         path: "webdev/tobuy.png",
         url: "https://play.google.com/store/apps/details?id=com.tobuyapp.android",
-        border: true
+        border: false
     },
     {
         id: 1,
