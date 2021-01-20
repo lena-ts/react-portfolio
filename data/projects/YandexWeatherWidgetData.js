@@ -116,7 +116,7 @@ const YandexWeatherWidgetData = {
             id: '5',
             title: "5. Миниатюрный виджет",
             text: <span>Маленький виджет показывает только главную информацию на данный момент — температуру и есть ли сейчас осадки</span>,
-            img: 'projects/yandexweather/w5.png'
+            img: 'projects/yandexweather/w5_1.png'
         }
     ],
     final_image: ['projects/yandexweather/scr1_1.png', 'projects/yandexweather/scr2_1.png', 'projects/yandexweather/scr3.png', 'projects/yandexweather/scr4_1.png'],
