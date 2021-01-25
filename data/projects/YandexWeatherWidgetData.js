@@ -5,8 +5,8 @@ const YandexWeatherWidgetData = {
     subtitle: <div><strong>Задача:</strong> Создать новый виджет для андроид и объяснить<br></br>почему он должен выглядеть так</div>,
     description: <div><strong>Описание:</strong> Тестовое задание на стажировку</div>,
     icon_path: 'intro/app-icons/ya-weather-icon.png',
-    intro_screen_1_path: 'intro/intro-images/scr1.png',
-    intro_screen_2_path: 'intro/intro-images/scr2.png',
+    intro_screen_1_path: 'intro/intro-images/scr1_1.png',
+    intro_screen_2_path: 'intro/intro-images/scr2_2.png',
     appstore_link: null,
     prototype_link: null,
     prototype_link_type: null,
@@ -119,7 +119,7 @@ const YandexWeatherWidgetData = {
             img: 'projects/yandexweather/w5_1.png'
         }
     ],
-    final_image: ['projects/yandexweather/scr1_1.png', 'projects/yandexweather/scr2_1.png', 'projects/yandexweather/scr3.png', 'projects/yandexweather/scr4_1.png'],
+    final_image: ['projects/yandexweather/scr1_1.png', 'projects/yandexweather/scr2_2.png', 'projects/yandexweather/scr3.png', 'projects/yandexweather/scr4_1.png'],
     result_text: ' В результате проведения интервью получаем информацию, которую люди вероятнее всего хотели бы видеть на виджете —\n' +
         'температуру на ближайшие часы/дни, возможность осадков. Также можно предложить отображать визуальную тенденцию изменения температуры, чтобы \n' +
         'упростить восприятие информации.'
