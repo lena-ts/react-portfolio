@@ -8,6 +8,10 @@ const Experience = () => {
                 <div className="uppercase-title">My Experience</div>
                     <ul>
                         <li>
+                            <div className="m-text">Designer Intern at Yandex</div>
+                            <div className={styles.periods_text}>March 2021 — Present</div>
+                        </li>
+                        <li>
                             <div className="m-text">Mobile Apps Designer</div>
                             <div className={styles.periods_text}>November 2019 — Present</div>
                         </li>
