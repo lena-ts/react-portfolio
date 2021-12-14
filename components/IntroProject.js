@@ -9,6 +9,7 @@ const IntroProject = ({
                           intro_screen_1,
                           intro_screen_2,
                           appstore,
+                          playmarket,
                           prototype,
                           prototype_type,
                           background
@@ -30,6 +31,8 @@ const IntroProject = ({
         <a href={appstore} target="_blank" className="button button_light button_appstore">App Store</a>
         :null
 
+    const playmarket_link = playmarket ? <a href={playmarket} target="_blank" className="button button_light button_common button_playmarket">PlayMarket</a> : null
+
     return(
         <section className={styles.intro_project} id={url}>
             <div className="container">
@@ -43,8 +46,9 @@ const IntroProject = ({
                     {/*<Link href={"/apps/[id]"} as={`/apps/${url}`} ><a className="button button_dark">View Case</a></Link>*/}
                     </div>
                     <div className={styles.intro_project_links}>
-                        {prototype_link}
                         {appstore_link}
+                        {playmarket_link}
+                        {prototype_link}
                     </div>
                 </div>
                 <div className={styles.intro_project_images}>

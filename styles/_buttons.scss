@@ -19,17 +19,19 @@
 
   &_spa,
   &_appstore,
-  &_html{
+  &_html,
+  &_common{
     font-size: $font-size-base;
     font-weight: 500;
     padding: 0 30px;
     line-height: 63px;
+    margin-bottom: 15px;
 
     &:before {
       content: " ";
       display: inline-block;
       vertical-align: middle;
-      margin-right: 5px;
+      margin-right: 7px;
     }
   }
 
@@ -56,6 +58,15 @@
       width: 20px;
       height: 24px;
       background-image: url('../assets/images/apple-logo.png');
+      background-size: 100%;
+    }
+  }
+
+  &_playmarket {
+    &:before {
+      width: 24px;
+      height: 24px;
+      background-image: url('../assets/images/play-market-logo.png');
       background-size: 100%;
     }
   }
