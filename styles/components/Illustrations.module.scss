@@ -17,9 +17,10 @@
 
 .illustrations_list {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
   grid-column-gap: 2rem;
   border-bottom: 1px solid #ebebeb;
+  padding-bottom: 20px;
 }
 
 @media(max-width: 768px){

@@ -101,23 +101,23 @@ const ProjectsIntroData = [
         background_color: '#F2F5FC',
         competitors: true
     },
-    {
-        id: 6,
-        url: 'caps-app',
-        title: <div>CAPS:<br></br>Digital Wardrobe</div>,
-        subtitle: <span><strong>Objective:</strong> Create app that store and organizes clothing<br></br> and generates the looks</span>,
-        icon_path: 'intro/app-icons/caps-icon.png',
-        intro_screen_1_path: 'intro/intro-images/caps1.png',
-        intro_screen_2_path: 'intro/intro-images/caps2.png',
-        appstore_link: 'https://apps.apple.com/app/caps-digital-wardrobe/id1559085124#?platform=iphone',
-        playmarket_link: 'https://play.google.com/store/apps/details?id=com.caps.android',
-        prototype_link: null,
-        prototype_link_type: null,
-        background_color: '#E8EBF2',
-        description: <div><strong>Description:</strong>  App generates several looks base on<br></br>your wardrobe items and organizes all the stuff</div>,
-        model: <div><strong>Model:</strong> Freemium, free with In-App purchases </div>,
-        competitors: true
-    },
+    // {
+    //     id: 6,
+    //     url: 'caps-app',
+    //     title: <div>CAPS:<br></br>Digital Wardrobe</div>,
+    //     subtitle: <span><strong>Objective:</strong> Create app that store and organizes clothing<br></br> and generates the looks</span>,
+    //     icon_path: 'intro/app-icons/caps-icon.png',
+    //     intro_screen_1_path: 'intro/intro-images/caps1.png',
+    //     intro_screen_2_path: 'intro/intro-images/caps2.png',
+    //     appstore_link: 'https://apps.apple.com/app/caps-digital-wardrobe/id1559085124#?platform=iphone',
+    //     playmarket_link: 'https://play.google.com/store/apps/details?id=com.caps.android',
+    //     prototype_link: null,
+    //     prototype_link_type: null,
+    //     background_color: '#E8EBF2',
+    //     description: <div><strong>Description:</strong>  App generates several looks base on<br></br>your wardrobe items and organizes all the stuff</div>,
+    //     model: <div><strong>Model:</strong> Freemium, free with In-App purchases </div>,
+    //     competitors: true
+    // },
 ]
 
 export default ProjectsIntroData
