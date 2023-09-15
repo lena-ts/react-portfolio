@@ -1,7 +1,7 @@
 import styles from '../../../styles/components/project/CapsReviewsInvestigation.module.scss'
 
 const CapsReviewInvestigation = ({projectItem}) => {
-    const items = projectItem.reviews.map(item =>
+    const items = projectItem.reviews_app.map(item =>
         <div className={styles.item}>
             <div className={styles.image}><img src={`../${item.img}`} alt={item.title}/></div>
             <div>

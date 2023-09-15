@@ -3,7 +3,7 @@ const ToBuyWidgets = ({projectItem}) => {
         <section className="auto-height">
             <div className="container">
                 <div className="title_area">
-                    <h3>iOS 14 Widgets</h3>
+                    <h3>Homepage Widgets</h3>
                     <div className={`upper-base-text subtitle`}>3 types of widgets available</div>
                 </div>
                 <div className="widgets_types">

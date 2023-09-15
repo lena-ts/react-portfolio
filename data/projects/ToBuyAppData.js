@@ -2,16 +2,19 @@ const ToBuyAppData = {
     id: 3,
     url: 'tobuy-app',
     title: <div>ToBuy:<br></br>Shopping List</div>,
-    subtitle: <span><strong>Objective:</strong> Create app to help recollect items to buy</span>,
+    subtitle: <span>Grocery checklist with family sharing and Apple Watch support</span>,
     icon_path: 'intro/app-icons/tobuy-icon.png',
     intro_screen_1_path: 'intro/intro-images/tobuy1.png',
     intro_screen_2_path: 'intro/intro-images/tobuy2.png',
     appstore_link: 'https://apps.apple.com/us/app/tobuy-shopping-list/id1489580128',
-    prototype_link: 'https://lena-ts.github.io/tobuy-test/start.html',
+    playmarket_link: 'https://play.google.com/store/apps/details?id=com.tobuyapp.android',
+    // prototype_link: 'https://lena-ts.github.io/tobuy-test/start.html',
     prototype_link_type: 'html',
     background_color: '#F0F4F7',
-    description: <div><strong>Description:</strong> App that helps to track expenses<br></br>and display visual statistic by categories</div>,
-    model: <div><strong>Model:</strong> Freemium, free with Ads and In-App<br></br>purchases </div>,
+    downloads: '105K',
+    reviews: '1.2K',
+    description: '',
+    model: <div></div>,
     competitors: [
         {
             case:1,
@@ -83,14 +86,29 @@ const ToBuyAppData = {
         letter_fill: 'conic-gradient(from 180deg at 50% 50%, #EEA4C3 0deg, #A7E4EC 65.63deg, #FDD7A6 150deg, #C4E4B6 226.87deg, #E9BCB8 301.88deg, #CACFD5 360deg)',
         colors: {
             primary: [
+                "#27C967",
                 "#2B2B2B",
                 "#CACFD5",
-                "#3CBB6E",
-                "#26DD6E"
             ],
-            secondary: [],
+            secondary: [
+                "#C5E4F8",
+                "#F3CE80",
+                "#A6D586",
+                "#CDC8BF",
+                "#F3AAD2",
+                "#E88798",
+                "#83C1E3",
+                "#FFF1CE",
+                "#97DEDA",
+                "#E9D0F2",
+                "#FBCFE8",
+                "#FBE5CE",
+                "#F3CCCD",
+                "#D5C8FD",
+            ],
             additional: []
-        }
+        },
+        ds_image: 'projects/tobuy/ui/design-system.png',
     },
     interview: {
         answers1: [
@@ -149,38 +167,39 @@ const ToBuyAppData = {
         image: 'projects/tobuy/ux/ux-flow.png'
     },
     ui : {
-        image: 'projects/tobuy/ui/ui.png',
+        // image: 'projects/tobuy/ui/ui.png',
         website_img: 'projects/tobuy/ui/website.png',
-        website_link: "https://justcode-apps.github.io/tobuy-app/",
+        website_link: "https://www.dobraapps.com/tobuy/",
         website_title: "ToBuy App landing Page",
-        // screens: [
-        //     'projects/tobuy/ui/screens/1.png',
-        //     'projects/tobuy/ui/screens/2.png',
-        //     'projects/tobuy/ui/screens/3.png',
-        //     'projects/tobuy/ui/screens/4.png',
-        //     'projects/tobuy/ui/screens/5.png',
-        //     'projects/tobuy/ui/screens/6.png',
-        //     'projects/tobuy/ui/screens/7.png',
-        //     'projects/tobuy/ui/screens/8.png',
-        //     'projects/tobuy/ui/screens/9.png',
-        //     'projects/tobuy/ui/screens/10.png',
-        //     'projects/tobuy/ui/screens/11.png',
-        //     'projects/tobuy/ui/screens/12.png',
-        //     'projects/tobuy/ui/screens/13.png',
-        //     'projects/tobuy/ui/screens/14.png',
-        //     'projects/tobuy/ui/screens/15.png',
-        //     'projects/tobuy/ui/screens/16.png',
-        //     'projects/tobuy/ui/screens/17.png',
-        //     'projects/tobuy/ui/screens/18.png',
-        //     'projects/tobuy/ui/screens/19.png',
-        //     'projects/tobuy/ui/screens/20.png',
-        //     'projects/tobuy/ui/screens/21.png',
-        //     'projects/tobuy/ui/screens/22.png',
-        //     'projects/tobuy/ui/screens/23.png',
-        //     'projects/tobuy/ui/screens/24.png'
-        // ]
+        screens: [
+            'projects/tobuy/ui/screens/1.png',
+            'projects/tobuy/ui/screens/2.png',
+            'projects/tobuy/ui/screens/3.png',
+            'projects/tobuy/ui/screens/4.png',
+            'projects/tobuy/ui/screens/5.png',
+            'projects/tobuy/ui/screens/6.png',
+            'projects/tobuy/ui/screens/7.png',
+            'projects/tobuy/ui/screens/8.png',
+            'projects/tobuy/ui/screens/9.png',
+            'projects/tobuy/ui/screens/10.png',
+            'projects/tobuy/ui/screens/11.png',
+            'projects/tobuy/ui/screens/12.png',
+            'projects/tobuy/ui/screens/13.png',
+            'projects/tobuy/ui/screens/14.png',
+            'projects/tobuy/ui/screens/15.png',
+            // 'projects/tobuy/ui/screens/16.png',
+            // 'projects/tobuy/ui/screens/17.png',
+            // 'projects/tobuy/ui/screens/18.png',
+            // 'projects/tobuy/ui/screens/19.png',
+            // 'projects/tobuy/ui/screens/20.png',
+            // 'projects/tobuy/ui/screens/21.png',
+            // 'projects/tobuy/ui/screens/22.png',
+            // 'projects/tobuy/ui/screens/23.png',
+            // 'projects/tobuy/ui/screens/24.png'
+        ]
     },
     ui_elements : {
+        components: 'projects/tobuy/ui/ui-elements/components.png',
         open_categories: 'projects/tobuy/ui/ui-elements/plus.png',
         product: [
             {
@@ -285,7 +304,8 @@ const ToBuyAppData = {
     },
     icon_screen: {
         icon: 'intro/app-icons/tobuy-icon.png',
-        text: 'The main idea of an icon is a check point meaning product bought in shopping list.',
+        text: 'The idea of an icon is a check point of a list but styled as a product',
+        img: 'projects/tobuy/icon/icon-story3.png',
         img1: 'projects/tobuy/icon/icon_img1.png',
         img2: 'projects/tobuy/icon/icon_img2.png',
         env: 'projects/tobuy/icon/icon_env2.png'
@@ -293,61 +313,61 @@ const ToBuyAppData = {
     tobuy_widgets: {
         screens: [
             'projects/tobuy/widgets/1.png',
-            'projects/tobuy/widgets/2.png',
             'projects/tobuy/widgets/3.png',
+            'projects/tobuy/widgets/2.png',
             'projects/tobuy/widgets/4.png'
         ],
         large: [
             {
-                title: 'Large: day mode',
+                title: 'Large: light mode',
                 img: 'projects/tobuy/widgets/large1.png'
             },
             {
-                title: 'Large empty: day mode',
+                title: 'Large empty: light mode',
                 img: 'projects/tobuy/widgets/large3.png'
             },
             {
-                title: 'Large: night mode',
+                title: 'Large: dark mode',
                 img: 'projects/tobuy/widgets/large2.png'
             },
             {
-                title: 'Large empty: night mode',
+                title: 'Large empty: dark mode',
                 img: 'projects/tobuy/widgets/large4.png'
             }
         ],
         medium: [
             {
-                title: 'Medium: day mode',
+                title: 'Medium: light mode',
                 img: 'projects/tobuy/widgets/medium1.png'
             },
             {
-                title: 'Medium empty: day mode',
+                title: 'Medium empty: light mode',
                 img: 'projects/tobuy/widgets/medium3.png'
             },
             {
-                title: 'Medium: night mode',
+                title: 'Medium: dark mode',
                 img: 'projects/tobuy/widgets/medium2.png'
             },
             {
-                title: 'Medium empty: night mode',
+                title: 'Medium empty: dark mode',
                 img: 'projects/tobuy/widgets/medium4.png'
             }
         ],
         small: [
             {
-                title: 'Small: day mode',
+                title: 'Small: light mode',
                 img: 'projects/tobuy/widgets/small1.png'
             },
             {
-                title: 'Empty: day mode',
+                title: 'Empty: light mode',
                 img: 'projects/tobuy/widgets/small3.png'
             },
             {
-                title: 'Small: night mode',
+                title: 'Small: dark mode',
                 img: 'projects/tobuy/widgets/small2.png'
             },
             {
-                title: 'Empty: night mode',
+                title: 'Empty: adrk mode',
                 img: 'projects/tobuy/widgets/small4.png'
             }
         ]
@@ -355,32 +375,32 @@ const ToBuyAppData = {
     watches: {
         regular: [
             {
-                title: 'List: day mode',
+                title: 'List: light',
                 img: 'projects/tobuy/watches/1.png'
             },
             {
-                title: 'List: night mode',
-                img: 'projects/tobuy/watches/2.png'
+                title: 'Choose List: light',
+                img: 'projects/tobuy/watches/3.png'
             }
         ],
         empty: [
             {
-                title: 'Empty: day mode',
-                img: 'projects/tobuy/watches/3.png'
+                title: 'Multiple lists: light',
+                img: 'projects/tobuy/watches/3_1.png'
             },
             {
-                title: 'Empty: night mode',
-                img: 'projects/tobuy/watches/4.png'
+                title: 'List: dark',
+                img: 'projects/tobuy/watches/2.png'
             }
         ],
         icon: [
             {
-                title: 'Icon: home screen',
-                img: 'projects/tobuy/watches/5.png'
+                title: 'Choose List: dark',
+                img: 'projects/tobuy/watches/4.png'
             },
             {
-                title: 'Icon',
-                img: 'projects/tobuy/watches/icon.png'
+                title: 'Multiple lists: dark',
+                img: 'projects/tobuy/watches/4_1.png'
             }
         ],
         icon_muted: [
@@ -394,7 +414,10 @@ const ToBuyAppData = {
             }
         ],
         movie: 'projects/tobuy/watches/movie.mp4',
-        promo: 'projects/tobuy/watches/watch_promo.png'
+        promo: [
+            'projects/tobuy/watches/watch_promo2.png',
+            'projects/tobuy/watches/watch_promo4.png',
+        ]
     },
     appstore_screens: {
         screens:     [
@@ -407,6 +430,12 @@ const ToBuyAppData = {
         title: "ToBuy — Shopping List",
         subtitle: "Simple grocery list"
     },
+    // events: {
+    //     images: [
+    //         'projects/tobuy/events/1.png',
+    //         'projects/tobuy/events/2.png',
+    //     ]
+    // }
 }
 
 export default ToBuyAppData

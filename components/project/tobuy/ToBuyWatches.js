@@ -31,16 +31,19 @@ const ToBuyWatches = ({projectItem}) => {
                             </div>
                         )}
                     </div>
-                    <div className="icon_muted watches_item">
-                        {projectItem.watches.icon_muted.map( item =>
-                            <div className="item" key={item.title}>
-                                <div className="title">{item.title}</div>
-                                <img src={`../${item.img}`}/>
-                            </div>
-                        )}
-                    </div>
+                    {/*<div className="icon_muted watches_item">*/}
+                    {/*    {projectItem.watches.icon_muted.map( item =>*/}
+                    {/*        <div className="item" key={item.title}>*/}
+                    {/*            <div className="title">{item.title}</div>*/}
+                    {/*            <img src={`../${item.img}`}/>*/}
+                    {/*        </div>*/}
+                    {/*    )}*/}
+                    {/*</div>*/}
                 </div>
-                {/*<img src={`../${projectItem.watches.promo}`} className="promo"/>*/}
+                {/*<div className="promo-grid">*/}
+                {/*    {projectItem.watches.promo.map( item =>*/}
+                {/*     <img src={`../${item}`} key={item} className="promo"/>)}*/}
+                {/*</div>*/}
             </div>
             <style jsx>{`
                 section{
@@ -48,11 +51,12 @@ const ToBuyWatches = ({projectItem}) => {
                 }
                 .watches_wrapper {
                     display: grid;
-                    grid-template-columns: 32% 32%;
-                    grid-column-gap: 6rem;
+                    grid-template-columns: auto auto auto;
+                    grid-column-gap: 2rem;
                 }
                 .watches_wrapper img {
                     max-width: 150px;
+                    width: 150px;
                 }
                 .watches_item {
                     display: grid;
@@ -64,10 +68,17 @@ const ToBuyWatches = ({projectItem}) => {
                     margin: 3rem 0 1rem;
                 }
                 
+                .promo-grid{
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    grid-column-gap: 2rem;
+                }
+                
                 .promo{
-                margin-top: 4rem;
+                    margin-top: 4rem;
                     width: 100%;
                     height: auto;
+                    border-radius: 20px;
                 }
                 
                 @media(max-width: 768px) {

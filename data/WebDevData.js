@@ -28,7 +28,7 @@ const WebDevData = [
         id: 2,
         title: "Personal Portfolio SPA",
         stack: "Build on ReactJs + NextJS + FramerMotion",
-        path: "webdev/personal_portfolio1-min.png",
+        path: "webdev/personal_portfolio4.png",
         url: null,
         border: false
     },

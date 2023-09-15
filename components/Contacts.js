@@ -4,8 +4,8 @@ const Contacts = () => {
     return(
         <section>
             <div className="container">
-                <div className={styles.uppercase_title}>My Contacts</div>
-                <div className={styles.small_title}>lenatsybulenko@gmail.com</div>
+                <div className={styles.uppercase_title}>contact</div>
+                <div className={styles.small_title}>lena.tsybulenko@gmail.com</div>
             </div>
             <style jsx>{`
                 section {

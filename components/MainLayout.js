@@ -9,7 +9,7 @@ import {menu_items} from "../constants/config";
 import Nav from "./ui/Nav";
 import {useRouter} from "next/router";
 
-export function MainLayout({children, title="UI/UX designer, front-end developer"}){
+export function MainLayout({children, title="Lena Tsybulenko - Product Designer, mobile app designer, front-end developer"}){
     const [menuOpened, setMenuOpened] = useState(false)
 
     const [twist, cycle] = useCycle({ scale: 1, rotate: 0, y: 0 },
@@ -47,7 +47,7 @@ export function MainLayout({children, title="UI/UX designer, front-end developer
                 <meta name="keywords" content="posts,nextjs"/>
                 <meta name="description" content="this is posts" />
                 <meta charSet="utf-8" />
-                <link rel="icon" href="/favicon.png" />
+                <link rel="icon" href="/favicon1.png" />
             </Head>
             <Nav
                 twist={twist}

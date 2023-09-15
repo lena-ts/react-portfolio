@@ -25,6 +25,7 @@ const Website = ({projectItem}) => {
                 }
                 img {
                     width: 100%;
+                    border-radius: 35px;
                 }
                 
                 @media(max-width: 768px){

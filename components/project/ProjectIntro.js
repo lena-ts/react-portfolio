@@ -24,12 +24,32 @@ const ProjectIntro = (projectItem) => {
         </a>
         : null
 
+    const description = project.description ? project.description : null
+    const model = project.model ? project.model : null
+    const downloads = project.downloads ? project.downloads : null
+    const reviews = project.reviews ? project.reviews : null
+
     const appstore_link = project.appstore_link ?
         <a href={project.appstore_link} target="_blank" className="button button_light button_appstore">App Store</a>
         :null
 
-    const description = project.description ? project.description : null
-    const model = project.model ? project.model : null
+    const achievement_block = downloads ? <motion.div
+        initial={{ y: 90, opacity: 0}}
+        animate={{ y: 20, opacity: 1}}
+        transition={{ duration: 1 }}
+        className={styles.intro_project_bottom}>
+        <div className={styles.achievement_wrap}>
+            <div className={styles.achievement}>
+                <span>{downloads}</span>
+                downloads
+            </div>
+            <div className={styles.achievement}>
+                <span>{reviews}</span>
+                reviews
+            </div>
+        </div>
+        {appstore_link}
+    </motion.div> : null
 
     return(
         <>
@@ -50,20 +70,21 @@ const ProjectIntro = (projectItem) => {
                                 transition={{ duration: 0.8 }}
                                 className="base-text intro_project_subtitle">{project.subtitle}</motion.div>
                             <motion.div
+                                initial={{ y: 90, opacity: 0}}
+                                animate={{ y: 20, opacity: 1}}
+                                transition={{ duration: 1 }}
+                                className={`base-text ${styles.description_text}`}>
+                                {description}
+                                {model}
+                            </motion.div>
+                            {achievement_block}
+                            <motion.div
                                 initial={{ y: 70}}
                                 animate={{ y: 20}}
                                 transition={{ duration: 0.9 }}
                                 className={styles.buttons_wrapper}>
                                 {prototype_link}
-                                {appstore_link}
-                            </motion.div>
-                            <motion.div
-                                initial={{ y: 90, opacity: 0}}
-                                animate={{ y: 20, opacity: 1}}
-                                transition={{ duration: 1 }}
-                                className={`upper-base-text ${styles.description_text}`}>
-                                {description}
-                                {model}
+                                {/*{appstore_link}*/}
                             </motion.div>
                         </div>
                         <div className={styles.intro_project_images}>

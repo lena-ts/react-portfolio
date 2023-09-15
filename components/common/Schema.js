@@ -2,6 +2,7 @@ import styles from '../../styles/components/project/Schema.module.scss'
 
 const Schema = ({projectItem}) => {
     return(
+        projectItem.schema.image ?
         <section className="auto-height white-bg" id={`${projectItem.url}-schema`}>
             <div className={styles.schema_section}>
                 <div className="container">
@@ -14,7 +15,7 @@ const Schema = ({projectItem}) => {
                     <img src={`../${projectItem.schema.image}`}  />
                 </div>
             </div>
-        </section>
+        </section> : null
     )
 }
 

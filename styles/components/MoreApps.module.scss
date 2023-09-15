@@ -1,0 +1,64 @@
+.apps_list {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 1rem;
+  grid-row-gap: 4rem;
+}
+
+.app_item {
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-column-gap: 2rem;
+  align-items: center;
+}
+
+.img {
+  border-radius: 25px;
+  width: 100px;
+}
+
+.border {
+  border-radius: 25px;
+  width: 100px;
+  border: 1px solid #ebebeb;
+}
+
+.downloads {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #9d9d9d;
+  //color: #ccc;
+}
+
+.title {
+  line-height: 48px;
+  font-size: 30px;
+}
+
+@media(max-width: 768px){
+  .apps_list {
+    grid-template-columns: 100%;
+    grid-row-gap: 2rem;
+  }
+
+  .app_item {
+    grid-template-columns: 96px auto;
+  }
+
+  .img {
+    border-radius: 18px;
+    width: 96px;
+  }
+
+  .border {
+    border-radius: 18px;
+    width: 96px;
+    border: 1px solid #ebebeb;
+  }
+
+  .title {
+    line-height: 40px;
+  }
+}

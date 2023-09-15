@@ -5,6 +5,9 @@ const ToBuyUiElements = ({projectItem}) => {
         <section className="auto-height">
             <div className="container">
                 <SectionTitle title="UI Elements" subtitle="Block, buttons, icons"/>
+                {/*<div>*/}
+                {/*    <img src={`../${projectItem.ui_elements.components}`} style={{width: '100%', marginTop: '28px'}}/>*/}
+                {/*</div>*/}
                 <div className="elements">
                     <div className="first-row row mobile-grid-100">
                         <div className="type open-categories">

@@ -6,7 +6,7 @@ const Ui = ({projectItem}) => {
         <div className={styles.screens_wrapper}>
             <div className={styles.screens}>
                 {projectItem.ui.screens.map( img =>
-                    <img src={`../${img}`}  />
+                    <img src={`../${img}`}  key={img} />
                 )}
             </div>
         </div> : null
@@ -15,13 +15,15 @@ const Ui = ({projectItem}) => {
         <div className={styles.image_area}>
             <img src={`../${projectItem.ui.image}`}  />
         </div> : null
+
+    const subtitle = projectItem.ui.subtitle ? projectItem.ui.subtitle : 'All screens, app visualization'
     return(
         <div className="ui-wrapper" id={`${projectItem.url}-ui`}>
             <div className={styles.ui_section}>
                 <div className="container">
                     <div className={styles.title_area}>
                         <h3>UI</h3>
-                        <div className={`upper-base-text subtitle`}>All screens, app visualization</div>
+                        <div className={`upper-base-text subtitle`}>{subtitle}</div>
                     </div>
                 </div>
                 <div className="container-full-width">

@@ -2,16 +2,18 @@ const CapsAppData = {
     id: 6,
     url: 'caps-app',
     title: <div>CAPS:<br></br>Digital Wardrobe</div>,
-    subtitle:  <span><strong>Objective:</strong> Create app that store and organizes clothing<br></br> and generates the looks</span>,
+    subtitle:  <span>Organize clothing into categories</span>,
     icon_path: 'intro/app-icons/caps-icon.png',
     intro_screen_1_path: 'intro/intro-images/caps1.png',
     intro_screen_2_path: 'intro/intro-images/caps2.png',
-    appstore_link: null,
+    appstore_link: 'https://apps.apple.com/app/caps-digital-wardrobe/id1559085124?platform=iphone',
     prototype_link: null,
     prototype_link_type: null,
     background_color: '#E8EBF2',
-    description: <div><strong>Description:</strong>  App generates several looks base on<br></br>your wardrobe items and organizes all the stuff</div>,
-    model: <div><strong>Model:</strong> Freemium, free with In-App<br></br>purchases </div>,
+    downloads: '3.6K',
+    reviews: '7',
+    description:  '',
+    model: '',
     competitors: [
         {
             case: 1,
@@ -72,7 +74,7 @@ const CapsAppData = {
             ]
         }
     ],
-    reviews: [
+    reviews_app: [
         {
             img: 'projects/caps/reviews/1.png',
             title: 'Looking for:',

@@ -22,15 +22,16 @@ const ToBuyApp = () => {
         <MainLayout>
             <ProjectIntro projectItem={tobuy_data}/>
             <Competitors projectItem={tobuy_data}/>
-            <ToBuyInterview projectItem={tobuy_data}/>
-            <Schema projectItem={tobuy_data}/>
+            <Ui projectItem={tobuy_data}/>
+            {/*<ToBuyInterview projectItem={tobuy_data}/>*/}
+            {/*<Schema projectItem={tobuy_data}/>*/}
             {/*<Ux projectItem={tobuy_data}/>*/}
             <VisualIdentification projectItem={tobuy_data}/>
-            <ToBuyUiElements projectItem={tobuy_data}/>
+            {/*<ToBuyUiElements projectItem={tobuy_data}/>*/}
             <ToBuyWidgets projectItem={tobuy_data}/>
             <ToBuyWatches projectItem={tobuy_data}/>
             <ToBuyIcon projectItem={tobuy_data}/>
-            <Ui projectItem={tobuy_data}/>
+
             <Website projectItem={tobuy_data}/>
             <AppStoreScreens projectItem={tobuy_data}/>
             <ProjectFooter/>

@@ -6,7 +6,7 @@ const Contacts = () => {
             <section>
                 <div className="container">
                     <p>Available for great new projects.</p>
-                    <div className="m-text"><strong>lenatsybulenko@gmail.com</strong></div>
+                    <div className="m-text"><strong>lena.tsybulenko@gmail.com</strong></div>
                     <br></br><br></br>
                     <p>Telegram</p>
                     <div className="m-text"><strong>@lenatsybulenko</strong></div>

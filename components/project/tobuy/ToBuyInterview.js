@@ -38,7 +38,7 @@ const ToBuyInterview = ({projectItem}) => {
             </div>
             <style jsx>{`
                 section {
-                    padding: 0;
+                    padding: 0 0 120px 0;
                 }
                 
                 .interview-titles .question {

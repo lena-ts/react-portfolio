@@ -5,25 +5,29 @@ const ProjectFooter = () => {
         <>
             <section className="auto-height white-bg">
                 <div className="container">
+                    {/*<div className="divider"></div>*/}
                 <div className="inner">
+                    {/*<div className="m-text-1">&#9829; </div>*/}
                     <div className="m-text-1">Thank you for watching!</div>
                     <div className={styles.footer_text}>
-                        <div>Need help with mobile apps design? Reach me and I will gladly work
-    on your project.</div>
-                        <div>Available for great new projects.</div>
-                        <div className={styles.email}>lenatsybulenko@gmail.com</div>
+    {/*                    <div>Need help with mobile apps design? Reach me and I will gladly work*/}
+    {/*on your project.</div>*/}
+    {/*                    <div>Open to new opportunities</div>*/}
+    {/*                    <div className={styles.email}>lena.tsybulenko@gmail.com</div>*/}
                     </div>
                 </div>
                 </div>
             </section>
             <style jsx>{`
-                .inner{
-                    display: grid;
-                   grid-template-columns: 35% 65%;
-                }
+                // .inner{
+                //     display: grid;
+                //    grid-template-columns: 35% 65%;
+                // }
                 
                 .m-text-1 {
-                    max-width: 200px;
+                     width: 100%;
+                    text-align: center;
+                    // max-width: 500px;
                     line-height: 35px;
                 }
                 

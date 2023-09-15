@@ -3,15 +3,25 @@ import styles from '../../styles/components/project/AppStoreScreens.module.scss'
 const AppStoreScreens = ({projectItem}) => {
 
     const screens = projectItem.appstore_screens.screens
+    const events = projectItem.events ? projectItem.events.images : null
 
     const screen_items = screens.map( img => <img src={`../${img}`} key={img} />)
+    const event_items = events ? events.map( img => <img src={`../${img}`} key={img} />) : null
+
+    const events_content = events ?
+        <>
+            <div className={`upper-base-text subtitle`} style={{'marginBottom': 25, 'margin-top': 30}}>Events</div>
+            <div className={styles.events}>{event_items}</div>
+        </>
+        : null
+
 
     return(
         <>
             <section className={`${styles.appstore_section} auto-height`} id={`app-screens-${projectItem.url}`}>
                 <div className="container">
                     <h3>AppStore</h3>
-                    <div className={`upper-base-text subtitle`}>AppStore Screens</div>
+                    <div className={`upper-base-text subtitle`}>Screens</div>
                     <div className={`${styles.icon_wrapper} icon-wrapper`}>
                         <img src={`../${projectItem.icon_path}`} />
                         <div className={styles.titles}>
@@ -26,6 +36,7 @@ const AppStoreScreens = ({projectItem}) => {
                     <div className={styles.screens}>
                         {screen_items}
                     </div>
+                    {events_content}
                 </div>
             </section>
             <style jsx>{`

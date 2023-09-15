@@ -52,6 +52,7 @@
 
   &_case_button {
     margin: 2rem 0 5rem;
+    display: flex;
   }
 
   &_subtitle {
@@ -76,7 +77,46 @@
       align-items: baseline;
     }
   }
+
+  &_bottom{
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 100%;
+    max-width: 270px;
+
+    a {
+      width: 100%;
+      text-align: center;
+    }
+  }
 }
+
+.achievement_wrap {
+  margin-bottom: 16px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.achievement {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 16px 10px 16px 10px;
+  display: inline-block;
+  text-align: center;
+  font-size: 13px;
+
+  span {
+    font-size: 38px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  &:first-child {
+    margin-right: 16px;
+  }
+}
+
 
 .inner_intro{
   height: auto;
@@ -107,6 +147,7 @@
 
   .description_text {
     line-height: 28px;
+    margin-top: 20px;
     div {
       margin-bottom: 1rem;
     }
@@ -124,9 +165,10 @@
     }
 
     &_links {
-      position: absolute;
+      //position: absolute;
     }
     &_case_button {
+      position: absolute;
       margin: 2rem 0 3rem;
     }
 
@@ -206,6 +248,7 @@
       text-align: center;
     }
   }
+
 }
 
 @media(max-width: 768px){
@@ -228,6 +271,8 @@
 
     &_case_button {
       margin: 2rem 0 1rem;
+      display: flex;
+      flex-direction: column;
     }
 
     &_links {
@@ -238,6 +283,10 @@
       div {
         justify-content: center;
       }
+    }
+
+    &_bottom{
+      max-width: 100%;
     }
 
   }
@@ -264,8 +313,10 @@
       }
 
       &_case_button {
+        position: relative;
         margin: 2rem 0 1rem;
       }
     }
   }
+  
 }

@@ -26,7 +26,7 @@ const Illustrations = () => {
                     </div>
                 </div>
             </section>
-            <ProjectFooter/>
+            {/*<ProjectFooter/>*/}
             <style jsx>{`
                     section {
                         height: auto;

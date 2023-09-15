@@ -40,15 +40,15 @@ const IntroProject = ({
                 <div className={styles.intro_project_data}>
                     {icon_image}
                     <span className={styles.title + ` m-text`}>{title}</span>
-                    <span className={`base-text ${styles.intro_project_subtitle}`}>{subtitle}</span>
+                    <span className={`upper-base-text ${styles.intro_project_subtitle}`}>{subtitle}</span>
                     <div className={styles.intro_project_case_button}>
-                    <Link href={`/apps/${url}`}  ><a className="button button_dark">View Case</a></Link>
                     {/*<Link href={"/apps/[id]"} as={`/apps/${url}`} ><a className="button button_dark">View Case</a></Link>*/}
-                    </div>
-                    <div className={styles.intro_project_links}>
-                        {appstore_link}
-                        {playmarket_link}
-                        {prototype_link}
+                        <div className={styles.intro_project_links}>
+                            {appstore_link}
+                            {/*{playmarket_link}*/}
+                            {/*{prototype_link}*/}
+                        </div>
+                        <div> <Link href={`/apps/${url}`}  ><a className="button button_dark">View Case</a></Link></div>
                     </div>
                 </div>
                 <div className={styles.intro_project_images}>

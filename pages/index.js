@@ -4,6 +4,7 @@ import IntroProject from "../components/IntroProject";
 import projects from '../data/ProjectsIntroData'
 import Experience from "../components/Experience";
 import Contacts from "../components/Contacts";
+import MoreApps from "../components/MoreApps";
 
 export default function Home() {
     const intro_projects = projects.map(item =>
@@ -25,6 +26,7 @@ export default function Home() {
       <MainLayout>
              <Intro/>
              {intro_projects}
+             <MoreApps />
              <Experience/>
              <Contacts/>
       </MainLayout>

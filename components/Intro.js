@@ -1,5 +1,6 @@
 import { motion} from "framer-motion"
 import {mobile_view} from "../constants/config";
+import Link from "next/link";
 
 const Intro = () => {
     return(
@@ -12,7 +13,7 @@ const Intro = () => {
                     animate={mobile_view ? {y: 0, opacity: 1} : { x: 0, opacity: 1}}
                     transition={{ duration: 0.7 }}
                 >
-                <img src="avatar1.jpg" />
+                <img src="avatar_2.jpg" />
                 </motion.div>
                 <motion.div
                     initial={mobile_view ? {y: 100, opacity: 0} : { x: 100, opacity: 0}}
@@ -22,9 +23,11 @@ const Intro = () => {
                 <div>
                     <div className="l-text">
                         {/*Привет. Я Лена,<br></br>дизайнер и фронтенд<br></br>разработчик из Минска, Беларусь.*/}
-                        Hi! I'm Lena,<br></br>UI/UX designer & front-end<br></br>developer<br></br>
+                        Hi! I'm Lena<br></br>
                     </div>
-                    <p className="upper-base-text">Projects I've been involved with are Apps Design, ReactJS, React Native development, Magento, Prestashop design and front-end development
+                    <p className="upper-base-text">I'm a product designer with eight years of experience. <br></br>I specialize in mobile app design,
+                        but also have an experience in web design and front-end development.
+                        <br></br> <br></br>Now I'm open to opportunities. Previously I worked at bigtech company <Link href="https://www.ya.ru"><a className="underline-link">Yandex</a></Link> and eCommerce development company BelVG.
                         {/*<br></br><strong>React.js</strong>, <strong>Next.js</strong> apps development*/}
                         </p>
                  </div>

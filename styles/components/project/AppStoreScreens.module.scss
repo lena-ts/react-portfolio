@@ -7,10 +7,11 @@
   grid-template-columns: auto auto auto auto auto;
   grid-column-gap: 0.5rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid #ebebeb;
+  //border-bottom: 1px solid #ebebeb;
 
   img {
     width: 100%;
+    border-radius: 20px;
     //max-width: 19.3%;
     //margin-right: 0.5rem;
   }
@@ -42,7 +43,23 @@
   padding-bottom: 0.3rem;
 }
 
+.events {
+  display: grid;
+  grid-template-columns: 256px 256px;
+  grid-column-gap: 20px;
+  img {
+    max-width: 256px;
+  }
+}
+
 @media(max-width: 768px) {
+  .screens {
+    grid-template-columns: auto auto;
+    grid-row-gap: 0.5rem;
+    img {
+      border-radius: 10px;
+    }
+  }
   .icon_wrapper {
     margin: 2rem 0;
     img {
@@ -53,5 +70,14 @@
 
   .titles {
     padding: 0 1.3rem;
+  }
+
+  .events {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-columns-gap: 8px;
+    img {
+      width: 100%;
+    }
   }
 }
