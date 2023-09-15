@@ -48,7 +48,7 @@ const IntroProject = ({
                             {/*{playmarket_link}*/}
                             {/*{prototype_link}*/}
                         </div>
-                        <div> <Link href={`/apps/${url}`}  ><a className="button button_dark">View Case</a></Link></div>
+                        <div> <Link legacyBehavior href={`/apps/${url}`}  ><a className="button button_dark">View Case</a></Link></div>
                     </div>
                 </div>
                 <div className={styles.intro_project_images}>

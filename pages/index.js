@@ -23,11 +23,12 @@ export default function Home() {
             background={item.background_color}
         />)
   return (
+  
       <MainLayout>
              <Intro/>
-             {intro_projects}
-             <MoreApps />
-             <Experience/>
+             {intro_projects} 
+              <MoreApps /> 
+              <Experience/>
              <Contacts/>
       </MainLayout>
   )

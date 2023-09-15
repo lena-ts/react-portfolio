@@ -14,7 +14,7 @@ const Nav = ({click, twist, twist1, dissapear}) => {
             animate={mobile_view ? {y: 0, opacity: 1} : { x: 0, opacity: 1}}
             transition={{ duration: 0.7 }}
         >
-            <Link href={"/"}><a>Le </a></Link>
+            <Link legacyBehavior href={"/"}>Le </Link>
             <div className={styles.menu_icon} onClick={handleClick}>
                 <motion.div
                     animate={twist}
@@ -30,7 +30,7 @@ const Nav = ({click, twist, twist1, dissapear}) => {
                     <div className={styles.menu_line}></div>
                 </motion.div>
             </div>
-            <Link href={"/contacts"}><a className={styles.mail_icon}>&nbsp;</a></Link>
+            <Link href={"/contacts"} legacyBehavior><a className={styles.mail_icon}>&nbsp;</a></Link>
         </motion.nav>
     )
 }

@@ -13,7 +13,7 @@ const MenuItem = ({delay, link, title, subtitle, opacity, code, rote}) => {
                 animate={opacity}
                 transition={{ duration: 0.7, delay: delay }}
             >
-                <div className="menu-item-title"> <Link href={link}><a>{title}</a></Link></div>
+                <div className="menu-item-title"> <Link legacyBehavior href={link}><a>{title}</a></Link></div>
                 <span>{subtitle}</span>
             </motion.div>
         </div>
