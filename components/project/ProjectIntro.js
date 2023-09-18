@@ -30,7 +30,12 @@ const ProjectIntro = (projectItem) => {
     const reviews = project.reviews ? project.reviews : null
 
     const appstore_link = project.appstore_link ?
-        <a href={project.appstore_link} target="_blank" className="button button_light button_appstore">App Store</a>
+        <a href={project.appstore_link} target="_blank" className={`button button_light button_appstore`}>App Store</a>
+        :null
+
+    const preorder_link = project.preorder ? <a href={project.appstore_link} target="_blank"
+                                                className={`button button_light button_appstore button_preorder`}>
+            <span>Preorder</span>App Store</a>
         :null
 
     const achievement_block = downloads ? <motion.div
@@ -83,8 +88,8 @@ const ProjectIntro = (projectItem) => {
                                 animate={{ y: 20}}
                                 transition={{ duration: 0.9 }}
                                 className={styles.buttons_wrapper}>
-                                {prototype_link}
-                                {/*{appstore_link}*/}
+                                {/*{prototype_link}*/}
+                                {preorder_link}
                             </motion.div>
                         </div>
                         <div className={styles.intro_project_images}>

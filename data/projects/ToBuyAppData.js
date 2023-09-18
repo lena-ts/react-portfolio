@@ -367,7 +367,7 @@ const ToBuyAppData = {
                 img: 'projects/tobuy/widgets/small2.png'
             },
             {
-                title: 'Empty: adrk mode',
+                title: 'Empty: dark mode',
                 img: 'projects/tobuy/widgets/small4.png'
             }
         ]
@@ -434,6 +434,7 @@ const ToBuyAppData = {
     //     images: [
     //         'projects/tobuy/events/1.png',
     //         'projects/tobuy/events/2.png',
+    //         'projects/tobuy/events/3.jpg',
     //     ]
     // }
 }

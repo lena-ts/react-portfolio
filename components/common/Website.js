@@ -35,6 +35,10 @@ const Website = ({projectItem}) => {
                         text-align: center;
                         margin-bottom: 1.5rem;
                     }
+                    
+                    img {
+                        border-radius: 10px;
+                    }
                 }
             `}</style>
         </section>

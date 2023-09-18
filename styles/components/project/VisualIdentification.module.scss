@@ -1,4 +1,4 @@
-$left-part-width: 45%;
+$left-part-width: 100%;
 
 .visual_section {
   background: white;
@@ -121,7 +121,7 @@ $left-part-width: 45%;
     }
 
     .info_area {
-      flex-direction: column;
+      grid-template-columns: auto;
       padding: 1rem 0 3rem;
     }
   }

@@ -93,18 +93,19 @@ const ProjectsIntroData = [
         id: 8,
         url: 'migraine-tracker-app',
         title: <div>Migraine Tracker:<br></br>MIG</div>,
-        subtitle: <span>Track your pains, define triggers, read advices</span>,
+        subtitle: <span>Track your pains, detect triggers, read advices</span>,
         icon_path: 'intro/app-icons/migraine-icon.png',
         intro_screen_1_path: 'intro/intro-images/migraine1.png',
         intro_screen_2_path: 'intro/intro-images/migraine2.png',
         appstore_link: 'https://apps.apple.com/us/app/migraine-tracker-mig/id6446125528',
         playmarket_link: null,
+        preorder: true,
         prototype_link: null,
         prototype_link_type: null,
         description: <div><strong>Description:</strong> App that helps to track expenses<br></br>and display visual statistic by categories</div>,
         background_color: '#E8EBF2',
         background_color_grid: '#F0F4F7',
-        competitors: true
+        competitors: false
     },
     // {
     //     id: 4,

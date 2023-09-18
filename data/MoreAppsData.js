@@ -1,14 +1,5 @@
 const MoreAppsData = [
     {
-        id: 1,
-        title: "Doonya",
-        subtitle: "Simple to-do list",
-        img: "intro/app-icons/doonya-icon.png",
-        link: "https://apps.apple.com/us/app/doonya-simple-to-do-list/id1546439401?platform=iphone",
-        border: true,
-        downloads: '1.93K'
-    },
-    {
         id: 2,
         title: "CAPS",
         subtitle: "Digital wardrobe",
@@ -16,7 +7,16 @@ const MoreAppsData = [
         // link: "https://apps.apple.com/us/app/caps-digital-wardrobe/id1559085124",
         link: 'apps/caps-app',
         border: true,
-        downloads: '3.66K'
+        downloads: '3.7K'
+    },
+    {
+        id: 1,
+        title: "Doonya",
+        subtitle: "Simple to-do list",
+        img: "intro/app-icons/doonya-icon.png",
+        link: "https://apps.apple.com/us/app/doonya-simple-to-do-list/id1546439401?platform=iphone",
+        border: true,
+        downloads: '1.9K'
     },
     {
         id: 3,

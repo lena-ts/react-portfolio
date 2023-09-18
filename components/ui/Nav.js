@@ -14,7 +14,7 @@ const Nav = ({click, twist, twist1, dissapear}) => {
             animate={mobile_view ? {y: 0, opacity: 1} : { x: 0, opacity: 1}}
             transition={{ duration: 0.7 }}
         >
-            <Link legacyBehavior href={"/"}>Le </Link>
+            <Link legacyBehavior href={"/"}>Le</Link>
             <div className={styles.menu_icon} onClick={handleClick}>
                 <motion.div
                     animate={twist}

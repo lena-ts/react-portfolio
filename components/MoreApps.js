@@ -10,7 +10,7 @@ const MoreApps = () => {
             <div>
                 <div className={`m-text ${styles.title}`}>{item.title}</div>
                 <span className="upper-base-text">{item.subtitle}</span>
-                {/*<div className={styles.downloads}>{item.downloads} downloads</div>*/}
+                <div className={styles.downloads}>{item.downloads} downloads</div>
             </div>
         </div>
         </a>

@@ -8,7 +8,7 @@ const UmkaAppData = {
     intro_screen_2_path: 'intro/intro-images/umka2.png',
     background_color: '#F0F4F7',
     appstore_link: 'https://apps.apple.com/app/umka-english-language/id6447918521',
-    downloads: '78',
+    downloads: '80',
     reviews: '7',
     ui : {
         subtitle: "Interface screens represent first version of the app available at the AppStore",

@@ -18,7 +18,7 @@ const SplityApp = () => {
             <ProjectIntro projectItem={splity_data}/>
             <Competitors projectItem={splity_data} />
             <SplityUserPersona projectItem={splity_data}/>
-            <Schema projectItem={splity_data}/>
+            {/*<Schema projectItem={splity_data}/>*/}
             {/*<Ux projectItem={splity_data}/>*/}
             <VisualIdentification projectItem={splity_data}/>
             <SplityUiElements projectItem={splity_data}/>

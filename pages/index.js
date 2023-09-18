@@ -17,6 +17,7 @@ export default function Home() {
             intro_screen_1={item.intro_screen_1_path}
             intro_screen_2={item.intro_screen_2_path}
             appstore={item.appstore_link}
+            preorder={item.preorder}
             playmarket={item.playmarket_link}
             prototype={item.prototype_link}
             prototype_type={item.prototype_link_type}

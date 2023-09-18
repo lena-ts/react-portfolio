@@ -10,6 +10,7 @@ const IntroProject = ({
                           intro_screen_2,
                           appstore,
                           playmarket,
+                          preorder,
                           prototype,
                           prototype_type,
                           background
@@ -33,6 +34,13 @@ const IntroProject = ({
 
     const playmarket_link = playmarket ? <a href={playmarket} target="_blank" className="button button_light button_common button_playmarket">PlayMarket</a> : null
 
+    const preorder_link = preorder ? <a href={appstore} target="_blank"
+                                                className={`button button_light button_appstore button_preorder`}>
+            <span>Preorder</span>App Store</a>
+        :null
+
+    const store_link = preorder ? preorder_link : appstore_link
+
     return(
         <section className={styles.intro_project} id={url}>
             <div className="container">
@@ -44,7 +52,8 @@ const IntroProject = ({
                     <div className={styles.intro_project_case_button}>
                     {/*<Link href={"/apps/[id]"} as={`/apps/${url}`} ><a className="button button_dark">View Case</a></Link>*/}
                         <div className={styles.intro_project_links}>
-                            {appstore_link}
+                            {store_link}
+                            {/*{store_link}*/}
                             {/*{playmarket_link}*/}
                             {/*{prototype_link}*/}
                         </div>

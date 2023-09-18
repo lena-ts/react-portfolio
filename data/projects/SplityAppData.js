@@ -12,7 +12,7 @@ const SplityAppData = {
     prototype_link_type: 'html',
     background_color: '#E8EBF2',
     downloads: '8K',
-    reviews: '148',
+    reviews: '153',
     description: '',
     model: '',
     competitors: [
