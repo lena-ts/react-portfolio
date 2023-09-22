@@ -11,7 +11,7 @@ const ToBuyAppData = {
     // prototype_link: 'https://lena-ts.github.io/tobuy-test/start.html',
     prototype_link_type: 'html',
     background_color: '#F0F4F7',
-    downloads: '105K',
+    downloads: '106K',
     reviews: '1.2K',
     description: '',
     model: <div></div>,
@@ -167,6 +167,7 @@ const ToBuyAppData = {
         image: 'projects/tobuy/ux/ux-flow.png'
     },
     ui : {
+        subtitle: "Interface screens represent version of the app available at the AppStore",
         // image: 'projects/tobuy/ui/ui.png',
         website_img: 'projects/tobuy/ui/website.png',
         website_link: "https://www.dobraapps.com/tobuy/",

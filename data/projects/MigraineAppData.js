@@ -4,11 +4,11 @@ const MigraineAppData = {
     title: <div>Migraine<br></br>Tracker: MIG</div>,
     subtitle: <span>Track your pains, detect triggers, read advices</span>,
     icon_path: 'intro/app-icons/migraine-icon.png',
-    intro_screen_1_path: 'intro/intro-images/migraine1.png',
+    intro_screen_1_path: 'intro/intro-images/migraine_1.png',
     intro_screen_2_path: 'intro/intro-images/migraine2.png',
     appstore_link: 'https://apps.apple.com/us/app/migraine-tracker-mig/id6446125528',
     preorder: true,
-    // downloads: '105K',
+    // downloads: '51',
     // reviews: '1.2K',
     background_color: '#E8EBF2',
     work_in_progress: true,
@@ -21,9 +21,9 @@ const MigraineAppData = {
             'projects/migraine/ui/screens/4.png',
             'projects/migraine/ui/screens/5.png',
             'projects/migraine/ui/screens/6.png',
-            'projects/migraine/ui/screens/7.png',
-            'projects/migraine/ui/screens/8.png',
-            'projects/migraine/ui/screens/9.png',
+            'projects/migraine/ui/screens/7_7.png',
+            'projects/migraine/ui/screens/8_5.png',
+            'projects/migraine/ui/screens/9_2.png',
             'projects/migraine/ui/screens/10.png',
             'projects/migraine/ui/screens/11.png',
             'projects/migraine/ui/screens/12.png',
@@ -77,6 +77,81 @@ const MigraineAppData = {
             a: "Usually yes. You have a specific sympthoms that tell you that in about an hour or two you will have a headache"
         },
     ],
+    // interface_description: [
+        // {
+        //     id:1,
+        //     title: "Attack log",
+        //     subtitle: "Steps of logging, available to skip. Simple and visual, so migrainer don’t suffer while filling it during the attack ",
+        //     screens: [
+        //         'projects/migraine/ui/screens/6.png',
+        //         'projects/migraine/ui/screens/7_7.png',
+        //         'projects/migraine/ui/screens/6_6.png',
+        //         'projects/migraine/ui/screens/8_5.png',
+        //         'projects/migraine/ui/screens/9_3.png',
+        //         'projects/migraine/ui/screens/9_6.png',
+        //         'projects/migraine/ui/screens/10_1.png',
+        //         'projects/migraine/ui/screens/10.png',
+        //
+        //     ]
+        // },
+        // {
+        //     id:2,
+        //     title: "Dashboard",
+        //     subtitle: "Actual information, status for today, week, month and educational resources",
+        //     screens: [
+        //         'projects/migraine/ui/screens/3.png',
+        //         'projects/migraine/ui/screens/4_1.png',
+        //         'projects/migraine/ui/screens/5_2.png',
+        //         'projects/migraine/ui/screens/17.png',
+        //     ]
+        // },
+        // {
+        //     id:4,
+        //     title: "Highlights",
+        //     subtitle: "See statistics, charts of triggers, pain quantity and power ",
+        //     screens: [
+        //         'projects/migraine/ui/screens/11.png',
+        //         'projects/migraine/ui/screens/12.png',
+        //         'projects/migraine/ui/screens/13.png',
+        //         'projects/migraine/ui/screens/14.png',
+        //     ]
+        // },
+        // {
+        //     id:3,
+        //     title: "Calendar",
+        //     subtitle: "Calendar allows to log pain quickly, add pain power and see the picture of all pains",
+        //     screens: [
+        //         'projects/migraine/ui/screens/5.png',
+        //         'projects/migraine/ui/screens/18_1.png',
+        //     ]
+        // },
+        // {
+        //     id:5,
+        //     title: "Intro",
+        //     subtitle: "Splash screen and gender select",
+        //     screens: [
+        //         'projects/migraine/ui/screens/1.png',
+        //         'projects/migraine/ui/screens/2.png',
+        //         // 'projects/migraine/ui/screens/13.png',
+        //         // 'projects/migraine/ui/screens/14.png',
+        //     ]
+        // },
+        // {
+        //     id:9,
+        //     title: "Profile",
+        //     subtitle: "User preferences about triggers, sympthoms and medication",
+        //     screens: [
+        //         'projects/migraine/ui/screens/19.png',
+        //         'projects/migraine/ui/screens/20.png',
+        //     ]
+        // },
+        // {
+        //     id:8,
+        //     title: "Results",
+        //     subtitle: "The app has already received 51 pre-order",
+        //     screens: []
+        // },
+    // ],
     appstore_screens: {
         screens:     [
             'projects/migraine/appstore_screens/1.jpg',

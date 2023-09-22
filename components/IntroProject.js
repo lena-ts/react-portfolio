@@ -36,7 +36,7 @@ const IntroProject = ({
 
     const preorder_link = preorder ? <a href={appstore} target="_blank"
                                                 className={`button button_light button_appstore button_preorder`}>
-            <span>Preorder</span>App Store</a>
+            <span>Pre-order</span>App Store</a>
         :null
 
     const store_link = preorder ? preorder_link : appstore_link

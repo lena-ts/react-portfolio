@@ -1,4 +1,5 @@
 import styles from '../../styles/components/project/Ui.module.scss'
+import InterfaceDescription from "./InterfaceDescription";
 
 const Ui = ({projectItem}) => {
 
@@ -16,6 +17,11 @@ const Ui = ({projectItem}) => {
             <img src={`../${projectItem.ui.image}`}  />
         </div> : null
 
+    const interface_description = projectItem.interface_description ?
+            projectItem.interface_description.map(item => <InterfaceDescription projectItem={item} key={item.id}/>): null
+
+    const interface_description_wrapper =projectItem.interface_description ? <div style={{paddingBottom: "4rem"}}>{interface_description}</div> : null
+
     const subtitle = projectItem.ui.subtitle ? projectItem.ui.subtitle : 'All screens, app visualization'
     return(
         <div className="ui-wrapper" id={`${projectItem.url}-ui`}>
@@ -25,6 +31,7 @@ const Ui = ({projectItem}) => {
                         <h3>UI</h3>
                         <div className={`upper-base-text subtitle`}>{subtitle}</div>
                     </div>
+                    {interface_description_wrapper}
                 </div>
                 <div className="container-full-width">
                     {ui_image}

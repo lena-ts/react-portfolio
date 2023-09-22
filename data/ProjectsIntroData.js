@@ -95,7 +95,7 @@ const ProjectsIntroData = [
         title: <div>Migraine Tracker:<br></br>MIG</div>,
         subtitle: <span>Track your pains, detect triggers, read advices</span>,
         icon_path: 'intro/app-icons/migraine-icon.png',
-        intro_screen_1_path: 'intro/intro-images/migraine1.png',
+        intro_screen_1_path: 'intro/intro-images/migraine_1.png',
         intro_screen_2_path: 'intro/intro-images/migraine2.png',
         appstore_link: 'https://apps.apple.com/us/app/migraine-tracker-mig/id6446125528',
         playmarket_link: null,

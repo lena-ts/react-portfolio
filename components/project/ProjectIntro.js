@@ -35,7 +35,7 @@ const ProjectIntro = (projectItem) => {
 
     const preorder_link = project.preorder ? <a href={project.appstore_link} target="_blank"
                                                 className={`button button_light button_appstore button_preorder`}>
-            <span>Preorder</span>App Store</a>
+            <span>Pre-order</span>App Store</a>
         :null
 
     const achievement_block = downloads ? <motion.div

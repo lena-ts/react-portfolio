@@ -25,7 +25,7 @@ const MoreAppsData = [
         img: "intro/app-icons/thingshappen-icon.png",
         link: "https://apps.apple.com/us/app/things-happen-life-tracker/id1512430864",
         border: false,
-        downloads: '880'
+        downloads: '885'
     },
     {
         id: 4,
@@ -34,7 +34,7 @@ const MoreAppsData = [
         img: "intro/app-icons/mess-icon.png",
         link: "https://apps.apple.com/us/app/mess-concentration-game/id1591749951",
         border: false,
-        downloads: '194'
+        downloads: '202'
     }
 ]
 
