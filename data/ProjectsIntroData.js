@@ -99,7 +99,7 @@ const ProjectsIntroData = [
         intro_screen_2_path: 'intro/intro-images/migraine2.png',
         appstore_link: 'https://apps.apple.com/us/app/migraine-tracker-mig/id6446125528',
         playmarket_link: null,
-        preorder: true,
+        preorder: false,
         prototype_link: null,
         prototype_link_type: null,
         description: <div><strong>Description:</strong> App that helps to track expenses<br></br>and display visual statistic by categories</div>,
