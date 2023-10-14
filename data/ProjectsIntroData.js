@@ -1,5 +1,23 @@
 const ProjectsIntroData = [
     {
+        id: 10,
+        url: 'yandex-search',
+        title: <div>Yandex Search</div>,
+        subtitle: <span>Projects for Garage and Search Ecom</span>,
+        icon_path: 'intro/app-icons/ya-icon.png',
+        intro_screen_1_path: 'intro/intro-images/ya3.png',
+        intro_screen_2_path: 'intro/intro-images/ya4.png',
+        appstore_link: '',
+        playmarket_link: '',
+        password: true,
+        prototype_link: null,
+        prototype_link_type: null,
+        background_color: '#E8EBF2',
+        description: null,
+        model: null,
+        competitors: false
+    },
+    {
         id: 1,
         url: 'tobuy-app',
         title: <div>ToBuy: Shopping List</div>,
@@ -54,23 +72,6 @@ const ProjectsIntroData = [
     //     competitors: true
     // },
 
-    // {
-    //     id: 10,
-    //     url: 'yandex-search',
-    //     title: <div>Yandex Search</div>,
-    //     subtitle: <span>Projects for Garage and Ecom</span>,
-    //     icon_path: 'intro/app-icons/ya-icon.png',
-    //     intro_screen_1_path: 'intro/intro-images/ya1.png',
-    //     intro_screen_2_path: 'intro/intro-images/ya2.png',
-    //     appstore_link: '',
-    //     playmarket_link: '',
-    //     prototype_link: null,
-    //     prototype_link_type: null,
-    //     background_color: '#F0F4F7',
-    //     description: <div><strong>Description:</strong>  App generates several looks base on<br></br>your wardrobe items and organizes all the stuff</div>,
-    //     model: <div><strong>Model:</strong> Freemium, free with In-App purchases </div>,
-    //     competitors: true
-    // },
     {
         id: 9,
         url: 'umka-english-app',
@@ -107,6 +108,7 @@ const ProjectsIntroData = [
         background_color_grid: '#F0F4F7',
         competitors: false
     },
+
     // {
     //     id: 4,
     //     url: 'spender-app',

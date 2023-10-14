@@ -8,7 +8,7 @@ const UmkaAppData = {
     intro_screen_2_path: 'intro/intro-images/umka2.png',
     background_color: '#F0F4F7',
     appstore_link: 'https://apps.apple.com/app/umka-english-language/id6447918521',
-    downloads: '84',
+    downloads: '89',
     reviews: '7',
     ui : {
         subtitle: "Interface screens represent first version of the app available at the AppStore",
@@ -32,6 +32,7 @@ const UmkaAppData = {
         ]
     },
     app_idea: {
+        title: "Idea",
         subtitle: 'The idea is to learn English in a fun way — by watching short videos, flip cards, quizes and drawing',
         img: 'projects/umka/ui/ideas.png'
     },

@@ -11,7 +11,7 @@ const ToBuyAppData = {
     // prototype_link: 'https://lena-ts.github.io/tobuy-test/start.html',
     prototype_link_type: 'html',
     background_color: '#F0F4F7',
-    downloads: '106K',
+    downloads: '108K',
     reviews: '1.2K',
     description: '',
     model: <div></div>,
@@ -303,6 +303,53 @@ const ToBuyAppData = {
             }
         ]
     },
+    app_idea: {
+        title: "Idea & Moodboard",
+        subtitle: 'The idea is to create shopping list that is easy to use and stand out from other similar apps in the App Store',
+        // img: 'projects/umka/ui/ideas.png'
+    },
+    features: [
+        {
+            id: 1,
+            subtitle: "AB test",
+            title: 'Lifetime Purchase vs. Annual Subscription',
+            text: <div>For a long time app had a lifetime purchase, because there were no features to pay for every month.
+                Implemented month subscription showed people subscribe and quickly unsubscribe.
+                Annual subscription along with monthly subscription failed, people didn't buy it.<br/><br/>
+                I suggested to conduct AB test and compare lifetime purchase and annual subscription with the same price.
+                The result showed that <b>people perceive an annual subscription equivalent to a lifetime purchase</b>.
+                Implemented annual subscription expect to increase app income 2x in a year.
+            </div>,
+            screens: [
+                'projects/tobuy/features/subscription1.png',
+                'projects/tobuy/features/subscription2.png'
+            ],
+            emodji: [
+                <div>❌</div>,
+                <div>✅</div>,
+            ],
+
+            color: "#F0F4F7",
+            borderTop: "1px solid #ccc",
+        },
+        {
+            id: 2,
+            subtitle: "Upcoming experiment",
+            title: 'Increasing Traffic With Recipes',
+            text: <div>Now ToBuy is listed mostly for "shopping list" keyword. We expect implementation of recipes will widen traffic via new searchable keywords in title.<br/><br/>
+                Also we expect recipes to create a habit and build user investment into app, because people could add their content and use it during cooking. We expect recipes to increase user engagement and affect such metrics as retention, DAU, and subscription events.
+            </div>,
+            screens: [
+                'projects/tobuy/features/recipes1.png',
+                'projects/tobuy/features/recipes2.png'
+            ],
+            emodji: [
+            ],
+
+            color: "#F0F4F7",
+            borderTop: "1px solid #ccc",
+        }
+    ],
     icon_screen: {
         icon: 'intro/app-icons/tobuy-icon.png',
         text: 'The idea of an icon is a check point of a list but styled as a product',

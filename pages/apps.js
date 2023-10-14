@@ -6,7 +6,7 @@ import styles from '../styles/components/IntroProject.module.scss'
 import {motion} from "framer-motion";
 
 const AppsList = () => {
-    const intro_projects = projects.map(item =>
+    const intro_projects = projects.map(item => item.id != 10 ?
         <motion.div
             initial={{ opacity: 0}}
             animate={{ opacity: 1}}
@@ -24,7 +24,7 @@ const AppsList = () => {
             prototype={item.prototype_link}
             prototype_type={item.prototype_link_type}
             background={item.background_color}
-        /></motion.div>)
+        /></motion.div> : null)
     return(
         <MainLayout>
             <section className="auto-height" id="apps-intro">
