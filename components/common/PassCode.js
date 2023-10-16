@@ -34,7 +34,7 @@ const PassCode = ({updateData, projectItem}) => {
                 <h1 style={{paddingBottom: "6px", textAlign: "center"}}>
                     {/*<img src={`../${projectItem.icon_path}`} style={{width: 36, display: "inline-block"}}/>*/}
                     {projectItem.title}</h1>
-                <div style={{fontSize: "14px"}}>Enter the password to access the project</div>
+                <div style={{fontSize: "14px"}}>Enter password to access the project</div>
                 <input
                     style={{
                         backgroundColor: "#E8EBF2",
