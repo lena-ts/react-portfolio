@@ -27,7 +27,7 @@ const Intro = () => {
                     </div>
                     <p className="upper-base-text">I'm a product designer. I specialize in mobile app design,
                         but also have an experience in web design and front-end development.
-                        <br></br> <br></br>Now I'm open to opportunities. Previously I worked at bigtech company Yandex and eCommerce development company BelVG.
+                        <br></br> <br></br>Now I'm open to opportunities. Previously I was working at bigtech company Yandex and eCommerce development company BelVG.
                         {/*<br></br><strong>React.js</strong>, <strong>Next.js</strong> apps development*/}
                         </p>
                  </div>
