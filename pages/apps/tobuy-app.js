@@ -17,16 +17,18 @@ import ToBuyUiElements from "../../components/project/tobuy/ToBuyUiElements";
 import ToBuyIcon from "../../components/project/tobuy/ToBuyIcon";
 import {motion} from "framer-motion";
 import ProjectFeature2Col from "../../components/common/ProjectFeature2Col";
-import Idea from "../../components/common/Idea";
+import ToBuyIdea from "../../components/project/tobuy/ToBuyIdea";
 
 const ToBuyApp = () => {
     return(
         <MainLayout>
             <ProjectIntro projectItem={tobuy_data}/>
-            <Idea projectItem={tobuy_data}/>
+            <ToBuyIdea projectItem={tobuy_data}/>
             <Ui projectItem={tobuy_data}/>
             <ProjectFeature2Col projectItem={tobuy_data} featureId={0}/>
             <ProjectFeature2Col projectItem={tobuy_data} featureId={1}/>
+            <ProjectFeature2Col projectItem={tobuy_data} featureId={2}/>
+            <ProjectFeature2Col projectItem={tobuy_data} featureId={3}/>
             {/*<ToBuyInterview projectItem={tobuy_data}/>*/}
             {/*<Schema projectItem={tobuy_data}/>*/}
             {/*<Ux projectItem={tobuy_data}/>*/}
@@ -35,7 +37,7 @@ const ToBuyApp = () => {
             <ToBuyWidgets projectItem={tobuy_data}/>
             <ToBuyWatches projectItem={tobuy_data}/>
             <ToBuyIcon projectItem={tobuy_data}/>
-            <Competitors projectItem={tobuy_data}/>
+            {/*<Competitors projectItem={tobuy_data}/>*/}
             <Website projectItem={tobuy_data}/>
             <AppStoreScreens projectItem={tobuy_data}/>
             <ProjectFooter/>

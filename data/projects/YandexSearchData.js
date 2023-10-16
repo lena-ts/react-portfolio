@@ -17,7 +17,7 @@ const YandexSearchData = {
             id: 1,
             subtitle: "CONCEPT",
             title: 'Stories at Products',
-            text: <div>It is not a secret that people like consuming visual content. So we decided to represent some categories where image is everything in an emmersive way.
+            text: <div>It is not a secret that people like consuming visual content. So we decided to represent some categories where image is everything in an immersive way.
                 Stories is a format people used to. I created concepts for fashion category listing and general stories at homepage.
             </div>,
             singleImage: 'projects/yandex-search/features/Stories_at_Products.png',
@@ -56,7 +56,7 @@ const YandexSearchData = {
             color: "#E5E8F3"
         },
         {
-            id: 4,
+            id: 5,
             subtitle: "PRODUCTION",
             title: 'Alice Recommends',
             text: <div> This is a recommedation tool implemented into Products homepage and categories. It helps users to narrow their search via simple questions.
@@ -69,7 +69,7 @@ const YandexSearchData = {
             color: "#E5E8F3"
         },
         {
-            id: 4,
+            id: 6,
             subtitle: "EXPERIMENT",
             title: 'Shopping List',
             text: <div> Shopping List was developed to help people buy several products in one store with the best price. While working on this experiment I conduct interviews, side-by-side research and made dozen of concepts. Experiment was set and not upproved for production because of low user's engagement with functionality.

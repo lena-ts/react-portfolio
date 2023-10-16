@@ -23,12 +23,14 @@ const Ui = ({projectItem}) => {
     const interface_description_wrapper =projectItem.interface_description ? <div style={{paddingBottom: "4rem"}}>{interface_description}</div> : null
 
     const subtitle = projectItem.ui.subtitle ? projectItem.ui.subtitle : 'All screens, app visualization'
+
+    const title = projectItem.ui.title ? projectItem.ui.title : "UI"
     return(
         <div className="ui-wrapper" id={`${projectItem.url}-ui`}>
             <div className={styles.ui_section}>
                 <div className="container">
                     <div className={styles.title_area}>
-                        <h3>UI</h3>
+                        <h3>{title}</h3>
                         <div className={`upper-base-text subtitle`}>{subtitle}</div>
                     </div>
                     {interface_description_wrapper}

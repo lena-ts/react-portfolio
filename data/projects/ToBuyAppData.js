@@ -167,7 +167,8 @@ const ToBuyAppData = {
         image: 'projects/tobuy/ux/ux-flow.png'
     },
     ui : {
-        subtitle: "Interface screens represent version of the app available at the AppStore",
+        title: "UI & Product Cases",
+        subtitle: "Interface screens below represent version of the app available at the AppStore",
         // image: 'projects/tobuy/ui/ui.png',
         website_img: 'projects/tobuy/ui/website.png',
         website_link: "https://www.dobraapps.com/tobuy/",
@@ -305,8 +306,14 @@ const ToBuyAppData = {
     },
     app_idea: {
         title: "Idea & Moodboard",
-        subtitle: 'The idea is to create shopping list that is easy to use and stand out from other similar apps in the App Store',
-        // img: 'projects/umka/ui/ideas.png'
+        subtitle: 'The idea was to create shopping list that is easy to use and stand out from other similar apps in the App Store. ' +
+            'I have analysed top apps and created moodboard. ',
+        text1: <div><strong>Top Apps.</strong> The majority of apps looks very simple, but some of them stand out because of big images and grid layout. This layout is easy to perceive. So I decided to look into this direction.</div>,
+        img1: 'projects/tobuy/features/Competitors.png',
+        text2: <div><strong>Moodboard.</strong> The vibe — colorful, rounded, clean.</div>,
+        img2: 'projects/tobuy/features/Moodboard.png',
+        text3: <div><strong>Result.</strong> I picked color for every category. Also I decided to group products in grid by color, not by title. It will help to see more products at one screen. First item and color is a hint what category this is.</div>,
+        img3: 'projects/tobuy/features/Result.png',
     },
     features: [
         {
@@ -337,11 +344,45 @@ const ToBuyAppData = {
             subtitle: "Upcoming experiment",
             title: 'Increasing Traffic With Recipes',
             text: <div>Now ToBuy is listed mostly for "shopping list" keyword. We expect implementation of recipes will widen traffic via new searchable keywords in title.<br/><br/>
-                Also we expect recipes to create a habit and build user investment into app, because people could add their content and use it during cooking. We expect recipes to increase user engagement and affect such metrics as retention, DAU, and subscription events.
+                Also we expect recipes to create a habit and build user investment into app, because people could add their content and use it during cooking. We expect recipes to increase user engagement and affect such metrics as retention, DAU, number of subscription events.
             </div>,
             screens: [
                 'projects/tobuy/features/recipes1.png',
                 'projects/tobuy/features/recipes2.png'
+            ],
+            emodji: [
+            ],
+
+            color: "#F0F4F7",
+            borderTop: "1px solid #ccc",
+        },
+        {
+            id: 3,
+            subtitle: "PRODUCTION",
+            title: 'Templates As An Iteration Step To Recipes',
+            text: <div>"Recipes" is a huge feature that includes adding ingredients to shopping list. Along with thinking about recipes we saw users sending us feedback, that they want some kind of template to add groups of frequently used products to list in one click.<br/><br/>
+               I offered a solution that templates could be a part of recipes and we should start with them. After developing and launching templates development time of recipes decreased significantly. Recipes also inherit the UI of templates that people are used to.
+            </div>,
+            screens: [
+                'projects/tobuy/features/templates2.png',
+                'projects/tobuy/features/templates1.png'
+            ],
+            emodji: [
+            ],
+
+            color: "#F0F4F7",
+            borderTop: "1px solid #ccc",
+        },
+        {
+            id: 3,
+            subtitle: "UPCOMING EXPERIMENT",
+            title: `Recipe Steps From Ingredient's Position`,
+            text: <div> I suggested to look at recipe steps not from position of numbers "Step 1", "Step 2" etc., but from position ingredients used during cooking. People also could mark as "done" every ingredient action.<br/><br/>
+                What we expect from this feature is to collect user feedback and Firebase analytics on the added steps to see if the solution works.
+            </div>,
+            screens: [
+                'projects/tobuy/features/recipes3.png',
+                'projects/tobuy/features/recipes4.png'
             ],
             emodji: [
             ],
