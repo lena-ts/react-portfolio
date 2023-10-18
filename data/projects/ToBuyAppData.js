@@ -376,9 +376,10 @@ const ToBuyAppData = {
         {
             id: 3,
             subtitle: "UPCOMING EXPERIMENT",
-            title: `Recipe Steps From Ingredient's Position`,
-            text: <div> I suggested to look at recipe steps not from position of numbers "Step 1", "Step 2" etc., but from position ingredients used during cooking. People also could mark as "done" every ingredient action.<br/><br/>
+            title: `Recipe Steps Based On Ingredient Action`,
+            text: <div> I analyzed some handwritten recipes and saw that people focus on the ingredients rather than the number of steps. So I suggested to look at recipes from position of ingredients that are used during cooking, not from position of numbers "Step 1", "Step 2" etc. People also can mark as "done" every ingredient action to be sure where they stopped.<br/><br/>
                 What we expect from this feature is to collect user feedback and Firebase analytics on the added steps to see if the solution works.
+                <img src='../projects/tobuy/features/recipes5.png' width="500px" style={{marginTop: "1rem", borderRadius: "10px"}}/>
             </div>,
             screens: [
                 'projects/tobuy/features/recipes3.png',

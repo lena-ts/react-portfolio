@@ -25,9 +25,10 @@ const Intro = () => {
                         {/*Привет. Я Лена,<br></br>дизайнер и фронтенд<br></br>разработчик из Минска, Беларусь.*/}
                         Hi! I'm Lena<br></br>
                     </div>
-                    <p className="upper-base-text">I'm a product designer. I specialize in mobile app design,
+                    <p className="upper-base-text">I'm a product designer and specialize in mobile app design,
                         but also have an experience in web design and front-end development.
-                        <br></br> <br></br>Now I'm open to opportunities. Previously I was working at bigtech company Yandex and eCommerce development company BelVG.
+                        {/*<br></br> <br></br>Now I'm open to opportunities. */}
+                        {/*Previously I was working at bigtech company Yandex and eCommerce development company BelVG.*/}
                         {/*<br></br><strong>React.js</strong>, <strong>Next.js</strong> apps development*/}
                         </p>
                  </div>

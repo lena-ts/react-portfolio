@@ -24,7 +24,7 @@ const YandexSearch = () => {
     const psd = password == 321 ? data : <PassCode updateData={updateData} projectItem={yandex_data}/>
     return(
         <MainLayout>
-            {psd}
+            {data}
         </MainLayout>
     )
 }

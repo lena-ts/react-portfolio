@@ -11,7 +11,7 @@ const SplityAppData = {
     prototype_link: '',
     prototype_link_type: 'html',
     background_color: '#E8EBF2',
-    downloads: '8K',
+    downloads: '8.6K',
     reviews: '153',
     description: '',
     model: '',
