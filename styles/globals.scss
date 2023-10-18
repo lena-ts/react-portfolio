@@ -327,6 +327,12 @@ ul {
   padding-top: 5rem;
 }
 
+.recipe_img {
+  max-width: 500px;
+  border-radius: 12px;
+  margin-top: 2rem;
+}
+
 .test-div {
   display: block;
   width: 150px;
@@ -404,4 +410,7 @@ ul {
     padding: 3rem 0;
   }
 
+  .recipe_img {
+    width: 100%;
+  }
 }
