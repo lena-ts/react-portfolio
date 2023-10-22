@@ -28,7 +28,7 @@ const YandexSearchData = {
             id: 2,
             subtitle: "EXPERIMENT",
             title: 'Quizes at Zen',
-            text: <div>Quiz is a gamified mechanic intended to draw users attention and increase time spend metric. Experiment was set and showed increased time spend. Could have been implemented in author's tools. The idea and design were mine.
+            text: <div>Quiz is a gamified mechanic intended to draw users attention and increase time spend metric. Experiment was set and showed increased time spend. Could have been implemented in author's tools. I proposed the idea, nailed the design, collaborated with Zen's editor and product manager.
             </div>,
             singleImage: 'projects/yandex-search/features/Zen_Quizes.png',
             screens: [],
@@ -49,7 +49,7 @@ const YandexSearchData = {
             id: 4,
             subtitle: "CONCEPT",
             title: 'Stickers at Search',
-            text: <div> Stickers were invented to help people make notes right on SERP. When user comes back to particular SERP, stickers could help to choose more useful links among all search results. The idea and concepts were mine.
+            text: <div> Stickers were invented to help people make notes right on SERP. When user comes back to particular SERP, stickers could help to choose more useful links among all search results. I proposed the idea, nailed the design, experiment wasn't set because of low confidence.
             </div>,
             singleImage: 'projects/yandex-search/features/Stickers.png',
             screens: [],
