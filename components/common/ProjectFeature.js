@@ -8,7 +8,7 @@ const ProjectFeature  = ({projectItem, featureId}) => {
 
    const text = <div className={`upper-base-text subtitle`}>{projectItem.features[featureId].text}</div>
 
-    const singleImage = <img style={{width: "100%", margin: "3rem auto"}} src={`../${projectItem.features[featureId].singleImage}`}/>
+    const singleImage = projectItem.features[featureId].singleImage ? <img style={{width: "100%", margin: "3rem auto"}} src={`../${projectItem.features[featureId].singleImage}`}/> : null
 
     return(
         <section style={{borderTop: "1px solid #c8ccdb", backgroundColor: projectItem.features[featureId].color}}>
