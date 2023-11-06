@@ -11,7 +11,7 @@ const ToBuyAppData = {
     // prototype_link: 'https://lena-ts.github.io/tobuy-test/start.html',
     prototype_link_type: 'html',
     background_color: '#F0F4F7',
-    downloads: '109K',
+    downloads: '110K',
     reviews: '1.3K',
     description: '',
     model: <div></div>,
@@ -402,6 +402,24 @@ const ToBuyAppData = {
             screens: [
                 'projects/tobuy/features/recipes3.png',
                 'projects/tobuy/features/recipes4.png'
+            ],
+            emodji: [
+            ],
+
+            color: "#F0F4F7",
+            borderTop: "1px solid #ccc",
+        },
+        {
+            id: 4,
+            subtitle: "UPCOMING EXPERIMENT",
+            title: `Upgrade tab expecting to increase subscription rate`,
+            text: <div> I analyzed some handwritten recipes and saw that people focus on the ingredients rather than the number of steps. So I suggested to look at recipes from position of ingredients that are used during cooking, not from position of numbers "Step 1", "Step 2" etc. People also can mark as "done" every ingredient action to be sure where they stopped.<br/><br/>
+                What we expect from this feature is to collect user feedback and Firebase analytics on the added steps to see if the solution works.
+                {/*<img src='../projects/tobuy/features/recipes5.png' className="recipe_img"/>*/}
+            </div>,
+            screens: [
+                'projects/tobuy/features/Upgrade.png',
+                'projects/tobuy/features/Upgrade_Team.png'
             ],
             emodji: [
             ],

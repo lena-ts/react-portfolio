@@ -59,7 +59,7 @@ const YandexSearchData = {
             id: 5,
             subtitle: "PRODUCTION",
             title: 'Alice Recommends',
-            text: <div> This is a recommedation tool implemented into Products homepage and categories. It helps users to narrow their search via simple questions.
+            text: <div> This is a recommendation tool implemented into Products homepage and categories. It helps users to narrow their search via simple questions.
                 At start it was a Garage experiment and now it has grown into an independent product <a href="https://recommendix.com/ru-ru/" style={{textDecoration: "underline"}}>Recommendix</a>. My role was creating concepts and design, conduct interviews and side-by-side research.
                 <br/><br/>
                 <i><b>Learning:</b></i> people want machines talk to them on human language.
