@@ -9,7 +9,7 @@ import {menu_items} from "../constants/config";
 import Nav from "./ui/Nav";
 import {useRouter} from "next/router";
 
-export function MainLayout({children, title="Lena Tsybulenko - Product Designer, mobile app designer, front-end developer"}){
+export function MainLayout({children, ru, title="Lena Tsybulenko - Product Designer, mobile app designer, front-end developer"}){
     const [menuOpened, setMenuOpened] = useState(false)
 
     const [twist, cycle] = useCycle({ scale: 1, rotate: 0, y: 0 },
@@ -54,6 +54,7 @@ export function MainLayout({children, title="Lena Tsybulenko - Product Designer,
                 dissapear={dissapear}
                 twist1={twist1}
                 click={handleMenuClick}
+                ru={ru}
             />
             <section className={menuClassName}>
                 <div className="title">Projects</div>
@@ -85,7 +86,8 @@ export function MainLayout({children, title="Lena Tsybulenko - Product Designer,
                     // left: -100%;
                     // transform: translateX(-100%);
                     z-index: 1;
-                    background:white;
+                    background: rgba(255,255,255, 0.6);
+                    backdrop-filter: blur(32px);
                     transition: 0.4s ease-out;
                     padding: 4rem 4rem 4rem 13rem;
                     flex-direction: column;

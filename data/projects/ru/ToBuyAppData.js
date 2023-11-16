@@ -1,20 +1,20 @@
-const ToBuyAppData = {
+const RuToBuyAppData = {
     id: 3,
     url: 'tobuy-app',
-    title: <div>ToBuy:<br></br>Shopping List</div>,
-    subtitle: <span>Grocery checklist with family sharing and Apple Watch support</span>,
-    icon_path: 'intro/app-icons/tobuy-icon.png',
-    intro_screen_1_path: 'intro/intro-images/tobuy3.png',
-    intro_screen_2_path: 'intro/intro-images/tobuy4.png',
+    title: <div>ToBuy:<br></br>Список покупок</div>,
+    subtitle: <span>Показывает, какие товары нужно купить в магазине</span>,
+    icon_path: '../intro/app-icons/tobuy-icon.png',
+    intro_screen_1_path: '../intro/intro-images/tobuy3.png',
+    intro_screen_2_path: '../intro/intro-images/tobuy4.png',
     appstore_link: 'https://apps.apple.com/us/app/tobuy-shopping-list/id1489580128',
     playmarket_link: 'https://play.google.com/store/apps/details?id=com.tobuyapp.android',
     // prototype_link: 'https://lena-ts.github.io/tobuy-test/start.html',
     prototype_link_type: 'html',
     background_color: '#F0F4F7',
     downloads: '110K',
-    downloads_text: "downloads",
+    downloads_text: "установок",
     reviews: '1.3K',
-    reviews_text: "reviews",
+    reviews_text: "отзывов",
     description: '',
     model: <div></div>,
     competitors: [
@@ -163,36 +163,36 @@ const ToBuyAppData = {
 
     },
     schema: {
-        image: 'projects/tobuy/schema/schema.png'
+        image: '../projects/tobuy/schema/schema.png'
     },
     ux : {
-        image: 'projects/tobuy/ux/ux-flow.png'
+        image: '../projects/tobuy/ux/ux-flow.png'
     },
     ui : {
-        title: "UI & Product Cases",
-        subtitle: "Interface screens below represent version of the app available at the AppStore",
+        title: "Интерфейс и продуктовые кейсы",
+        subtitle: "Экраны ниже соответствуют актуальной версии приложения в AppStore",
         // image: 'projects/tobuy/ui/ui.png',
-        website_img: 'projects/tobuy/ui/website.png',
+        website_img: '../projects/tobuy/ui/website.png',
         website_link: "https://www.dobraapps.com/tobuy/",
         website_title: "ToBuy App landing Page",
         screens: [
-            'projects/tobuy/ui/screens/1.png',
-            'projects/tobuy/ui/screens/2_2.png',
-            'projects/tobuy/ui/screens/3_3.png',
-            'projects/tobuy/ui/screens/4_4.png',
-            'projects/tobuy/ui/screens/5_5.png',
-            'projects/tobuy/ui/screens/6.png',
-            'projects/tobuy/ui/screens/7.png',
-            'projects/tobuy/ui/screens/8_8.png',
-            'projects/tobuy/ui/screens/9.png',
-            'projects/tobuy/ui/screens/10_1.png',
+            '../projects/tobuy/ui/screens/1.png',
+            '../projects/tobuy/ui/screens/2_2.png',
+            '../projects/tobuy/ui/screens/3_3.png',
+            '../projects/tobuy/ui/screens/4_4.png',
+            '../projects/tobuy/ui/screens/5_5.png',
+            '../projects/tobuy/ui/screens/6.png',
+            '../projects/tobuy/ui/screens/7.png',
+            '../projects/tobuy/ui/screens/8_8.png',
+            '../projects/tobuy/ui/screens/9.png',
+            '../projects/tobuy/ui/screens/10_1.png',
             // 'projects/tobuy/ui/screens/10_2.png',
-            'projects/tobuy/ui/screens/11_1.png',
+            '../projects/tobuy/ui/screens/11_1.png',
             // 'projects/tobuy/ui/screens/11_2.png',
-            'projects/tobuy/ui/screens/11_3.png',
-            'projects/tobuy/ui/screens/17_1.png',
-            'projects/tobuy/ui/screens/17_2.png',
-            'projects/tobuy/ui/screens/17_3.png',
+            '../projects/tobuy/ui/screens/11_3.png',
+            '../projects/tobuy/ui/screens/17_1.png',
+            '../projects/tobuy/ui/screens/17_2.png',
+            '../projects/tobuy/ui/screens/17_3.png',
             // 'projects/tobuy/ui/screens/18_3.png',
             // 'projects/tobuy/ui/screens/18_5.png',
             // 'projects/tobuy/ui/screens/18_4.png',
@@ -204,11 +204,11 @@ const ToBuyAppData = {
             // 'projects/tobuy/ui/screens/s_3.png',
             // 'projects/tobuy/ui/screens/s_4.png',
             // 'projects/tobuy/ui/screens/s_0.png',
-            'projects/tobuy/ui/screens/11.png',
-            'projects/tobuy/ui/screens/12.png',
-            'projects/tobuy/ui/screens/13.png',
-            'projects/tobuy/ui/screens/14.png',
-            'projects/tobuy/ui/screens/15.png',
+            '../projects/tobuy/ui/screens/11.png',
+            '../projects/tobuy/ui/screens/12.png',
+            '../projects/tobuy/ui/screens/13.png',
+            '../projects/tobuy/ui/screens/14.png',
+            '../projects/tobuy/ui/screens/15.png',
             // 'projects/tobuy/ui/screens/16.png',
             // 'projects/tobuy/ui/screens/17.png',
             // 'projects/tobuy/ui/screens/18.png',
@@ -221,135 +221,136 @@ const ToBuyAppData = {
         ]
     },
     ui_elements : {
-        components: 'projects/tobuy/ui/ui-elements/components.png',
-        open_categories: 'projects/tobuy/ui/ui-elements/plus.png',
+        components: '../projects/tobuy/ui/ui-elements/components.png',
+        open_categories: '../projects/tobuy/ui/ui-elements/plus.png',
         product: [
             {
                 id: 1,
                 title: 'Regular',
-                img: 'projects/tobuy/ui/ui-elements/product.png'
+                img: '../projects/tobuy/ui/ui-elements/product.png'
             },
             {
                 id: 2,
                 title: 'Active',
-                img: 'projects/tobuy/ui/ui-elements/product-active.png'
+                img: '../projects/tobuy/ui/ui-elements/product-active.png'
             },
             {
                 id: 3,
                 title: 'Add image icons',
-                img: 'projects/tobuy/ui/ui-elements/camera.png',
-                img2: 'projects/tobuy/ui/ui-elements/camera-mini.png',
+                img: '../projects/tobuy/ui/ui-elements/camera.png',
+                img2: '../projects/tobuy/ui/ui-elements/camera-mini.png',
             }
         ],
         icons: [
             {
                 id: 1,
                 title: 'Delete',
-                img: 'projects/tobuy/ui/ui-elements/delete.svg'
+                img: '../projects/tobuy/ui/ui-elements/delete.svg'
             },
             {
                 id: 2,
                 title: 'Buy',
-                img: 'projects/tobuy/ui/ui-elements/buy.svg'
+                img: '../projects/tobuy/ui/ui-elements/buy.svg'
             },
             {
                 id: 3,
                 title: 'Add',
-                img: 'projects/tobuy/ui/ui-elements/add.svg'
+                img: '../projects/tobuy/ui/ui-elements/add.svg'
             },
             {
                 id: 4,
                 title: 'Share',
-                img: 'projects/tobuy/ui/ui-elements/share.svg'
+                img: '../projects/tobuy/ui/ui-elements/share.svg'
             },,
             {
                 id: 5,
                 title: 'Edit',
-                img: 'projects/tobuy/ui/ui-elements/edit.svg'
+                img: '../projects/tobuy/ui/ui-elements/edit.svg'
             },
             {
                 id: 6,
                 title: 'Clear',
-                img: 'projects/tobuy/ui/ui-elements/clear.svg'
+                img: '../projects/tobuy/ui/ui-elements/clear.svg'
             },
         ],
         category_item: {
             title: 'My Products',
-            img: 'projects/tobuy/ui/ui-elements/my-products.png'
+            img: '../projects/tobuy/ui/ui-elements/my-products.png'
         },
         buttons: [
             {
                 id: 1,
                 title: 'Button SM: regular',
-                img: 'projects/tobuy/ui/ui-elements/ok.png'
+                img: '../projects/tobuy/ui/ui-elements/ok.png'
             },
             {
                 id: 2,
                 title: 'Button SM: active',
-                img: 'projects/tobuy/ui/ui-elements/ok-active.png'
+                img: '../projects/tobuy/ui/ui-elements/ok-active.png'
             }
         ],
         forms: [
             {
                 id: 1,
                 title: "Search Popup: unlimited features enabled",
-                img: 'projects/tobuy/ui/ui-elements/search-popup.png'
+                img: '../projects/tobuy/ui/ui-elements/search-popup.png'
             },
             {
                 id: 2,
                 title: "SM field: placeholder",
-                img: 'projects/tobuy/ui/ui-elements/sm-field.png'
+                img: '../projects/tobuy/ui/ui-elements/sm-field.png'
             },
             {
                 id: 3,
                 title: "SM field: filled",
-                img: 'projects/tobuy/ui/ui-elements/sm-field-active.png'
+                img: '../projects/tobuy/ui/ui-elements/sm-field-active.png'
             }
         ],
         popups: [
             {
                 id: 1,
                 title: "List actions",
-                img: 'projects/tobuy/ui/ui-elements/list-actions-popup.png'
+                img: '../projects/tobuy/ui/ui-elements/list-actions-popup.png'
             },
             {
                 id: 2,
                 title: "Edit product",
-                img: 'projects/tobuy/ui/ui-elements/edit-product-popup.png'
+                img: '../projects/tobuy/ui/ui-elements/edit-product-popup.png'
             },
             {
                 id: 3,
                 title: "Lists switcher",
-                img: 'projects/tobuy/ui/ui-elements/multiple-lists.png'
+                img: '../projects/tobuy/ui/ui-elements/multiple-lists.png'
             }
         ]
     },
     app_idea: {
-        title: "Idea & Moodboard",
-        subtitle: 'The idea was to create shopping list that is easy to use and stand out from other similar apps in the App Store. ' +
-            'I have analysed top apps and created moodboard. ',
-        text1: <div><strong>Top Apps.</strong> The majority of apps looks very simple, but some of them stand out because of big images and grid layout. This layout is easy to perceive. So I decided to look into this direction.</div>,
-        img1: 'projects/tobuy/features/Competitors.png',
-        text2: <div><strong>Moodboard.</strong> The vibe — colorful, rounded, clean.</div>,
-        img2: 'projects/tobuy/features/Moodboard.png',
+        title: "Идея и мудборд",
+        subtitle: 'Это личный проект. Идея заключалась в том, чтобы создать красивое и удобное приложение для составления списка покупок. ' +
+            'Я проанализировала топовые приложения в AppStore и составила мудборд. ',
+        text1: <div><strong>Топовые приложения.</strong> Большинство приложений выглядят очень просто, но некоторые из них выделяются за счет сетки с большими картинками. В них удобно нажимать. Поэтому я смотрела в сторону сетки.</div>,
+        img1: '../projects/tobuy/features/Competitors.png',
+        text2: <div><strong>Мудборд.</strong> Настроение — разные цвета, закругленные углы, чистота и воздух.</div>,
+        img2: '../projects/tobuy/features/Moodboard.png',
         text3: <div><strong>Result.</strong> I picked color for every category. Also I decided to group products in grid by color, not by title. It will help to see more products at one screen. First item and color is a hint what category this is.</div>,
-        img3: 'projects/tobuy/features/Result.png',
+        img3: '../projects/tobuy/features/Result.png',
     },
     features: [
         {
             id: 1,
-            subtitle: "AB test",
-            title: 'Annual Subscription vs. Lifetime Purchase',
-            text: <div><b>Hypothesis.</b> People perceive an annual subscription as a lifetime purchase.<br/><br/>
-                <b>Why.</b> We want to earn money on a regular basis.
-The introduction of the classic monthly or annual subscription scheme has shown that people sign up for a cheap monthly subscription and quickly unsubscribe. Therefore, a lifetime purchase was beneficial for a long time.
-<br/><br/>
-<b>Result.</b> I suggested conducting an AB test. Compare annual subscription and lifetime purchase with the same price.
-The hypothesis that people perceive them equally was confirmed. An annual subscription will help you earn double in a year.
-</div>,
+            subtitle: "AБ тест",
+            title: 'Годовая подписка против пожизненной покупки',
+            text: <div>
+                <b>Гипотеза.</b> Люди воспринимают годовую подписку как пожизненную покупку.<br/><br/>
+                <b>Зачем.</b> Хочется зарабатывать на постоянной основе.
+               Внедрение классической схемы выбора месячной или годовой подписки показало, что люди подписываются на дешёвую месячную подписку и быстро отписываются. Поэтому долгое время была выгодна пожизненная покупка.
+               <br/><br/>
+                <b>Результат.</b> Я предложила провести АБ тест. Сравнить годовую подписку и пожизненную покупку с одинаковой ценой.
+                Гипотеза о том, что люди воспринимают их равноценно подтвердилась.  Годовая подписка поможет заработать вдвойне через год.
+            </div>,
             screens: [
-                'projects/tobuy/features/subscription1.png',
-                'projects/tobuy/features/subscription2.png'
+                '../projects/tobuy/features/subscription1.png',
+                '../projects/tobuy/features/subscription2.png'
             ],
             emodji: [
                 <div>❌</div>,
@@ -361,17 +362,17 @@ The hypothesis that people perceive them equally was confirmed. An annual subscr
         },
         {
             id: 5,
-            subtitle: "Experiment",
-            title: <div>Increasing the number of reviews<br/>in the AppStore with a banner request</div>,
-            text: <div><b>Hypothesis:</b> If you politely ask people to leave a review, they will do it. <br/><br/>
-                <b>Why.</b> The number of reviews affects the position of the application in the AppStore.
-                It also serves as social proof when the user decides to install the application. <br/><br/>
-                <b>Result.</b> The introduction of such a banner increased the number of reviews. The app currently receives 2-3 text reviews per day. Without a banner, this result was achieved in a month.<br/><br/>
-                <b>How it works.</b> The banner is shown to users on the 3rd visit to the application. It is assumed that the user has already become acquainted and started using it.
+            subtitle: "эксперимент",
+            title: <div>Увеличение количества отзывов<br/>в AppStore с помощью баннера<br/>с просьбой</div>,
+            text: <div><b>Гипотеза.</b> Если людей вежливо попросить оставить отзыв, они это сделают. <br/><br/>
+                <b>Зачем.</b> Количество отзывов влияет на позицию приложения в AppStore.
+                Также является социальным доказательством при принятии пользователем решения об установке приложения. <br/><br/>
+                <b>Результат.</b> Внедрение такого баннера увеличило количество отзывов. Сейчас приложение получает 2-3 текстовых отзыва в день. Без баннера такой результат достигался за месяц.<br/><br/>
+                <b>Как работает.</b> Баннер показвается пользователям на 3-й заход в приложение. Предполагается, что пользователь уже познакомился и начал пользоваться.
             </div>,
             screens: [
-                'projects/tobuy/features/ReviewBanner1.png',
-                'projects/tobuy/features/ReviewBanner2.png'
+                '../projects/tobuy/features/ReviewBanner1.png',
+                '../projects/tobuy/features/ReviewBanner2.png'
             ],
             emodji: [
             ],
@@ -381,14 +382,14 @@ The hypothesis that people perceive them equally was confirmed. An annual subscr
         },
         {
             id: 2,
-            subtitle: "Upcoming experiment",
-            title: 'Increasing Traffic With Recipes',
-            text: <div>Now ToBuy is listed mostly for "shopping list" keyword. We expect implementation of recipes will widen traffic via new searchable keywords in title.<br/><br/>
+            subtitle: "эксперимент",
+            title: 'Увеличение трафика с помощью рецептов',
+            text: <div>Сейчас ToBuy находится по ключевому слову "shopping list". Ожидаем что внедрение рецептов поможет расширить трафик за счет дополнительного ключевого слова в заголовке.<br/><br/>
                 Also we expect recipes to create a habit and build user investment into app, because people could add their content and use it during cooking. We expect recipes to increase user engagement and affect such metrics as retention, DAU, number of subscription events.
             </div>,
             screens: [
-                'projects/tobuy/features/recipes1.png',
-                'projects/tobuy/features/recipes2.png'
+                '../projects/tobuy/features/recipes1.png',
+                '../projects/tobuy/features/recipes2.png'
             ],
             emodji: [
             ],
@@ -404,8 +405,8 @@ The hypothesis that people perceive them equally was confirmed. An annual subscr
                I offered a solution that templates could be a part of recipes and we should start with them. After developing and launching templates development time of recipes decreased significantly. Recipes also inherit the UI of templates that people are used to.
             </div>,
             screens: [
-                'projects/tobuy/features/templates2.png',
-                'projects/tobuy/features/templates1.png'
+                '../projects/tobuy/features/templates2.png',
+                '../projects/tobuy/features/templates1.png'
             ],
             emodji: [
             ],
@@ -422,8 +423,8 @@ The hypothesis that people perceive them equally was confirmed. An annual subscr
                 {/*<img src='../projects/tobuy/features/recipes5.png' className="recipe_img"/>*/}
             </div>,
             screens: [
-                'projects/tobuy/features/recipes3.png',
-                'projects/tobuy/features/recipes4.png'
+                '../projects/tobuy/features/recipes3.png',
+                '../projects/tobuy/features/recipes4.png'
             ],
             emodji: [
             ],
@@ -440,8 +441,8 @@ The hypothesis that people perceive them equally was confirmed. An annual subscr
                 {/*<img src='../projects/tobuy/features/recipes5.png' className="recipe_img"/>*/}
             </div>,
             screens: [
-                'projects/tobuy/features/Upgrade.png',
-                'projects/tobuy/features/Upgrade_Team.png'
+                '../projects/tobuy/features/Upgrade.png',
+                '../projects/tobuy/features/Upgrade_Team.png'
             ],
             emodji: [
             ],
@@ -451,72 +452,72 @@ The hypothesis that people perceive them equally was confirmed. An annual subscr
         }
     ],
     icon_screen: {
-        icon: 'intro/app-icons/tobuy-icon.png',
+        icon: '../intro/app-icons/tobuy-icon.png',
         text: 'The idea of an icon is a check point of a list but styled as a product',
-        img: 'projects/tobuy/icon/icon-story3.png',
-        img1: 'projects/tobuy/icon/icon_img1.png',
-        img2: 'projects/tobuy/icon/icon_img2.png',
-        env: 'projects/tobuy/icon/icon_env2.png'
+        img: '../projects/tobuy/icon/icon-story3.png',
+        img1: '../projects/tobuy/icon/icon_img1.png',
+        img2: '../projects/tobuy/icon/icon_img2.png',
+        env: '../projects/tobuy/icon/icon_env2.png'
     },
     tobuy_widgets: {
         screens: [
-            'projects/tobuy/widgets/1.png',
-            'projects/tobuy/widgets/3.png',
-            'projects/tobuy/widgets/2.png',
-            'projects/tobuy/widgets/4.png'
+            '../projects/tobuy/widgets/1.png',
+            '../projects/tobuy/widgets/3.png',
+            '../projects/tobuy/widgets/2.png',
+            '../projects/tobuy/widgets/4.png'
         ],
         large: [
             {
                 title: 'Large: light mode',
-                img: 'projects/tobuy/widgets/large1.png'
+                img: '../projects/tobuy/widgets/large1.png'
             },
             {
                 title: 'Large empty: light mode',
-                img: 'projects/tobuy/widgets/large3.png'
+                img: '../projects/tobuy/widgets/large3.png'
             },
             {
                 title: 'Large: dark mode',
-                img: 'projects/tobuy/widgets/large2.png'
+                img: '../projects/tobuy/widgets/large2.png'
             },
             {
                 title: 'Large empty: dark mode',
-                img: 'projects/tobuy/widgets/large4.png'
+                img: '../projects/tobuy/widgets/large4.png'
             }
         ],
         medium: [
             {
                 title: 'Medium: light mode',
-                img: 'projects/tobuy/widgets/medium1.png'
+                img: '../projects/tobuy/widgets/medium1.png'
             },
             {
                 title: 'Medium empty: light mode',
-                img: 'projects/tobuy/widgets/medium3.png'
+                img: '../projects/tobuy/widgets/medium3.png'
             },
             {
                 title: 'Medium: dark mode',
-                img: 'projects/tobuy/widgets/medium2.png'
+                img: '../projects/tobuy/widgets/medium2.png'
             },
             {
                 title: 'Medium empty: dark mode',
-                img: 'projects/tobuy/widgets/medium4.png'
+                img: '../projects/tobuy/widgets/medium4.png'
             }
         ],
         small: [
             {
                 title: 'Small: light mode',
-                img: 'projects/tobuy/widgets/small1.png'
+                img: '../projects/tobuy/widgets/small1.png'
             },
             {
                 title: 'Empty: light mode',
-                img: 'projects/tobuy/widgets/small3.png'
+                img: '../projects/tobuy/widgets/small3.png'
             },
             {
                 title: 'Small: dark mode',
-                img: 'projects/tobuy/widgets/small2.png'
+                img: '../projects/tobuy/widgets/small2.png'
             },
             {
                 title: 'Empty: dark mode',
-                img: 'projects/tobuy/widgets/small4.png'
+                img: '../projects/tobuy/widgets/small4.png'
             }
         ]
     },
@@ -524,56 +525,56 @@ The hypothesis that people perceive them equally was confirmed. An annual subscr
         regular: [
             {
                 title: 'List: light',
-                img: 'projects/tobuy/watches/1.png'
+                img: '../projects/tobuy/watches/1.png'
             },
             {
                 title: 'Choose List: light',
-                img: 'projects/tobuy/watches/3.png'
+                img: '../projects/tobuy/watches/3.png'
             }
         ],
         empty: [
             {
                 title: 'Multiple lists: light',
-                img: 'projects/tobuy/watches/3_1.png'
+                img: '../projects/tobuy/watches/3_1.png'
             },
             {
                 title: 'List: dark',
-                img: 'projects/tobuy/watches/2.png'
+                img: '../projects/tobuy/watches/2.png'
             }
         ],
         icon: [
             {
                 title: 'Choose List: dark',
-                img: 'projects/tobuy/watches/4.png'
+                img: '../projects/tobuy/watches/4.png'
             },
             {
                 title: 'Multiple lists: dark',
-                img: 'projects/tobuy/watches/4_1.png'
+                img: '../projects/tobuy/watches/4_1.png'
             }
         ],
         icon_muted: [
             {
                 title: 'Icon: clock face',
-                img: 'projects/tobuy/watches/6.png'
+                img: '../projects/tobuy/watches/6.png'
             },
             {
                 title: 'Icon',
-                img: 'projects/tobuy/watches/icon-mute.png'
+                img: '../projects/tobuy/watches/icon-mute.png'
             }
         ],
-        movie: 'projects/tobuy/watches/movie.mp4',
+        movie: '../projects/tobuy/watches/movie.mp4',
         promo: [
-            'projects/tobuy/watches/watch_promo2.png',
-            'projects/tobuy/watches/watch_promo4.png',
+            '../projects/tobuy/watches/watch_promo2.png',
+            '../projects/tobuy/watches/watch_promo4.png',
         ]
     },
     appstore_screens: {
         screens:     [
-            'projects/tobuy/appstore_screens/1.png',
-            'projects/tobuy/appstore_screens/2.png',
-            'projects/tobuy/appstore_screens/3.png',
-            'projects/tobuy/appstore_screens/4.png',
-            'projects/tobuy/appstore_screens/5.png',
+            '../projects/tobuy/appstore_screens/1.png',
+            '../projects/tobuy/appstore_screens/2.png',
+            '../projects/tobuy/appstore_screens/3.png',
+            '../projects/tobuy/appstore_screens/4.png',
+            '../projects/tobuy/appstore_screens/5.png',
         ],
         title: "ToBuy — Shopping List",
         subtitle: "Simple grocery list"
@@ -587,4 +588,4 @@ The hypothesis that people perceive them equally was confirmed. An annual subscr
     // }
 }
 
-export default ToBuyAppData
+export default RuToBuyAppData

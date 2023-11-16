@@ -73,17 +73,19 @@ const YandexSearchData = {
             subtitle: "EXPERIMENT",
             title: 'Shopping List',
             text: <div> Shopping List was developed to help people buy several products in one store with the best price. While working on this experiment I conduct interviews, side-by-side research and made dozen of concepts. Experiment was set and not upproved for production because of low user's engagement with functionality.
-                <br/><br/>  <i><b>Result:</b></i> the designer’s task is to simplify and narrow the user’s focus to one important action, and this action here is a link to a shop with the best total price
                 <br/><br/>
+                {/*<i><b>Result:</b></i> the designer’s task is to simplify and narrow the user’s focus to one important action, and this action here is a link to a shop with the best total price*/}
+                {/*<br/><br/>*/}
+                <i><b>Learning:</b></i> users hardly dive into a new functionality and prefer something they are used to. <br/><br/><br/>
                 <img src={'../projects/yandex-search/features/Shopping_List_Result.png'} width={'100%'}/>
-                <br/><br/><br/><i><b>References:</b></i> actually there were no relevant references, so I took a look at shopping cards and favourites lists
-                <br/><br/>
-                <img src={'../projects/yandex-search/features/Shopping_List_Refs.png'} width={'100%'}/>
-                <br/><br/><br/><i><b>Process:</b></i> first drafts look overloaded with information because of different ideas that were born during team brainstorming
-                <br/><br/>
-                <img src={'../projects/yandex-search/features/Shopping_List_Process.png'} width={'100%'}/>
-                <br/><br/>
-                <i><b>Learning:</b></i> users hardly dive into a new functionality and prefer something they are used to.
+                {/*<br/><br/><br/><i><b>References:</b></i> actually there were no relevant references, so I took a look at shopping cards and favourites lists*/}
+                {/*<br/><br/>*/}
+                {/*<img src={'../projects/yandex-search/features/Shopping_List_Refs.png'} width={'100%'}/>*/}
+                {/*<br/><br/><br/><i><b>Process:</b></i> first drafts look overloaded with information because of different ideas that were born during team brainstorming*/}
+                {/*<br/><br/>*/}
+                {/*<img src={'../projects/yandex-search/features/Shopping_List_Process.png'} width={'100%'}/>*/}
+                {/*<br/><br/>*/}
+
 
             </div>,
             // singleImage: 'projects/yandex-search/features/Shopping_List_Process.png',

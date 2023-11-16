@@ -46,11 +46,11 @@ const ProjectIntro = (projectItem) => {
         <div className={styles.achievement_wrap}>
             <div className={styles.achievement}>
                 <span>{downloads}</span>
-                downloads
+                {project.downloads_text}
             </div>
             <div className={styles.achievement}>
                 <span>{reviews}</span>
-                reviews
+                {project.reviews_text}
             </div>
         </div>
         {appstore_link}

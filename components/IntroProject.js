@@ -4,7 +4,9 @@ import Link from "next/link";
 const IntroProject = ({
                           url,
                           title,
+                          title_RU,
                           subtitle,
+                          subtitle_RU,
                           icon,
                           intro_screen_1,
                           intro_screen_2,
@@ -13,8 +15,15 @@ const IntroProject = ({
                           preorder,
                           prototype,
                           prototype_type,
-                          background
+                          background,
+                          ru
 }) => {
+    const lang = ru
+    const projectTitle = lang ? title_RU : title
+    const projectSubtitle = lang ? subtitle_RU : subtitle
+    const viewBtnText = lang ? "Посмотреть кейс" : "View case"
+    const caseLink = lang ? `/ru/apps/${url}` : `/apps/${url}`
+
     const icon_image = icon ? <img src={icon} alt={title} className="small-app-icon"/> : null
 
     const prototype_button_className = prototype_type === 'spa' ? 'button_spa' : 'button_html'
@@ -47,8 +56,8 @@ const IntroProject = ({
                 <div className={styles.intro_project_content_wrapper}>
                 <div className={styles.intro_project_data}>
                     {icon_image}
-                    <span className={styles.title + ` m-text`}>{title}</span>
-                    <span className={`upper-base-text ${styles.intro_project_subtitle}`}>{subtitle}</span>
+                    <span className={styles.title + ` m-text`}>{projectTitle}</span>
+                    <span className={`upper-base-text ${styles.intro_project_subtitle}`}>{projectSubtitle}</span>
                     <div className={styles.intro_project_case_button}>
                     {/*<Link href={"/apps/[id]"} as={`/apps/${url}`} ><a className="button button_dark">View Case</a></Link>*/}
                         <div className={styles.intro_project_links}>
@@ -57,7 +66,7 @@ const IntroProject = ({
                             {/*{playmarket_link}*/}
                             {/*{prototype_link}*/}
                         </div>
-                        <div> <Link legacyBehavior href={`/apps/${url}`}  ><a className="button button_dark">View Case</a></Link></div>
+                        <div> <Link legacyBehavior href={caseLink}  ><a className="button button_dark">{viewBtnText}</a></Link></div>
                     </div>
                 </div>
                 <div className={styles.intro_project_images}>

@@ -1,8 +1,11 @@
 import { motion} from "framer-motion"
 import {mobile_view} from "../constants/config";
 import Link from "next/link";
+import me from "../data/Me"
 
-const Intro = () => {
+const Intro = (ru) => {
+    const hello = ru.ru ? me.hello_RU : me.hello
+    const who = ru.ru ? me.who_RU : me.who
     return(
         <section id="author-intro">
             <div className="container">
@@ -22,11 +25,18 @@ const Intro = () => {
                 >
                 <div>
                     <div className="l-text">
-                        {/*Привет. Я Лена,<br></br>дизайнер и фронтенд<br></br>разработчик из Минска, Беларусь.*/}
-                        Hi! I'm Lena<br></br>
+                        {/*Привет, я Лена<br></br>*/}
+                        {hello}<br></br>
                     </div>
-                    <p className="upper-base-text">I'm a product designer. I can do mobile app design,
-                        web design and have an experience in front-end development.
+                    <p className="upper-base-text">
+                        {/*И я дизайнер. Имею опыт дизайна мобильных приложений, интернет-магазинов, а также фронт-енд разработки.*/}
+                        {/*Работала в Поиске Яндекса, также у меня есть несколько личных проектов - мобильные приложения в категории продуктивность*/}
+
+                        {who}
+                        {/*I love generating ideas and create beautiful interfaces.*/}
+
+                        {/*I love to create beautiful mobile and web interfaces.*/}
+                        {/*Also I have an experience in front-end development.*/}
                         {/*I have an experience of working at bigtech company Yandex, eCommerce devleopment company and have personal projects.*/}
                         {/*<br></br> <br></br>Now I'm open to opportunities. */}
                         {/*Previously I was working at bigtech company Yandex and eCommerce development company BelVG.*/}

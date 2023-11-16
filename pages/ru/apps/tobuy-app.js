@@ -1,23 +1,16 @@
-import {MainLayout} from "../../components/MainLayout";
-import tobuy_data from "../../data/projects/ToBuyAppData";
-import ProjectIntro from "../../components/project/ProjectIntro";
-import Competitors from "../../components/project/Competitors";
-import ProjectFooter from "../../components/common/ProjectFooter";
-import AppStoreScreens from "../../components/common/AppStoreScreens";
-import Ui from "../../components/common/Ui";
-import Ux from "../../components/common/Ux";
-import VisualIdentification from "../../components/common/VisualIdentification";
-import Website from "../../components/common/Website";
-import Icon from "../../components/common/Icon";
-import ToBuyWidgets from "../../components/project/tobuy/ToBuyWidgets";
-import ToBuyWatches from "../../components/project/tobuy/ToBuyWatches";
-import Schema from "../../components/common/Schema";
-import ToBuyInterview from "../../components/project/tobuy/ToBuyInterview";
-import ToBuyUiElements from "../../components/project/tobuy/ToBuyUiElements";
-import ToBuyIcon from "../../components/project/tobuy/ToBuyIcon";
-import {motion} from "framer-motion";
-import ProjectFeature2Col from "../../components/common/ProjectFeature2Col";
-import ToBuyIdea from "../../components/project/tobuy/ToBuyIdea";
+import {MainLayout} from "../../../components/MainLayout";
+import tobuy_data from "../../../data/projects/ru/ToBuyAppData";
+import ProjectIntro from "../../../components/project/ProjectIntro";
+import ProjectFooter from "../../../components/common/ProjectFooter";
+import AppStoreScreens from "../../../components/common/AppStoreScreens";
+import Ui from "../../../components/common/Ui";
+import VisualIdentification from "../../../components/common/VisualIdentification";
+import Website from "../../../components/common/Website";
+import ToBuyWidgets from "../../../components/project/tobuy/ToBuyWidgets";
+import ToBuyWatches from "../../../components/project/tobuy/ToBuyWatches";
+import ToBuyIcon from "../../../components/project/tobuy/ToBuyIcon";
+import ProjectFeature2Col from "../../../components/common/ProjectFeature2Col";
+import ToBuyIdea from "../../../components/project/tobuy/ToBuyIdea";
 
 const ToBuyApp = () => {
     return(
