@@ -36,7 +36,7 @@ const Illustrations = () => {
                         <img src={"../illustrations/dots.gif"} className="lottie_img"/>
                         <img src={"../illustrations/sound_crop.gif"} className="lottie_img"/>
                         <img src={"../illustrations/line.gif"} className="lottie_img"/>
-                        <img src={"../illustrations/pulse_crop.gif"} className="lottie_img"/>
+                        <img src={"../illustrations/pulse2.gif"} className="lottie_img"/>
                     </div>
                     <br/><br/><br/><br/>
                     <div className="m-text">Иллюстрации</div>
@@ -45,7 +45,7 @@ const Illustrations = () => {
                         {illustrations_list}
                     </div>
                 </div>
-                <ProjectFooter/>
+                <ProjectFooter ru={true}/>
             </section>
             <style jsx>{`
                     section {

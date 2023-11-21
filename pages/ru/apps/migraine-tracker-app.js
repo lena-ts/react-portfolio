@@ -13,7 +13,7 @@ const MigraineApp = () => {
             <MigraineQuestions projectItem={migraine_data} ru={true}/>
             <Ui projectItem={migraine_data} />
             <AppStoreScreens projectItem={migraine_data} ru={true}/>
-            <ProjectFooter/>
+            <ProjectFooter ru={true}/>
         </MainLayout>
     )
 }

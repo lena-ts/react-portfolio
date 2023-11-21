@@ -22,7 +22,7 @@ const SplityApp = () => {
             {/*<UiElements projectItem={splity_data}/>*/}
             <Ui projectItem={splity_data} ru={true}/>
             <AppStoreScreens projectItem={splity_data} ru={true}/>
-            <ProjectFooter/>
+            <ProjectFooter ru={true}/>
         </MainLayout>
     )
 }

@@ -14,7 +14,7 @@ const UmkaEnglishApp = () => {
             <Idea projectItem={umka_data}/>
             <Ui projectItem={umka_data}/>
             <AppStoreScreens projectItem={umka_data} ru={true}/>
-            <ProjectFooter/>
+            <ProjectFooter ru={true}/>
         </MainLayout>
     )
 }

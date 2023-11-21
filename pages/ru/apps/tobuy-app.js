@@ -37,7 +37,7 @@ const ToBuyApp = () => {
             {/*<Competitors projectItem={tobuy_data}/>*/}
             <Website projectItem={tobuy_data} ru={true}/>
             <AppStoreScreens projectItem={tobuy_data} ru={true}/>
-            <ProjectFooter/>
+            <ProjectFooter ru={true}/>
         </MainLayout>
     )
 }
