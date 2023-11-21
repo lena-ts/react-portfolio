@@ -1,7 +1,7 @@
 import styles from '../../styles/components/project/Ui.module.scss'
 import InterfaceDescription from "./InterfaceDescription";
 
-const Ui = ({projectItem}) => {
+const Ui = ({projectItem, ru}) => {
 
     const screens = projectItem.ui.screens ?
         <div className={styles.screens_wrapper}>
@@ -22,9 +22,9 @@ const Ui = ({projectItem}) => {
 
     const interface_description_wrapper =projectItem.interface_description ? <div style={{paddingBottom: "4rem"}}>{interface_description}</div> : null
 
-    const subtitle = projectItem.ui.subtitle ? projectItem.ui.subtitle : 'All screens, app visualization'
+    const subtitle = projectItem.ui.subtitle ? projectItem.ui.subtitle : ru ? "Экраны приложения" : 'All screens, app visualization'
 
-    const title = projectItem.ui.title ? projectItem.ui.title : "UI"
+    const title = projectItem.ui.title ? projectItem.ui.title :  "UI"
     return(
         <div className="ui-wrapper" id={`${projectItem.url}-ui`}>
             <div className={styles.ui_section}>

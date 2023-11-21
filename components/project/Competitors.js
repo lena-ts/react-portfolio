@@ -1,6 +1,6 @@
 import styles from '../../styles/components/project/Competitors.module.scss'
 
-const Competitors = ({projectItem}) => {
+const Competitors = ({projectItem, ru}) => {
 
     const competitors = projectItem.competitors
 
@@ -15,7 +15,7 @@ const Competitors = ({projectItem}) => {
                     {item.title}
                 </div>
                 <div className={styles.subtitle}>
-                    Pros and cons
+                    {ru ? "Плюсы и минусы" : "Pros and cons"}
                     <div className={styles.pros}>
                         {item.pros.map(item => <div className={styles.item} key={item}>{item}</div>)}
                     </div>
@@ -30,8 +30,8 @@ const Competitors = ({projectItem}) => {
         <>
             <section className={`project-section ${styles.competitors}`}>
                 <div className="container">
-                    <h3>Research</h3>
-                    <div className={`upper-base-text subtitle`}>Competitors analysis</div>
+                    <h3>{ru ? "Исследование" : "Research"}</h3>
+                    <div className={`upper-base-text subtitle`}>{ru ? "Анализ конкурентов" : "Competitors analysis"}</div>
                     <div className={styles.case_wrapper}>
                         {caseItems}
                     </div>

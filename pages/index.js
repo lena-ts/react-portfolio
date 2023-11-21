@@ -25,8 +25,8 @@ export default function Home() {
         />)
   return (
   
-      <MainLayout ru={false}>
-             <Intro ru={false}/>
+      <MainLayout>
+             <Intro/>
              {intro_projects} 
               <MoreApps /> 
               <Experience/>

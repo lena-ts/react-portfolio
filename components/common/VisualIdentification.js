@@ -2,23 +2,23 @@ import styles from '../../styles/components/project/VisualIdentification.module.
 
 const VisualIdentification = ({projectItem}) => {
     const secondary_colors_title = projectItem.visual_identification.colors.secondary.length ?
-        <div className={`upper-base-text subtitle ${styles.additional_title}`}>Additional colors</div> : null
+        <div className={`upper-base-text subtitle ${styles.additional_title}`}>{projectItem.visual_identification.additional_colors_title}</div> : null
 
     const additional_colors_title = projectItem.visual_identification.colors.additional.length ?
-        <div className={`upper-base-text subtitle ${styles.additional_title}`}>Icons colors</div> : null
+        <div className={`upper-base-text subtitle ${styles.additional_title}`}>{projectItem.visual_identification.icons_colors}</div> : null
 
     return(
         <>
             <div className={styles.visual_section} id={`${projectItem.url}-visual-identification`}>
                 <div className="container">
                 <div className={`${styles.title_area} title`}>
-                    <h3>Design System</h3>
+                    <h3>{projectItem.visual_identification.title}</h3>
                 </div>
-                    <div className={`upper-base-text`}>Colors, typography</div>
+                    <div className={`upper-base-text`}>{projectItem.visual_identification.subtitle}</div>
                 <div className={styles.info_area}>
                     {/*Typography*/}
                     <div className={styles.description}>
-                        <div className={`upper-base-text subtitle`}><h3>Typography</h3></div>
+                        <div className={`upper-base-text subtitle`}><h3>{projectItem.visual_identification.typography_title}</h3></div>
                         <div className={`letter-fill ${styles.letters}`}>Aa</div>
                         <div className={styles.font_description}>
                             <div className={`font_family ${styles.font_name}`}>
@@ -42,7 +42,7 @@ const VisualIdentification = ({projectItem}) => {
                     {/*Colors*/}
                     <div className={styles.description}>
                         <div className={styles.colors_description}>
-                            <div className={`upper-base-text subtitle`}><h3>Colors</h3></div>
+                            <div className={`upper-base-text subtitle`}><h3>{projectItem.visual_identification.colors_title}</h3></div>
                             <div className={styles.colors}>
                                 {projectItem.visual_identification.colors.primary.map(item => (
                                     <div className={styles.color} key={item}>

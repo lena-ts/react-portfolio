@@ -1,10 +1,10 @@
-const ToBuyWatches = ({projectItem}) => {
+const ToBuyWatches = ({projectItem, ru}) => {
     return(
         <section className="auto-height">
             <div className="container">
                 <div className="title_area">
                     <h3>Apple Watch</h3>
-                    <div className={`upper-base-text subtitle`}>WatchOS adaptation</div>
+                    <div className={`upper-base-text subtitle`}>{ru ? "Адаптация WatchOS" : "WatchOS adaptation"}</div>
                 </div>
                 <div className="watches_wrapper">
                     <div className="regular watches_item">

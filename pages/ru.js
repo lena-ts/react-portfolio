@@ -31,9 +31,9 @@ export default function HomeRU() {
         <MainLayout ru={true}>
             <Intro ru={true}/>
             {intro_projects}
-            <MoreApps />
-            <Experience/>
-            <Contacts/>
+            <MoreApps ru={true}/>
+            <Experience ru={true}/>
+            <Contacts ru={true}/>
         </MainLayout>
     )
 }

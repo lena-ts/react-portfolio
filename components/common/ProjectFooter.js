@@ -1,6 +1,6 @@
 import styles from "../../styles/components/project/ProjectFooter.module.scss"
 
-const ProjectFooter = () => {
+const ProjectFooter = (ru) => {
     return(
         <>
             <section className="auto-height white-bg">
@@ -8,7 +8,7 @@ const ProjectFooter = () => {
                     {/*<div className="divider"></div>*/}
                 <div className="inner">
                     {/*<div className="m-text-1">&#9829; </div>*/}
-                    <div className="m-text-1">Thank you for watching!</div>
+                    <div className="m-text-1">{ ru ? "Спасибо за просмотр!" : "Thank you for watching!"}</div>
                     <div className={styles.footer_text}>
     {/*                    <div>Need help with mobile apps design? Reach me and I will gladly work*/}
     {/*on your project.</div>*/}

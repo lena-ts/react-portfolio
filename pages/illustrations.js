@@ -19,8 +19,28 @@ const Illustrations = () => {
         <MainLayout>
             <section className={styles.illustration_section}>
                 <div className="container">
+                    <div className="title_area">
+                        <div>
+                            <h3>Animations</h3>
+                            <div className={`upper-base-text`}>Lottie, made in Adobe After Effects and Figma</div>
+                        </div>
+                        <div>
+                            <a href={"https://lottiefiles.com/0qbevmr34zyvw2cs"} target="_blank" legacyBehavior className="button button_dark">{"View Lottie Profile"}</a>
+                        </div>
+                    </div>
+
+
+                    {/*<img src={"../illustrations/lottie_categories.gif"} width={200} height={280} style={{borderRadius: "25px", border: "1px solid #ebebeb"}}/>*/}
+                    <div className="lottie_grid">
+                        <img src={"../illustrations/lottie_star_crop.gif"} className="lottie_img"/>
+                        <img src={"../illustrations/dots.gif"} className="lottie_img"/>
+                        <img src={"../illustrations/sound_crop.gif"} className="lottie_img"/>
+                        <img src={"../illustrations/line.gif"} className="lottie_img"/>
+                        <img src={"../illustrations/pulse_crop.gif"} className="lottie_img"/>
+                    </div>
+                    <br/><br/><br/><br/>
                     <div className="m-text">Illustrations</div>
-                    <p className="upper-base-text">Here are some of my illustration works</p>
+                    <p className="upper-base-text">Made with iPad and ProCreate</p>
                     <div className={styles.illustrations_list}>
                     {illustrations_list}
                     </div>
@@ -31,6 +51,35 @@ const Illustrations = () => {
                     section {
                         height: auto;
                     }
+                     .title_area {
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    justify-content: space-between;
+                    margin-bottom: 3rem;
+                }
+                .lottie_grid{
+                display:grid;
+                grid-template-columns: auto auto auto auto auto;
+                grid-column-gap: 2rem;
+                }
+                .lottie_img{
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 25px;
+                    border: 1px solid #ebebeb;
+                }
+                 @media(max-width: 768px){
+                    .title_area{
+                        grid-template-columns: 100%;
+                        grid-row-gap: 1.5rem;
+                        text-align: center;
+                        margin-bottom: 1.5rem;
+                    }
+                    .lottie_grid{
+                    grid-template-columns: auto auto;
+                    grid-row-gap: 2rem;
+                    }
+                }
             `}</style>
         </MainLayout>
     )

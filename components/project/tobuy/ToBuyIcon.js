@@ -4,7 +4,7 @@ const ToBuyIcon = ({projectItem}) => {
     return(
         <section className="auto-height">
             <div className="container">
-                <SectionTitle title="Icon" subtitle="The idea of an icon is a check point of a list but styled as a product"/>
+                <SectionTitle title={projectItem.icon_screen.title} subtitle={projectItem.icon_screen.text}/>
                 <div>
                     <img src={`../${projectItem.icon_screen.img}`} className="img"/>
                 </div>

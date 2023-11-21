@@ -1,14 +1,14 @@
-const ToBuyWidgets = ({projectItem}) => {
+const ToBuyWidgets = ({projectItem, ru}) => {
     return(
         <section className="auto-height">
             <div className="container">
                 <div className="title_area">
-                    <h3>Homepage Widgets</h3>
-                    <div className={`upper-base-text subtitle`}>3 types of widgets available</div>
+                    <h3>{ru ? "Виджеты для главного экрана" : "Homepage Widgets"}</h3>
+                    <div className={`upper-base-text subtitle`}>{ru ? "Доступно 3 типа виджетов" : "3 types of widgets available"}</div>
                 </div>
                 <div className="widgets_types">
                     <div className="large">
-                        <div className="upper-base-text subtitle">Large</div>
+                        <div className="upper-base-text subtitle">{ru ? "Большой" : "Large"}</div>
                         <div className="widgets_wrapper">
                             {projectItem.tobuy_widgets.large.map(item =>
                                 <div className="widget" key={item.title}>
@@ -19,7 +19,7 @@ const ToBuyWidgets = ({projectItem}) => {
                         </div>
                     </div>
                     <div className="medium">
-                        <div className="upper-base-text subtitle">Medium</div>
+                        <div className="upper-base-text subtitle">{ru ? "Средний" : "Medium"}</div>
                         <div className="widgets_wrapper">
                             {projectItem.tobuy_widgets.medium.map(item =>
                                 <div className="widget" key={item.title}>
@@ -30,7 +30,7 @@ const ToBuyWidgets = ({projectItem}) => {
                         </div>
                     </div>
                     <div className="small">
-                        <div className="upper-base-text subtitle">Small</div>
+                        <div className="upper-base-text subtitle">{ru ? "Маленький" : "Small"}</div>
                         <div className="widgets_wrapper">
                             {projectItem.tobuy_widgets.small.map(item =>
                                 <div className="widget" key={item.title}>
@@ -42,7 +42,7 @@ const ToBuyWidgets = ({projectItem}) => {
                     </div>
                 </div>
                 <div className="screens">
-                    <div className="upper-base-text subtitle">Screens</div>
+                    <div className="upper-base-text subtitle">{ru ? "Экраны" : "Screens"}</div>
                     <div className="screens_wrapper">
                     {projectItem.tobuy_widgets.screens.map(img =>
                         <img src={`../${img}`} key={img}/>

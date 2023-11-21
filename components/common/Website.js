@@ -1,14 +1,14 @@
-const Website = ({projectItem}) => {
+const Website = ({projectItem, ru}) => {
     return(
         <section className="auto-height">
             <div className='container'>
                 <div className="title_area">
                     <div>
-                        <h3>Website</h3>
+                        <h3>{ru ? "Сайт" : "Website"}</h3>
                         <div className={`upper-base-text`}>{projectItem.ui.website_title}</div>
                     </div>
                     <div>
-                    <a href={projectItem.ui.website_link} target="_blank" className="button button_dark">Visit Website</a>
+                    <a href={projectItem.ui.website_link} target="_blank" className="button button_dark">{ru ? "Посетить" : "Visit Website"}</a>
                     </div>
                 </div>
                 <div className="image">

@@ -8,8 +8,10 @@ const MigraineAppData = {
     intro_screen_2_path: 'intro/intro-images/migraine2.png',
     appstore_link: 'https://apps.apple.com/us/app/migraine-tracker-mig/id6446125528',
     preorder: false,
-    downloads: '928',
-    reviews: '2',
+    downloads: '1.2K',
+    downloads_text: "downloads",
+    reviews: '11',
+    reviews_text: "reviews",
     background_color: '#E8EBF2',
     work_in_progress: false,
     ui : {
@@ -35,6 +37,28 @@ const MigraineAppData = {
     app_idea: {
         subtitle: 'Millions of people are struggling from migraine but can\'t find the help they need. Most of them simply aren\'t getting information about their disease. That\'s why we started our project — to pay attention to the problem and help people change their life.'
     },
+    questions: [
+        {
+            title: "Who are this app for",
+            text: "Chronic migrainers that taking notes of the attacks",
+            img: "",
+        },
+        {
+            title: "What problem does app solve",
+            text: "Reduce attacks frequency",
+            img: "",
+        },
+        {
+            title: "How people solve this problem now",
+            text: "They use paper diaries or apps",
+            img: "../projects/migraine/ui/paper_diary.jpg",
+        },
+        {
+            title: "In terms of JTBD what job does app do",
+            text: "It finds correlation between attacks and triggers, educate migrainers",
+            img: "",
+        },
+    ],
     interview: [
         {
             id: 1,

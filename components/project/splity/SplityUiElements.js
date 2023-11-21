@@ -1,22 +1,22 @@
 import SectionTitle from "../../common/SectionTitle";
 
-const SplityUiElements = ({projectItem}) => {
+const SplityUiElements = ({projectItem, ru}) => {
     return(
         <section className="auto-height">
             <div className="container">
-                <SectionTitle title="UI Elements" subtitle="Blocks, buttons, icons"/>
+                <SectionTitle title={ru ? "Элементы интерфейса" : "UI Elements"} subtitle={ru ? "Блоки, кнопки, иконки" : "Blocks, buttons, icons"}/>
                 <div className="splity-grid-elements">
                     <div className="row-1">
                         <div className="group">
-                            <div className="title">Group</div>
+                            <div className="title">{ru ? "Группа" : "Group"}</div>
                             <img src={`../${projectItem.ui_elements.group_item}`}/>
                         </div>
                         <div className="person-wrapper">
-                            <span className="title">Person</span>
+                            <span className="title">{ru ? "Участник" : "Person"}</span>
                             <div className="person-grid">
                                 <div className="person">
                                     <div className="subtitle">
-                                        Regular
+                                        {ru ? "Не выбран" : "Regular"}
                                     </div>
                                     <div className="person-body">
                                         <img src={`../${projectItem.ui_elements.user_regular}`}/>
@@ -26,7 +26,7 @@ const SplityUiElements = ({projectItem}) => {
                                 </div>
                                 <div className="person">
                                     <div className="subtitle">
-                                        Active
+                                        {ru ? "Выбран" : "Active"}
                                     </div>
                                     <div className="person-body">
                                         <img src={`../${projectItem.ui_elements.user_regular}`}/>
@@ -37,7 +37,7 @@ const SplityUiElements = ({projectItem}) => {
                             </div>
                         </div>
                         <div className="icons">
-                            <div className="title">Icons</div>
+                            <div className="title">{ru ? "Иконки" : "Icons"}</div>
                             <div className="icons-grid">
                                 {projectItem.ui_elements.icons.map(item =>
                                     <div className="icon" key={item.id}>

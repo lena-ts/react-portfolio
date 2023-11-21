@@ -5,7 +5,7 @@ const Icon = ({projectItem}) => {
         <div className="icon-screen"  id={`${projectItem.url}-icon-section`}>
             <div className="container">
                 <div className="title-area">
-                    <h3>Icon</h3>
+                    <h3>{projectItem.icon_screen.title}</h3>
                     <div className={`upper-base-text subtitle`}>{projectItem.icon_screen.text}</div>
                 </div>
                 <img src={`../${projectItem.icon_screen.image}`}/>

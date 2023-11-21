@@ -1,8 +1,8 @@
 const RuToBuyAppData = {
     id: 3,
     url: 'tobuy-app',
-    title: <div>ToBuy:<br></br>Список покупок</div>,
-    subtitle: <span>Показывает, какие товары нужно купить в магазине</span>,
+    title: <div>ToBuy:<br></br>cписок покупок</div>,
+    subtitle: <span>Какие продукты купить в магазине</span>,
     icon_path: '../intro/app-icons/tobuy-icon.png',
     intro_screen_1_path: '../intro/intro-images/tobuy3.png',
     intro_screen_2_path: '../intro/intro-images/tobuy4.png',
@@ -11,7 +11,7 @@ const RuToBuyAppData = {
     // prototype_link: 'https://lena-ts.github.io/tobuy-test/start.html',
     prototype_link_type: 'html',
     background_color: '#F0F4F7',
-    downloads: '110K',
+    downloads: '111K',
     downloads_text: "установок",
     reviews: '1.3K',
     reviews_text: "отзывов",
@@ -84,6 +84,11 @@ const RuToBuyAppData = {
         }
     ],
     visual_identification: {
+        title: "Визуальный стиль",
+        subtitle:"Типографика, цвета",
+        typography_title: "Типографика",
+        colors_title: "Цвета",
+        additional_colors_title: "Дополнительные цвета",
         font_name: "Poppins",
         letter_fill: 'conic-gradient(from 180deg at 50% 50%, #EEA4C3 0deg, #A7E4EC 65.63deg, #FDD7A6 150deg, #C4E4B6 226.87deg, #E9BCB8 301.88deg, #CACFD5 360deg)',
         colors: {
@@ -174,12 +179,12 @@ const RuToBuyAppData = {
         // image: 'projects/tobuy/ui/ui.png',
         website_img: '../projects/tobuy/ui/website.png',
         website_link: "https://www.dobraapps.com/tobuy/",
-        website_title: "ToBuy App landing Page",
+        website_title: "Посадочная страница ToBuy",
         screens: [
             '../projects/tobuy/ui/screens/1.png',
             '../projects/tobuy/ui/screens/2_2.png',
             '../projects/tobuy/ui/screens/3_3.png',
-            '../projects/tobuy/ui/screens/4_4.png',
+            '../projects/tobuy/ui/screens/4.png',
             '../projects/tobuy/ui/screens/5_5.png',
             '../projects/tobuy/ui/screens/6.png',
             '../projects/tobuy/ui/screens/7.png',
@@ -326,7 +331,7 @@ const RuToBuyAppData = {
     },
     app_idea: {
         title: "Идея и мудборд",
-        subtitle: 'Это личный проект. Идея заключалась в том, чтобы создать красивое и удобное приложение для составления списка покупок. ' +
+        subtitle: 'Идея заключалась в том, чтобы создать красивое и удобное приложение для составления списка покупок. ' +
             'Я проанализировала топовые приложения в AppStore и составила мудборд. ',
         text1: <div><strong>Топовые приложения.</strong> Большинство приложений выглядят очень просто, но некоторые из них выделяются за счет сетки с большими картинками. В них удобно нажимать. Поэтому я смотрела в сторону сетки.</div>,
         img1: '../projects/tobuy/features/Competitors.png',
@@ -384,8 +389,11 @@ const RuToBuyAppData = {
             id: 2,
             subtitle: "эксперимент",
             title: 'Увеличение трафика с помощью рецептов',
-            text: <div>Сейчас ToBuy находится по ключевому слову "shopping list". Ожидаем что внедрение рецептов поможет расширить трафик за счет дополнительного ключевого слова в заголовке.<br/><br/>
-                Also we expect recipes to create a habit and build user investment into app, because people could add their content and use it during cooking. We expect recipes to increase user engagement and affect such metrics as retention, DAU, number of subscription events.
+            text: <div>
+                <b>Гипотеза.</b> Если в приложение добавить рецепты, увеличится трафик, вовлеченность и ретеншен. <br/><br/>
+                <b>Зачем.</b> Хочется создать привычку, чтобы пользователи чаще пользовались приложением.  <br/><br/>
+                <b>Результат.</b> Из аналитики видно, что люди создают рецепты и совершают подписку из таба рецепты. <br/><br/>
+                <b>Как работает.</b> Люди могут создавать собственные рецепты и добавлять продукты из них в список покупок
             </div>,
             screens: [
                 '../projects/tobuy/features/recipes1.png',
@@ -399,10 +407,13 @@ const RuToBuyAppData = {
         },
         {
             id: 3,
-            subtitle: "PRODUCTION",
-            title: 'Templates As An Iteration Step To Recipes',
-            text: <div>"Recipes" is a huge feature that includes adding ingredients to shopping list. Along with thinking about recipes we saw users sending us feedback, that they want some kind of template to add groups of frequently used products to list in one click.<br/><br/>
-               I offered a solution that templates could be a part of recipes and we should start with them. After developing and launching templates development time of recipes decreased significantly. Recipes also inherit the UI of templates that people are used to.
+            subtitle: "Продакшен",
+            title: 'Шаблоны как итерация рецептов',
+            text: <div>
+                <b>Исследование.</b> Пользователи присылали сообщения, что хотели бы добавлять часто используемые продукты в список группой. <br/><br/>
+                <b>Зачем.</b> Запрос от пользователей. Шаблоны могут стать итерацией рецептов, так как содержат группу продуктов. <br/><br/>
+                <b>Результат.</b> Пользователи не очень актвно используют шаблоны. Тем не менее интерфейс шаблонов был использован при разработке рецептов. Это сэкономило время разработки. <br/><br/>
+                <b>Как работает.</b> Пользователи могут создать шаблон из текущего списка. Или создать новый и использовать для добавления в список часто используемых продуктов. <br/><br/>
             </div>,
             screens: [
                 '../projects/tobuy/features/templates2.png',
@@ -416,11 +427,13 @@ const RuToBuyAppData = {
         },
         {
             id: 3,
-            subtitle: "UPCOMING EXPERIMENT",
-            title: `Recipe Steps Based On Ingredient Action`,
-            text: <div> I analyzed some handwritten recipes and saw that people focus on the ingredients rather than the number of steps. So I suggested to look at recipes from position of ingredients that are used during cooking, not from position of numbers "Step 1", "Step 2" etc. People also can mark as "done" every ingredient action to be sure where they stopped.<br/><br/>
-                What we expect from this feature is to collect user feedback and Firebase analytics on the added steps to see if the solution works.
-                {/*<img src='../projects/tobuy/features/recipes5.png' className="recipe_img"/>*/}
+            subtitle: "Предстоящий эксперимент",
+            title: `Шаги рецепта на основе продуктов`,
+            text: <div>
+                <b>Гипотеза.</b> Шаги на основе продуктов удобнее, чем шаги с цифрами <br/><br/>
+                <b>Исследование.</b> Я проанализировала рецепты нескольких человек, написанные от руки. Люди записывали их как продукт и что с ним делать. <br/><br/>
+                <b>Как работает.</b> Человек добавляет продукты в рецепт и может записать, что с ними делать.<br/><br/>
+                <b>Результат.</b> Пока не известен. Ожидаем качественный фидбек в виде отзыва от пользователей<br/><br/>
             </div>,
             screens: [
                 '../projects/tobuy/features/recipes3.png',
@@ -449,11 +462,28 @@ const RuToBuyAppData = {
 
             color: "#F0F4F7",
             borderTop: "1px solid #ccc",
+        },
+        {
+            id: 6,
+            subtitle: "UPCOMING EXPERIMENT",
+            title: `Bonus cards`,
+            text: <div> I analyzed some handwritten recipes and saw that people focus on the ingredients rather than the number of steps. So I suggested to look at recipes from position of ingredients that are used during cooking, not from position of numbers "Step 1", "Step 2" etc. People also can mark as "done" every ingredient action to be sure where they stopped.<br/><br/>
+                What we expect from this feature is to collect user feedback and Firebase analytics on the added steps to see if the solution works.
+            </div>,
+            video: [
+                '../../projects/tobuy/features/cards.mp4'
+            ],
+            emodji: [
+            ],
+
+            color: "#F0F4F7",
+            borderTop: "1px solid #ccc",
         }
     ],
     icon_screen: {
+        title: "Иконка",
         icon: '../intro/app-icons/tobuy-icon.png',
-        text: 'The idea of an icon is a check point of a list but styled as a product',
+        text: 'Идея иконки — галка чеклиста стилизованная как продукт',
         img: '../projects/tobuy/icon/icon-story3.png',
         img1: '../projects/tobuy/icon/icon_img1.png',
         img2: '../projects/tobuy/icon/icon_img2.png',
@@ -468,55 +498,55 @@ const RuToBuyAppData = {
         ],
         large: [
             {
-                title: 'Large: light mode',
+                title: 'Большой: светлая тема',
                 img: '../projects/tobuy/widgets/large1.png'
             },
             {
-                title: 'Large empty: light mode',
+                title: 'Большой пустой: светлая тема',
                 img: '../projects/tobuy/widgets/large3.png'
             },
             {
-                title: 'Large: dark mode',
+                title: 'Большой: тёмная тема',
                 img: '../projects/tobuy/widgets/large2.png'
             },
             {
-                title: 'Large empty: dark mode',
+                title: 'Большой пустой: тёмная тема',
                 img: '../projects/tobuy/widgets/large4.png'
             }
         ],
         medium: [
             {
-                title: 'Medium: light mode',
+                title: 'Средний: светлая тема',
                 img: '../projects/tobuy/widgets/medium1.png'
             },
             {
-                title: 'Medium empty: light mode',
+                title: 'Средний пусто: светлая тема',
                 img: '../projects/tobuy/widgets/medium3.png'
             },
             {
-                title: 'Medium: dark mode',
+                title: 'Средний: тёмная тема',
                 img: '../projects/tobuy/widgets/medium2.png'
             },
             {
-                title: 'Medium empty: dark mode',
+                title: 'Средний пустой: тёмная тема',
                 img: '../projects/tobuy/widgets/medium4.png'
             }
         ],
         small: [
             {
-                title: 'Small: light mode',
+                title: 'Маленький: светлая тема',
                 img: '../projects/tobuy/widgets/small1.png'
             },
             {
-                title: 'Empty: light mode',
+                title: 'Пустой: светлая тема',
                 img: '../projects/tobuy/widgets/small3.png'
             },
             {
-                title: 'Small: dark mode',
+                title: 'Маленький: тёмная тема',
                 img: '../projects/tobuy/widgets/small2.png'
             },
             {
-                title: 'Empty: dark mode',
+                title: 'Пустой: тёмная тема',
                 img: '../projects/tobuy/widgets/small4.png'
             }
         ]
@@ -524,31 +554,31 @@ const RuToBuyAppData = {
     watches: {
         regular: [
             {
-                title: 'List: light',
+                title: 'Список: светлая тема',
                 img: '../projects/tobuy/watches/1.png'
             },
             {
-                title: 'Choose List: light',
+                title: 'Выбор списка: светлая тема',
                 img: '../projects/tobuy/watches/3.png'
             }
         ],
         empty: [
             {
-                title: 'Multiple lists: light',
+                title: 'Несколько списков: светлая тема',
                 img: '../projects/tobuy/watches/3_1.png'
             },
             {
-                title: 'List: dark',
+                title: 'Список: dark',
                 img: '../projects/tobuy/watches/2.png'
             }
         ],
         icon: [
             {
-                title: 'Choose List: dark',
+                title: 'Выбор списка: тёмная тема',
                 img: '../projects/tobuy/watches/4.png'
             },
             {
-                title: 'Multiple lists: dark',
+                title: 'Несколько списков: тёмная тема',
                 img: '../projects/tobuy/watches/4_1.png'
             }
         ],
@@ -558,7 +588,7 @@ const RuToBuyAppData = {
                 img: '../projects/tobuy/watches/6.png'
             },
             {
-                title: 'Icon',
+                title: 'Иконка',
                 img: '../projects/tobuy/watches/icon-mute.png'
             }
         ],
@@ -576,8 +606,8 @@ const RuToBuyAppData = {
             '../projects/tobuy/appstore_screens/4.png',
             '../projects/tobuy/appstore_screens/5.png',
         ],
-        title: "ToBuy — Shopping List",
-        subtitle: "Simple grocery list"
+        title: "ToBuy — список покупок",
+        subtitle: "Покупайте вместе с семьей"
     },
     // events: {
     //     images: [

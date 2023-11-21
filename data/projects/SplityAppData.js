@@ -12,7 +12,9 @@ const SplityAppData = {
     prototype_link_type: 'html',
     background_color: '#E8EBF2',
     downloads: '9.2K',
+    downloads_text: "downloads",
     reviews: '157',
+    reviews_text: "reviews",
     description: '',
     model: '',
     competitors: [
@@ -124,6 +126,12 @@ const SplityAppData = {
         image: 'projects/splity/schema/schema.png',
     },
     visual_identification: {
+        title: "Visual style",
+        subtitle:"Colors, typography",
+        typography_title: "Typography",
+        colors_title:"Colors",
+        additional_colors_title: "Additional colors",
+        icons_colors: "Icons colors",
         font_name: "Helvetica",
         letter_fill: "#2b2b2b",
         colors: {

@@ -57,17 +57,18 @@ export function MainLayout({children, ru, title="Lena Tsybulenko - Product Desig
                 ru={ru}
             />
             <section className={menuClassName}>
-                <div className="title">Projects</div>
+                <div className="title">{ru ? "Проекты" : "Projects"}</div>
                 {menu_items.map(item =>
                     <MenuItem
                         key={item.id}
-                        title={item.title}
-                        subtitle={item.subtitle}
-                        link={item.link}
+                        title={ru ? item.ru_title: item.title}
+                        subtitle={ru ? item.ru_subtitle : item.subtitle}
+                        link={ru ? item.ru_link: item.link}
                         delay={item.delay}
                         opacity={opacity}
                         code={item.code}
                         rote={rote}
+                        ru={ru}
                     />
                 )}
             </section>

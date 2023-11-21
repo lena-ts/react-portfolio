@@ -11,7 +11,7 @@ const ToBuyAppData = {
     // prototype_link: 'https://lena-ts.github.io/tobuy-test/start.html',
     prototype_link_type: 'html',
     background_color: '#F0F4F7',
-    downloads: '110K',
+    downloads: '111K',
     downloads_text: "downloads",
     reviews: '1.3K',
     reviews_text: "reviews",
@@ -84,6 +84,11 @@ const ToBuyAppData = {
         }
     ],
     visual_identification: {
+        title: "Visual style",
+        subtitle:"Colors, typography",
+        typography_title: "Typography",
+        colors_title:"Colors",
+        additional_colors_title: "Additional colors",
         font_name: "Poppins",
         letter_fill: 'conic-gradient(from 180deg at 50% 50%, #EEA4C3 0deg, #A7E4EC 65.63deg, #FDD7A6 150deg, #C4E4B6 226.87deg, #E9BCB8 301.88deg, #CACFD5 360deg)',
         colors: {
@@ -179,7 +184,7 @@ const ToBuyAppData = {
             'projects/tobuy/ui/screens/1.png',
             'projects/tobuy/ui/screens/2_2.png',
             'projects/tobuy/ui/screens/3_3.png',
-            'projects/tobuy/ui/screens/4_4.png',
+            'projects/tobuy/ui/screens/4.png',
             'projects/tobuy/ui/screens/5_5.png',
             'projects/tobuy/ui/screens/6.png',
             'projects/tobuy/ui/screens/7.png',
@@ -451,6 +456,7 @@ The hypothesis that people perceive them equally was confirmed. An annual subscr
         }
     ],
     icon_screen: {
+        title: "Icon",
         icon: 'intro/app-icons/tobuy-icon.png',
         text: 'The idea of an icon is a check point of a list but styled as a product',
         img: 'projects/tobuy/icon/icon-story3.png',

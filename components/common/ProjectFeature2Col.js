@@ -3,7 +3,7 @@ const ProjectFeature2Col  = ({projectItem, featureId}) => {
     const subtitle =
         <div className="footer_uppercase_title">{projectItem.features[featureId].subtitle}</div>
 
-    const title = <h3>{ projectItem.features[featureId].title}</h3>
+    const title = <h3 style={{lineHeight: "44px"}}>{ projectItem.features[featureId].title}</h3>
 
    const text = <div className={`upper-base-text subtitle`}>{ projectItem.features[featureId].text}</div>
 

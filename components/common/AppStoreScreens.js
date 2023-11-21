@@ -1,6 +1,6 @@
 import styles from '../../styles/components/project/AppStoreScreens.module.scss'
 
-const AppStoreScreens = ({projectItem}) => {
+const AppStoreScreens = ({projectItem, ru}) => {
 
     const screens = projectItem.appstore_screens.screens
     const events = projectItem.events ? projectItem.events.images : null
@@ -21,7 +21,7 @@ const AppStoreScreens = ({projectItem}) => {
             <section className={`${styles.appstore_section} auto-height`} id={`app-screens-${projectItem.url}`}>
                 <div className="container">
                     <h3>AppStore</h3>
-                    <div className={`upper-base-text subtitle`}>Screens</div>
+                    <div className={`upper-base-text subtitle`}>{ru ? "Экраны" : "Screens"}</div>
                     <div className={`${styles.icon_wrapper} icon-wrapper`}>
                         <img src={`../${projectItem.icon_path}`} />
                         <div className={styles.titles}>
