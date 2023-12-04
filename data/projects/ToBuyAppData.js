@@ -11,7 +11,7 @@ const ToBuyAppData = {
     // prototype_link: 'https://lena-ts.github.io/tobuy-test/start.html',
     prototype_link_type: 'html',
     background_color: '#F0F4F7',
-    downloads: '111K',
+    downloads: '112K',
     downloads_text: "downloads",
     reviews: '1.3K',
     reviews_text: "reviews",
@@ -368,7 +368,7 @@ The hypothesis that people perceive them equally was confirmed. An annual subscr
             id: 5,
             subtitle: "Experiment",
             title: <div>Increasing the number of reviews<br/>in the AppStore with a banner request</div>,
-            text: <div><b>Hypothesis:</b> If you politely ask people to leave a review, they will do it. <br/><br/>
+            text: <div><b>Hypothesis.</b> If you politely ask people to leave a review, they will do it. <br/><br/>
                 <b>Why.</b> The number of reviews affects the position of the application in the AppStore.
                 It also serves as social proof when the user decides to install the application. <br/><br/>
                 <b>Result.</b> The introduction of such a banner increased the number of reviews. The app currently receives 2-3 text reviews per day. Without a banner, this result was achieved in a month.<br/><br/>
