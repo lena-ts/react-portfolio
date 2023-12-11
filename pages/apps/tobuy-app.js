@@ -18,6 +18,8 @@ import ToBuyIcon from "../../components/project/tobuy/ToBuyIcon";
 import {motion} from "framer-motion";
 import ProjectFeature2Col from "../../components/common/ProjectFeature2Col";
 import ToBuyIdea from "../../components/project/tobuy/ToBuyIdea";
+import ProjectFeatureVideo from "../../components/common/ProjectFeatureVideo";
+import Animations from "../../components/common/Animations";
 
 const ToBuyApp = () => {
     return(
@@ -30,6 +32,7 @@ const ToBuyApp = () => {
             <ProjectFeature2Col projectItem={tobuy_data} featureId={2}/>
             <ProjectFeature2Col projectItem={tobuy_data} featureId={3}/>
             <ProjectFeature2Col projectItem={tobuy_data} featureId={4}/>
+            {/*<Animations projectItem={tobuy_data}/>*/}
             {/*<ProjectFeature2Col projectItem={tobuy_data} featureId={4}/>*/}
             {/*<ToBuyInterview projectItem={tobuy_data}/>*/}
             {/*<Schema projectItem={tobuy_data}/>*/}

@@ -455,6 +455,23 @@ The hypothesis that people perceive them equally was confirmed. An annual subscr
             borderTop: "1px solid #ccc",
         }
     ],
+    animations: [
+        {
+            id: 1,
+            title: "Check products in list",
+            video: "../../projects/tobuy/features/list_animation.mp4"
+        },
+        {
+            id: 3,
+            title: "Tabs icons micro animations",
+            video: "../../projects/tobuy/features/tabs4.mp4"
+        },
+        {
+            id: 2,
+            title: "Ingredients added to list",
+            video: "../../projects/tobuy/features/recipes9.mp4"
+        },
+    ],
     icon_screen: {
         title: "Icon",
         icon: 'intro/app-icons/tobuy-icon.png',

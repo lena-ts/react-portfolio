@@ -24,6 +24,9 @@ const ProjectFeatureVideo = ({projectItem, featureId}) => {
                         <video width="300" height="635" autoPlay={true} muted={true} loop={true}>
                             <source src="../../projects/tobuy/features/cards.mp4" type="video/mp4"></source>
                         </video>
+                        <video width="300" height="635" autoPlay={true} muted={true} loop={true}>
+                            <source src="../../projects/tobuy/features/cards.mp4" type="video/mp4"></source>
+                        </video>
                     </div>
                 </div>
             </div>
