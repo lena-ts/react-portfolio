@@ -350,7 +350,7 @@ const ToBuyAppData = {
 The introduction of the classic monthly or annual subscription scheme has shown that people sign up for a cheap monthly subscription and quickly unsubscribe. Therefore, a lifetime purchase was beneficial for a long time.
 <br/><br/>
 <b>Result.</b> I suggested conducting an AB test. Compare annual subscription and lifetime purchase with the same price.
-The hypothesis that people perceive them equally was confirmed. An annual subscription will help you earn double in a year.
+The hypothesis that people perceive them equally was confirmed. An annual subscription will help to earn double in a year.
 </div>,
             screens: [
                 'projects/tobuy/features/subscription1.png',
@@ -464,7 +464,7 @@ The hypothesis that people perceive them equally was confirmed. An annual subscr
         {
             id: 3,
             title: "Tabs icons micro animations",
-            video: "../../projects/tobuy/features/tabs4.mp4"
+            video: "../../projects/tobuy/features/tabs.mp4"
         },
         {
             id: 2,
