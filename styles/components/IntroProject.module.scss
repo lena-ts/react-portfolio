@@ -91,6 +91,20 @@
   }
 }
 
+.intro_video_wrapper{
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.15);
+  width: 237px;
+  height:512px;
+
+  img{
+    position: absolute;
+    top:0;
+  }
+}
+
 .achievement_wrap {
   margin-bottom: 16px;
   display: grid;

@@ -4,6 +4,7 @@ const UmkaAppData = {
     title: <div>Umka: English <br></br>Language</div>,
     subtitle: <span>Learn words by short videos · <span style={{color: "#868686"}}>Recently launched</span></span>,
     icon_path: 'intro/app-icons/umka-icon.png',
+    intro_video: 'intro/intro-images/umka_video1.mp4',
     intro_screen_1_path: 'intro/intro-images/umka1.png',
     intro_screen_2_path: 'intro/intro-images/umka2.png',
     background_color: '#F0F4F7',

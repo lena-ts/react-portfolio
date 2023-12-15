@@ -56,6 +56,19 @@ const ProjectIntro = (projectItem) => {
         {appstore_link}
     </motion.div> : null
 
+    const first_image = project.intro_video ?
+        <motion.div className={styles.intro_video_wrapper}>
+            <img src={'../intro/intro-images/video_hover.png'} />
+            <video width="237" height="512" autoPlay={true} muted={true} loop={true}>
+                <source src={`../${project.intro_video}`} type="video/mp4"></source>
+            </video>
+        </motion.div>
+        : <motion.img
+            initial={{ x: -20}}
+            animate={{ x: 0}}
+            transition={{ duration: 0.7 }}
+            src={`../${project.intro_screen_1_path}`} alt={project.title}/>
+
     return(
         <>
             <BackToLink bg={project.background_color} url={project.url}/>
@@ -93,11 +106,12 @@ const ProjectIntro = (projectItem) => {
                             </motion.div>
                         </div>
                         <div className={styles.intro_project_images}>
-                            <motion.img
-                                initial={{ x: -20}}
-                                animate={{ x: 0}}
-                                transition={{ duration: 0.7 }}
-                                src={`../${project.intro_screen_1_path}`} alt={project.title}/>
+                            {first_image}
+                            {/*<motion.img*/}
+                            {/*    initial={{ x: -20}}*/}
+                            {/*    animate={{ x: 0}}*/}
+                            {/*    transition={{ duration: 0.7 }}*/}
+                            {/*    src={`../${project.intro_screen_1_path}`} alt={project.title}/>*/}
                             <motion.img
                                 initial={{ x: 20}}
                                 animate={{ x: 0}}

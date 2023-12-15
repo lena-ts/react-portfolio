@@ -86,6 +86,7 @@ const ProjectsIntroData = [
         subtitle: <span>Learn words by short videos</span>,
         subtitle_RU:<div>Учите слова по коротким видео</div>,
         icon_path: 'intro/app-icons/umka-icon.png',
+        intro_video: 'intro/intro-images/umka_video1.mp4',
         intro_screen_1_path: 'intro/intro-images/umka1.png',
         intro_screen_2_path: 'intro/intro-images/umka2.png',
         appstore_link: 'https://apps.apple.com/app/umka-english-language/id6447918521',

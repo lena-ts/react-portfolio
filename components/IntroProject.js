@@ -8,6 +8,7 @@ const IntroProject = ({
                           subtitle,
                           subtitle_RU,
                           icon,
+                          intro_video,
                           intro_screen_1,
                           intro_screen_2,
                           appstore,
@@ -50,6 +51,15 @@ const IntroProject = ({
 
     const store_link = preorder ? preorder_link : appstore_link
 
+    const first_image = intro_video ?
+        <div className={styles.intro_video_wrapper}>
+            <img src={'intro/intro-images/video_hover.png'} />
+        <video width="237" height="512" autoPlay={true} muted={true} loop={true}>
+            <source src={intro_video} type="video/mp4"></source>
+        </video>
+        </div>
+        : <img src={intro_screen_1} alt={title}/>
+
     return(
         <section className={styles.intro_project} id={url}>
             <div className="container">
@@ -70,7 +80,8 @@ const IntroProject = ({
                     </div>
                 </div>
                 <div className={styles.intro_project_images}>
-                    <img src={intro_screen_1} alt={title}/>
+                    {/*<img src={intro_screen_1} alt={title}/>*/}
+                    {first_image}
                     <img src={intro_screen_2} alt={title}/>
                 </div>
                 </div>

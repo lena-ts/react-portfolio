@@ -14,6 +14,7 @@ export default function Home() {
             title={item.title}
             subtitle={item.subtitle}
             icon={item.icon_path}
+            intro_video={item.intro_video}
             intro_screen_1={item.intro_screen_1_path}
             intro_screen_2={item.intro_screen_2_path}
             appstore={item.appstore_link}
