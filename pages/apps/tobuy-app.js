@@ -32,7 +32,7 @@ const ToBuyApp = () => {
             <ProjectFeature2Col projectItem={tobuy_data} featureId={2}/>
             <ProjectFeature2Col projectItem={tobuy_data} featureId={3}/>
             <ProjectFeature2Col projectItem={tobuy_data} featureId={4}/>
-            {/*<Animations projectItem={tobuy_data}/>*/}
+            <Animations projectItem={tobuy_data}/>
             {/*<ProjectFeature2Col projectItem={tobuy_data} featureId={4}/>*/}
             {/*<ToBuyInterview projectItem={tobuy_data}/>*/}
             {/*<Schema projectItem={tobuy_data}/>*/}

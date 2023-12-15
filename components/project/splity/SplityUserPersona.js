@@ -2,7 +2,7 @@ const SplityUserPersona = ({projectItem}) => {
     return(
         <section className="white-bg auto-height">
             <div className="container">
-                <h3>User Persona Assymption</h3>
+                <h3>User Persona</h3>
                 <div className={`upper-base-text subtitle`}>Here are some potentional users profiles </div>
                 <div className="personas">
                     {projectItem.ux.user_persona.map( persona =>

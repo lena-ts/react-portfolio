@@ -464,12 +464,12 @@ The hypothesis that people perceive them equally was confirmed. An annual subscr
         {
             id: 3,
             title: "Tabs icons micro animations",
-            video: "../../projects/tobuy/features/tabs.mp4"
+            video: "../../projects/tobuy/features/tabs_animation.mp4"
         },
         {
             id: 2,
             title: "Ingredients added to list",
-            video: "../../projects/tobuy/features/recipes9.mp4"
+            video: "../../projects/tobuy/features/recipes_animation.mp4"
         },
     ],
     icon_screen: {

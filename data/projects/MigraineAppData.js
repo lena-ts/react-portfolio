@@ -8,7 +8,7 @@ const MigraineAppData = {
     intro_screen_2_path: 'intro/intro-images/migraine2.png',
     appstore_link: 'https://apps.apple.com/us/app/migraine-tracker-mig/id6446125528',
     preorder: false,
-    downloads: '1.2K',
+    downloads: '2.2K',
     downloads_text: "downloads",
     reviews: '11',
     reviews_text: "reviews",
