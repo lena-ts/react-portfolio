@@ -345,7 +345,7 @@ const ToBuyAppData = {
             id: 6,
             subtitle: "Production",
             title: <div>Empty State as a place to get more subscriptions</div>,
-            text: <div><b>Hypothesis.</b> If you place a subscription offer at the empty state of a shopping list it will bring you more paying users. <br/><br/>
+            text: <div><b>Hypothesis.</b> If you place a subscription offer at the empty state it will bring you more paying users. <br/><br/>
                 <b>Why.</b> Empty state is a place with a large amount of traffic. Every person that downloads app see that page.
                So chances to get subscriptions increase if we place an offer here. <br/><br/>
                 <b>Result.</b> Revenue from subscriptions increased on 24% in 3 months after offer was placed at the empty state.<br/><br/>
