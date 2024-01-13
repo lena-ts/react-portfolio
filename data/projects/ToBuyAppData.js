@@ -342,6 +342,25 @@ const ToBuyAppData = {
     },
     features: [
         {
+            id: 6,
+            subtitle: "Production",
+            title: <div>Empty State as a place to get more subscriptions</div>,
+            text: <div><b>Hypothesis.</b> If you place a subscription offer at the empty state it will bring you more paid users. <br/><br/>
+                <b>Why.</b> Empty state is a place with a large amount of traffic. Every person that downloads app see that page.
+               So chances to get subscriptions increase if we place an offer here. <br/><br/>
+                <b>Result.</b> Revenue from subscriptions increased on 24% in 3 months after offer was placed at the empty state.<br/><br/>
+            </div>,
+            screens: [
+                'projects/tobuy/features/empty_state1.png',
+                'projects/tobuy/features/empty_state2.png'
+            ],
+            emodji: [
+            ],
+
+            color: "#F0F4F7",
+            borderTop: "1px solid #ccc",
+        },
+        {
             id: 1,
             subtitle: "AB test",
             title: 'Annual Subscription vs. Lifetime Purchase',
@@ -366,7 +385,7 @@ The hypothesis that people perceive them equally was confirmed. An annual subscr
         },
         {
             id: 5,
-            subtitle: "Experiment",
+            subtitle: "Production",
             title: <div>Increasing the number of reviews<br/>in the AppStore with a banner request</div>,
             text: <div><b>Hypothesis.</b> If you politely ask people to leave a review, they will do it. <br/><br/>
                 <b>Why.</b> The number of reviews affects the position of the application in the AppStore.
