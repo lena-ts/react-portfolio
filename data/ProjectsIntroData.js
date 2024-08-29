@@ -2,7 +2,7 @@ const ProjectsIntroData = [
     {
         id: 14,
         url: 'organic-fit',
-        title: <div>Organic Fit:<br></br>Woman Health</div>,
+        title: <div>Organic Fit:<br></br>Weight Loss</div>,
         subtitle: <span>Designing features of the app, creating concepts, design system support</span>,
         icon_path: 'intro/app-icons/organic-icon.png',
         intro_screen_1_path: 'intro/intro-images/of1.png',
