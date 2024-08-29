@@ -14,6 +14,7 @@ const IntroProject = ({
                           appstore,
                           playmarket,
                           preorder,
+                          nda,
                           prototype,
                           prototype_type,
                           background,
@@ -22,8 +23,11 @@ const IntroProject = ({
     const lang = ru
     const projectTitle = lang ? title_RU : title
     const projectSubtitle = lang ? subtitle_RU : subtitle
-    const viewBtnText = lang ? "Посмотреть кейс" : "View case"
-    const caseLink = lang ? `/ru/apps/${url}` : `/apps/${url}`
+    const viewBtnText = nda ? <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="18" viewBox="0 0 14 19" fill="white">
+        <path d="M2.7373 18.1182H11.2627C12.4404 18.1182 13.0205 17.5381 13.0205 16.2549V9.67188C13.0205 8.51172 12.5459 7.92285 11.5615 7.82617V5.65527C11.5615 2.31543 9.33789 0.707031 7 0.707031C4.66211 0.707031 2.43848 2.31543 2.43848 5.65527V7.85254C1.52441 7.99316 0.979492 8.57324 0.979492 9.67188V16.2549C0.979492 17.5381 1.55957 18.1182 2.7373 18.1182ZM4.12598 5.49707C4.12598 3.44922 5.42676 2.32422 7 2.32422C8.56445 2.32422 9.87402 3.44922 9.87402 5.49707V7.80859L4.12598 7.81738V5.49707Z" fill="#fff"/>
+    </svg>&nbsp;&nbsp;NDA</span> : "View case"
+    // const caseLink = lang ? `/ru/apps/${url}` : `/apps/${url}`
+    const caseLink = nda ? "" : `/apps/${url}`
 
     const icon_image = icon ? <img src={icon} alt={title} className="small-app-icon"/> : null
 

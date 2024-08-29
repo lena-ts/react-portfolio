@@ -23,6 +23,7 @@ export default function Home() {
             prototype={item.prototype_link}
             prototype_type={item.prototype_link_type}
             background={item.background_color}
+            nda={item.nda}
         />)
   return (
   

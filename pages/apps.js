@@ -24,6 +24,7 @@ const AppsList = () => {
             prototype={item.prototype_link}
             prototype_type={item.prototype_link_type}
             background={item.background_color}
+            nda={item.nda}
         /></motion.div> : null)
     return(
         <MainLayout>

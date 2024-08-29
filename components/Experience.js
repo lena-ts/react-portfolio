@@ -16,12 +16,20 @@ const Experience = (ru) => {
     const dateBelvg = ru.ru ? ExperienceData.ru_date_belvg : ExperienceData.date_belvg
     const yearsBelvg = ru.ru ? ExperienceData.ru_years_belvg : ExperienceData.years_belvg
 
+    const titleOrganic = ExperienceData.title_organic
+    const dateOrganic = ExperienceData.date_organic
+    const yearsOrganic = ExperienceData.years_organic
+
     return(
         <>
             <div className={styles.small_section}>
                 <div className="container">
                 <div className="uppercase-title">{MainTitle}</div>
                     <ul>
+                        <li>
+                            <div className="m-text">{titleOrganic}</div>
+                            <div className={styles.periods_text}>{dateOrganic} <span className={styles.gray_text}> · {yearsOrganic}</span></div>
+                        </li>
                         <li>
                             <div className="m-text">{titleYandex}</div>
                             <div className={styles.periods_text}>{dateYandex} <span className={styles.gray_text}> · {yearsYandex}</span></div>

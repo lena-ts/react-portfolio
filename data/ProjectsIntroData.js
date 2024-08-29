@@ -1,5 +1,23 @@
 const ProjectsIntroData = [
     {
+        id: 14,
+        url: 'organic-fit',
+        title: <div>Organic Fit:<br></br>Woman Health</div>,
+        subtitle: <span>Designing features of the app, creating concepts, design system support</span>,
+        icon_path: 'intro/app-icons/organic-icon.png',
+        intro_screen_1_path: 'intro/intro-images/of1.png',
+        intro_screen_2_path: 'intro/intro-images/of2.png',
+        appstore_link: null,
+        playmarket_link: null,
+        prototype_link: null,
+        prototype_link_type: null,
+        nda: true,
+        background_color: '#F1F2F4',
+        description: null,
+        model:null,
+        competitors: true
+    },
+    {
         id: 10,
         url: 'yandex-search',
         title: <div>Yandex Search</div>,
