@@ -11,7 +11,7 @@ const ExperienceData = {
     ru_title_yandex: "Дизайнер продукта в Яндексе",
     date_yandex: "March 2021 — June 2023",
     ru_date_yandex: "Март 2021 - Июнь 2023",
-    years_yandex: "2 years",
+    years_yandex: "2 years 3 month",
     ru_years_yandex: " 2 года",
 
     title_apps: "Mobile Apps Designer",
@@ -25,7 +25,7 @@ const ExperienceData = {
     ru_title_belvg: <div>Веб-дизайнер,<br></br>фронт-енд разработчик в BelVG</div>,
     date_belvg: "August 2011 — November 2019",
     ru_date_belvg: "Август 2011 — Ноябрь 2019",
-    years_belvg: "8 years",
+    years_belvg: "8 years ",
     ru_years_belvg: "8 лет",
 }
 
