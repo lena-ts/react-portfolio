@@ -80,7 +80,7 @@ const ProjectsIntroData = [
         url: 'migraine-tracker-app',
         title: <div>Migraine Tracker:<br></br>MIG</div>,
         title_RU:<div>MiG: Дневник мигрени</div>,
-        subtitle: <span>Track your pains, detect triggers, read advices. <br/> <b>№2 in USA by "migraine" keyword</b></span>,
+        subtitle: <span>Track your pains, detect triggers, read advices. <br/> <b style={{display: "inline-block", paddingTop:"6px"}}>№2 in USA by "migraine" keyword.</b></span>,
         subtitle_RU:<div>Отмечайте боли, выясняйте триггеры</div>,
         icon_path: 'intro/app-icons/migraine-icon.png',
         intro_screen_1_path: 'intro/intro-images/migraine_1.png',
