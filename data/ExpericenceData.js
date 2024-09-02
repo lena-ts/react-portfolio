@@ -5,7 +5,7 @@ const ExperienceData = {
     title_organic: "Senior Product Designer at Organic Fit",
     ru_title_organic: "Дизайнер продукта в Organic Apps",
     date_organic: "February 2024 - Now",
-    years_organic: "5 month",
+    years_organic: "7 month",
 
     title_yandex: "Product Designer at Yandex",
     ru_title_yandex: "Дизайнер продукта в Яндексе",

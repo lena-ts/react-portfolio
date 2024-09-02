@@ -2,7 +2,7 @@ const YandexSearchData = {
     id: 10,
     url: 'yandex-search',
     title: <div>Yandex Search</div>,
-    subtitle: <span style={{fontSize:"18px", lineHeight: "28px"}}>Projects for Garage, Search and Ecom. <br/> Includes production, experiments, concepts. </span>,
+    subtitle: <span style={{fontSize:"18px", lineHeight: "28px"}}>Projects for Garage, Search, Ecom, Weather. <br/> Includes production, experiments, concepts. </span>,
     icon_path: 'intro/app-icons/ya-icon.png',
     intro_screen_1_path: 'intro/intro-images/ya3.png',
     intro_screen_2_path: 'intro/intro-images/ya4.png',

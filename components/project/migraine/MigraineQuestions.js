@@ -29,7 +29,7 @@ const MigraineQuestions = ({projectItem, ru}) =>{
                     <h3>{ru ? "Интервью" : "Interview "}</h3>
                     <div className={`upper-base-text subtitle`}>{ru ? "Женщина страдает, от хронической мигрени" : "Woman, suffering from chronic migraine"}</div>
                     <br/>
-                    {audio}
+                    {/*{audio}*/}
                     <InterviewScript projectItem={projectItem}/>
                 </div>
             </div>
