@@ -45,7 +45,8 @@ export function MainLayout({children, ru, title="Lena Tsybulenko - Product Desig
             <Head>
                 <title>{title}</title>
                 <meta name="keywords" content="posts,nextjs"/>
-                <meta name="description" content="this is posts" />
+                <meta name="description" content="Lena Tsybulenko. Product Designer." />
+                <meta name="image" content="https://lenatsybulenko.com/avatar_2.jpg" />
                 <meta charSet="utf-8" />
                 <link rel="icon" href="/favicon1.png" />
             </Head>
