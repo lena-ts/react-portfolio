@@ -12,7 +12,7 @@ const MigraineApp = () => {
             <ProjectIntro projectItem={migraine_data}/>
             <MigraineQuestions projectItem={migraine_data} />
             <Ui projectItem={migraine_data} />
-            <AppStoreScreens projectItem={migraine_data} />
+            {/*<AppStoreScreens projectItem={migraine_data} />*/}
             <ProjectFooter/>
         </MainLayout>
     )

@@ -11,7 +11,7 @@ const ToBuyAppData = {
     // prototype_link: 'https://lena-ts.github.io/tobuy-test/start.html',
     prototype_link_type: 'html',
     background_color: '#F0F4F7',
-    downloads: '132K',
+    downloads: '138K',
     downloads_text: "downloads",
     reviews: '1.6K',
     reviews_text: "reviews",
