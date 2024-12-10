@@ -53,11 +53,11 @@ const MigraineAppData = {
             text: "They use paper diaries or apps",
             img: "../projects/migraine/ui/paper_diary.jpg",
         },
-        {
-            title: "In terms of JTBD what job does app do",
-            text: "It finds correlation between attacks and triggers, educate migrainers",
-            img: "",
-        },
+        // {
+        //     title: "In terms of JTBD what job does app do",
+        //     text: "It finds correlation between attacks and triggers, educate migrainers",
+        //     img: "",
+        // },
     ],
     interview: [
         {
