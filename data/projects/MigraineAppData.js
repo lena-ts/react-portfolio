@@ -2,7 +2,7 @@ const MigraineAppData = {
     id: 8,
     url: 'migraine-tracker-app',
     title: <div>Migraine<br></br>Tracker: MIG</div>,
-    subtitle: <span>Track your pains, detect triggers, read advices. <br/> <b>№2 in USA by "migraine" keyword</b></span>,
+    subtitle: <span>Track your pains, detect triggers, read articles. <br/> <b>№2 in USA by "migraine" keyword</b></span>,
     icon_path: 'intro/app-icons/migraine-icon.png',
     intro_screen_1_path: 'intro/intro-images/migraine_1.png',
     intro_screen_2_path: 'intro/intro-images/migraine2.png',
